@@ -1,0 +1,866 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="143.26793mm"
+   height="241.00323mm"
+   viewBox="0 0 143.26794 241.00323"
+   version="1.1"
+   id="svg9913"
+   inkscape:version="1.2.2 (1:1.2.2+202212051550+b0a8486541)"
+   sodipodi:docname="AGI-architecture-Q2.svg"
+   inkscape:export-filename="../2023/AGI-architecture-Q3.png"
+   inkscape:export-xdpi="192"
+   inkscape:export-ydpi="192"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs9907">
+    <marker
+       style="overflow:visible"
+       id="TriangleStart"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="5.3244081"
+       markerHeight="6.155385"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.5pt"
+         d="M 2.885,0 -1.44,2.5 v -5 z"
+         id="path135" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path14170" />
+    </marker>
+    <clipPath
+       id="clipPath5942-3-9-0-3-1-2-2-36-4-1">
+      <path
+         d="M 0,0 H 11 V 9.5625 H 0 Z m 0,0"
+         id="path8318-6-1-6-0-7-5-9-7-8-2" />
+    </clipPath>
+    <clipPath
+       id="clipPath5942-3-9-0-3-1-2-2-36-6-12-4">
+      <path
+         d="M 0,0 H 11 V 9.5625 H 0 Z m 0,0"
+         id="path8318-6-1-6-0-7-5-9-7-0-2-7" />
+    </clipPath>
+    <clipPath
+       id="clipPath5942-3-9-0-3-1-2-2-36-4-1-7">
+      <path
+         d="M 0,0 H 11 V 9.5625 H 0 Z m 0,0"
+         id="path8318-6-1-6-0-7-5-9-7-8-2-5" />
+    </clipPath>
+    <clipPath
+       id="clipPath5942-3-9-0-3-1-2-2-36-6-12-4-3">
+      <path
+         d="M 0,0 H 11 V 9.5625 H 0 Z m 0,0"
+         id="path8318-6-1-6-0-7-5-9-7-0-2-7-5" />
+    </clipPath>
+    <clipPath
+       id="clipPath5942-3-9-0-3-1-2-2-36-4-1-3">
+      <path
+         d="M 0,0 H 11 V 9.5625 H 0 Z m 0,0"
+         id="path8318-6-1-6-0-7-5-9-7-8-2-6" />
+    </clipPath>
+    <clipPath
+       id="clipPath5942-3-9-0-3-1-2-2-36-6-12-4-7">
+      <path
+         d="M 0,0 H 11 V 9.5625 H 0 Z m 0,0"
+         id="path8318-6-1-6-0-7-5-9-7-0-2-7-53" />
+    </clipPath>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-5"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path14170-6" />
+    </marker>
+    <clipPath
+       id="clipPath5942-3-9-0-3-1-2-2-36-4-1-3-6">
+      <path
+         d="M 0,0 H 11 V 9.5625 H 0 Z m 0,0"
+         id="path8318-6-1-6-0-7-5-9-7-8-2-6-5" />
+    </clipPath>
+    <clipPath
+       id="clipPath5942-3-9-0-3-1-2-2-36-6-12-4-7-6">
+      <path
+         d="M 0,0 H 11 V 9.5625 H 0 Z m 0,0"
+         id="path8318-6-1-6-0-7-5-9-7-0-2-7-53-9" />
+    </clipPath>
+    <marker
+       style="overflow:visible"
+       id="TriangleStart-9"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="5.3244081"
+       markerHeight="6.155385"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.5pt"
+         d="M 2.885,0 -1.44,2.5 v -5 z"
+         id="path135-1" />
+    </marker>
+    <clipPath
+       id="clipPath5942-3-9-4-6-9">
+      <path
+         d="M 0,0 H 11 V 9.5625 H 0 Z m 0,0"
+         id="path8318-6-1-4-2-6" />
+    </clipPath>
+    <clipPath
+       id="clipPath5942-3-9-0-3-1-2">
+      <path
+         d="M 0,0 H 11 V 9.5625 H 0 Z m 0,0"
+         id="path8318-6-1-6-0-7-5" />
+    </clipPath>
+    <clipPath
+       id="clipPath5942-3-9-0-3-1-2-78">
+      <path
+         d="M 0,0 H 11 V 9.5625 H 0 Z m 0,0"
+         id="path8318-6-1-6-0-7-5-5" />
+    </clipPath>
+    <clipPath
+       id="clipPath5942-3-9-0-3-1-2-78-9">
+      <path
+         d="M 0,0 H 11 V 9.5625 H 0 Z m 0,0"
+         id="path8318-6-1-6-0-7-5-5-0" />
+    </clipPath>
+    <clipPath
+       id="clipPath5942-3-9-0-3-1-2-2-36-4-1-3-6-2">
+      <path
+         d="M 0,0 H 11 V 9.5625 H 0 Z m 0,0"
+         id="path8318-6-1-6-0-7-5-9-7-8-2-6-5-3" />
+    </clipPath>
+    <clipPath
+       id="clipPath5942-3-9-0-3-1-2-2-36-6-12-4-7-6-7">
+      <path
+         d="M 0,0 H 11 V 9.5625 H 0 Z m 0,0"
+         id="path8318-6-1-6-0-7-5-9-7-0-2-7-53-9-5" />
+    </clipPath>
+    <clipPath
+       id="clipPath5942-3-9-0-3-1-2-2-36-4-1-3-6-2-3">
+      <path
+         d="M 0,0 H 11 V 9.5625 H 0 Z m 0,0"
+         id="path8318-6-1-6-0-7-5-9-7-8-2-6-5-3-2" />
+    </clipPath>
+    <clipPath
+       id="clipPath5942-3-9-0-3-1-2-2-36-6-12-4-7-6-7-0">
+      <path
+         d="M 0,0 H 11 V 9.5625 H 0 Z m 0,0"
+         id="path8318-6-1-6-0-7-5-9-7-0-2-7-53-9-5-6" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#ffff00"
+     borderopacity="1"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="296.27773"
+     inkscape:cy="317.84449"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1055"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:showpageshadow="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#ffffff" />
+  <metadata
+     id="metadata9910">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-388.49323,69.617206)">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.529167;marker-start:url(#TriangleStart)"
+       d="M 430.18357,33.366023 V 21.234096 h 4.99011"
+       id="path3328"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.529167;marker-start:url(#TriangleStart-9)"
+       d="m 418.24965,26.749144 7.61809,8.745541"
+       id="path3328-2"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.529167"
+       d="M 430.41118,48.14377 H 409.0169 v -6.595117"
+       id="path3324" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.529167"
+       d="M 462.16118,48.14377 H 430.18357 V 41.548653"
+       id="path3322"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.529167"
+       d="M 491.79453,48.14377 H 461.93358 V 41.548652"
+       id="path3466"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.529167;marker-mid:url(#TriangleStart)"
+       d="M 491.79464,48.14377 V 42.097271 20.704929"
+       id="path3464"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.529167;marker-start:url(#TriangleStart)"
+       d="m 484.15857,20.892018 h 7.63595"
+       id="rect962-9"
+       sodipodi:nodetypes="cc" />
+    <g
+       id="g686"
+       transform="translate(-6.6044575,-4.5346542)">
+      <rect
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.264583"
+         id="rect4029-2-6-2-6-6-6-0-5-2-0-3-6-2-4-3-9-3"
+         width="31.112738"
+         height="8.7634211"
+         x="482.13483"
+         y="33.472916"
+         ry="2.9293144"
+         inkscape:export-xdpi="192"
+         inkscape:export-ydpi="192" />
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="483.3956"
+         y="39.554008"
+         id="text2410-5"><tspan
+           sodipodi:role="line"
+           id="tspan2408-0"
+           style="stroke-width:0.264583"
+           x="483.3956"
+           y="39.554008">转移函数 <tspan
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math'"
+   id="tspan2412-4">F</tspan></tspan></text>
+    </g>
+    <path
+       id="rect962"
+       style="fill:none;stroke:#000000;stroke-width:0.529167;marker-start:url(#TriangleStart)"
+       d="m 427.56045,-47.670416 v -5.781927 h 27.21511 v 20.559686 h -27.21511 v -6.59513"
+       sodipodi:nodetypes="cccccc" />
+    <g
+       id="g686-8"
+       transform="translate(-43.179845,-81.429839)">
+      <rect
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.264583"
+         id="rect4029-2-6-2-6-6-6-0-5-2-0-3-6-2-4-3-9-3-7"
+         width="31.112738"
+         height="8.7634211"
+         x="482.13483"
+         y="33.472916"
+         ry="2.9293144"
+         inkscape:export-xdpi="192"
+         inkscape:export-ydpi="192" />
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="483.3956"
+         y="39.554008"
+         id="text2410-5-9"><tspan
+           sodipodi:role="line"
+           id="tspan2408-0-2"
+           style="stroke-width:0.264583"
+           x="483.3956"
+           y="39.554008">转移函数 <tspan
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math'"
+   id="tspan2412-4-0">F</tspan></tspan></text>
+    </g>
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.264583"
+       id="rect4029-2-6-2-6-6-6-0-5-2-0-3-6-2-4-3-9-3-5"
+       width="47.189499"
+       height="8.6481228"
+       x="434.98196"
+       y="16.819258"
+       ry="2.9293144"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
+    <text
+       xml:space="preserve"
+       style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="436.24274"
+       y="22.900351"
+       id="text2410-5-3"><tspan
+         sodipodi:role="line"
+         id="tspan2408-0-5"
+         style="stroke-width:0.264583"
+         x="436.24274"
+         y="22.900351">选择高价值的结论</tspan></text>
+    <g
+       id="g1543-3-7-7-9-5-2"
+       style="fill:none;stroke:#0000ff"
+       transform="rotate(90,97.075181,158.17169)"
+       inkscape:export-filename="symmetric-Self-Attention.png"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
+    <g
+       inkscape:label=""
+       transform="translate(447.65525,-16.062294)"
+       id="g1034-7-2-2-9-68-8-39-6-1-8-2"
+       inkscape:export-filename="Self-Attention_repeated.png"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192">
+      <g
+         id="g1032-5-7-6-0-0-0-0-2-5-6-9"
+         transform="matrix(0.352778,0,0,0.352778,-0.336241,0.258542)">
+        <g
+           clip-path="url(#clipPath5942-3-9-0-3-1-2-2-36-4-1-3)"
+           clip-rule="nonzero"
+           id="g1030-3-0-1-8-2-4-88-61-0-3-1">
+          <g
+             style="fill:#000000;fill-opacity:1"
+             id="g1028-5-9-8-8-1-7-5-8-9-7-2">
+            <g
+               id="g1026-6-3-7-5-0-6-0-7-04-7-7"
+               transform="translate(0,9.5640001)">
+              <path
+                 style="stroke:none"
+                 d="m 6.125,-9.9375 c -0.140625,-0.296875 -0.234375,-0.359375 -0.390625,-0.359375 -0.21875,0 -0.28125,0.125 -0.375,0.359375 L 1.0625,-0.3125 c -0.09375,0.21875 -0.109375,0.265625 -0.109375,0.34375 0,0.1875 0.15625,0.34375 0.34375,0.34375 0.109375,0 0.25,-0.03125 0.390625,-0.359375 l 4.046875,-9.125 4.046875,9.125 C 9.9375,0.375 10.109375,0.375 10.171875,0.375 c 0.1875,0 0.34375,-0.15625 0.34375,-0.34375 0,-0.03125 0,-0.0625 -0.09375,-0.265625 z m 0,0"
+                 id="path1024-2-6-9-0-5-8-96-9-0-2-0" />
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g
+       inkscape:label=""
+       transform="translate(469.23187,-16.132554)"
+       id="g1034-7-2-2-9-68-8-39-6-4-9-5-6">
+      <g
+         id="g1032-5-7-6-0-0-0-0-2-6-0-3-0"
+         transform="matrix(0.352778,0,0,0.352778,-0.336241,0.258542)">
+        <g
+           clip-path="url(#clipPath5942-3-9-0-3-1-2-2-36-6-12-4-7)"
+           clip-rule="nonzero"
+           id="g1030-3-0-1-8-2-4-88-61-7-8-7-6">
+          <g
+             style="fill:#000000;fill-opacity:1"
+             id="g1028-5-9-8-8-1-7-5-8-6-9-6-2">
+            <g
+               id="g1026-6-3-7-5-0-6-0-7-0-8-8-6"
+               transform="translate(0,9.5640001)">
+              <path
+                 style="stroke:none"
+                 d="m 6.125,-9.9375 c -0.140625,-0.296875 -0.234375,-0.359375 -0.390625,-0.359375 -0.21875,0 -0.28125,0.125 -0.375,0.359375 L 1.0625,-0.3125 c -0.09375,0.21875 -0.109375,0.265625 -0.109375,0.34375 0,0.1875 0.15625,0.34375 0.34375,0.34375 0.109375,0 0.25,-0.03125 0.390625,-0.359375 l 4.046875,-9.125 4.046875,9.125 C 9.9375,0.375 10.109375,0.375 10.171875,0.375 c 0.1875,0 0.34375,-0.15625 0.34375,-0.34375 0,-0.03125 0,-0.0625 -0.09375,-0.265625 z m 0,0"
+                 id="path1024-2-6-9-0-5-8-96-9-9-8-13-1" />
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="473.92096"
+       y="-13.876315"
+       id="text32874-3-2-7-0-6-8"><tspan
+         sodipodi:role="line"
+         id="tspan32872-85-0-59-3-4-79"
+         style="stroke-width:0.264583"
+         x="473.92096"
+         y="-13.876315">. . . .</tspan></text>
+    <g
+       id="g645"
+       transform="translate(156.10921,-77.579701)">
+      <rect
+         style="fill:#d5f6ff;stroke:#0000ff;stroke-width:0.264583"
+         id="rect4029-2-6-2-6-6-6-0-5-2-0-3-6-2-4"
+         width="13.417044"
+         height="7.1904674"
+         x="275.75098"
+         y="59.736889"
+         ry="7.6293945e-06"
+         inkscape:export-xdpi="192"
+         inkscape:export-ydpi="192" />
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="277.02316"
+         y="65.236725"
+         id="text571"><tspan
+           sodipodi:role="line"
+           id="tspan569"
+           style="stroke-width:0.264583"
+           x="277.02316"
+           y="65.236725">命题</tspan></text>
+    </g>
+    <g
+       id="g645-3"
+       transform="translate(127.00505,-77.579701)">
+      <rect
+         style="fill:#ffff00;stroke:#000000;stroke-width:0.264583"
+         id="rect4029-2-6-2-6-6-6-0-5-2-0-3-6-2-4-2"
+         width="13.417044"
+         height="7.1904674"
+         x="275.75098"
+         y="59.736889"
+         ry="7.6293945e-06"
+         inkscape:export-xdpi="192"
+         inkscape:export-ydpi="192" />
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="276.83606"
+         y="65.236725"
+         id="text571-0"><tspan
+           sodipodi:role="line"
+           id="tspan569-6"
+           style="stroke-width:0.264583"
+           x="276.83606"
+           y="65.236725">状态</tspan></text>
+    </g>
+    <g
+       id="g645-3-5"
+       transform="translate(144.99671,-105.6255)">
+      <rect
+         style="fill:#ffff00;stroke:#000000;stroke-width:0.264583"
+         id="rect4029-2-6-2-6-6-6-0-5-2-0-3-6-2-4-2-5"
+         width="13.417044"
+         height="7.1904674"
+         x="275.75098"
+         y="59.736889"
+         ry="7.6293945e-06"
+         inkscape:export-xdpi="192"
+         inkscape:export-ydpi="192" />
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="276.83606"
+         y="65.236725"
+         id="text571-0-4"><tspan
+           sodipodi:role="line"
+           id="tspan569-6-7"
+           style="stroke-width:0.264583"
+           x="276.83606"
+           y="65.236725">状态</tspan></text>
+    </g>
+    <g
+       id="g645-7"
+       transform="translate(177.27588,-77.579701)">
+      <rect
+         style="fill:#d5f6ff;stroke:#0000ff;stroke-width:0.264583"
+         id="rect4029-2-6-2-6-6-6-0-5-2-0-3-6-2-4-8"
+         width="13.417044"
+         height="7.1904674"
+         x="275.75098"
+         y="59.736889"
+         ry="7.6293945e-06"
+         inkscape:export-xdpi="192"
+         inkscape:export-ydpi="192" />
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="277.02316"
+         y="65.236725"
+         id="text571-4"><tspan
+           sodipodi:role="line"
+           id="tspan569-5"
+           style="stroke-width:0.264583"
+           x="277.02316"
+           y="65.236725">命题</tspan></text>
+    </g>
+    <g
+       id="g645-0"
+       transform="translate(209.02588,-77.579701)">
+      <rect
+         style="fill:#d5f6ff;stroke:#0000ff;stroke-width:0.264583"
+         id="rect4029-2-6-2-6-6-6-0-5-2-0-3-6-2-4-3"
+         width="13.417044"
+         height="7.1904674"
+         x="275.75098"
+         y="59.736889"
+         ry="7.6293945e-06"
+         inkscape:export-xdpi="192"
+         inkscape:export-ydpi="192" />
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="277.02316"
+         y="65.236725"
+         id="text571-6"><tspan
+           sodipodi:role="line"
+           id="tspan569-1"
+           style="stroke-width:0.264583"
+           x="277.02316"
+           y="65.236725">命题</tspan></text>
+    </g>
+    <g
+       inkscape:label=""
+       transform="translate(417.96448,37.322068)"
+       id="g1034-7-2-2-9-68-8-39-6-1-8-2-3"
+       inkscape:export-filename="Self-Attention_repeated.png"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192">
+      <g
+         id="g1032-5-7-6-0-0-0-0-2-5-6-9-7"
+         transform="matrix(0.352778,0,0,0.352778,-0.336241,0.258542)">
+        <g
+           clip-path="url(#clipPath5942-3-9-0-3-1-2-2-36-4-1-3-6)"
+           clip-rule="nonzero"
+           id="g1030-3-0-1-8-2-4-88-61-0-3-1-4">
+          <g
+             style="fill:#000000;fill-opacity:1"
+             id="g1028-5-9-8-8-1-7-5-8-9-7-2-5">
+            <g
+               id="g1026-6-3-7-5-0-6-0-7-04-7-7-2"
+               transform="translate(0,9.5640001)">
+              <path
+                 style="stroke:none"
+                 d="m 6.125,-9.9375 c -0.140625,-0.296875 -0.234375,-0.359375 -0.390625,-0.359375 -0.21875,0 -0.28125,0.125 -0.375,0.359375 L 1.0625,-0.3125 c -0.09375,0.21875 -0.109375,0.265625 -0.109375,0.34375 0,0.1875 0.15625,0.34375 0.34375,0.34375 0.109375,0 0.25,-0.03125 0.390625,-0.359375 l 4.046875,-9.125 4.046875,9.125 C 9.9375,0.375 10.109375,0.375 10.171875,0.375 c 0.1875,0 0.34375,-0.15625 0.34375,-0.34375 0,-0.03125 0,-0.0625 -0.09375,-0.265625 z m 0,0"
+                 id="path1024-2-6-9-0-5-8-96-9-0-2-0-5" />
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g
+       inkscape:label=""
+       transform="translate(439.5411,37.251808)"
+       id="g1034-7-2-2-9-68-8-39-6-4-9-5-6-4">
+      <g
+         id="g1032-5-7-6-0-0-0-0-2-6-0-3-0-7"
+         transform="matrix(0.352778,0,0,0.352778,-0.336241,0.258542)">
+        <g
+           clip-path="url(#clipPath5942-3-9-0-3-1-2-2-36-6-12-4-7-6)"
+           clip-rule="nonzero"
+           id="g1030-3-0-1-8-2-4-88-61-7-8-7-6-4">
+          <g
+             style="fill:#000000;fill-opacity:1"
+             id="g1028-5-9-8-8-1-7-5-8-6-9-6-2-4">
+            <g
+               id="g1026-6-3-7-5-0-6-0-7-0-8-8-6-3"
+               transform="translate(0,9.5640001)">
+              <path
+                 style="stroke:none"
+                 d="m 6.125,-9.9375 c -0.140625,-0.296875 -0.234375,-0.359375 -0.390625,-0.359375 -0.21875,0 -0.28125,0.125 -0.375,0.359375 L 1.0625,-0.3125 c -0.09375,0.21875 -0.109375,0.265625 -0.109375,0.34375 0,0.1875 0.15625,0.34375 0.34375,0.34375 0.109375,0 0.25,-0.03125 0.390625,-0.359375 l 4.046875,-9.125 4.046875,9.125 C 9.9375,0.375 10.109375,0.375 10.171875,0.375 c 0.1875,0 0.34375,-0.15625 0.34375,-0.34375 0,-0.03125 0,-0.0625 -0.09375,-0.265625 z m 0,0"
+                 id="path1024-2-6-9-0-5-8-96-9-9-8-13-1-0" />
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="444.23013"
+       y="39.508049"
+       id="text32874-3-2-7-0-6-8-7"><tspan
+         sodipodi:role="line"
+         id="tspan32872-85-0-59-3-4-79-8"
+         style="stroke-width:0.264583"
+         x="444.23013"
+         y="39.508049">. . . .</tspan></text>
+    <g
+       id="g645-6"
+       transform="translate(126.41854,-24.195345)">
+      <rect
+         style="fill:#d5f6ff;stroke:#0000ff;stroke-width:0.264583"
+         id="rect4029-2-6-2-6-6-6-0-5-2-0-3-6-2-4-88"
+         width="13.417044"
+         height="7.1904674"
+         x="275.75098"
+         y="59.736889"
+         ry="7.6293945e-06"
+         inkscape:export-xdpi="192"
+         inkscape:export-ydpi="192" />
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="277.02316"
+         y="65.236725"
+         id="text571-43"><tspan
+           sodipodi:role="line"
+           id="tspan569-14"
+           style="stroke-width:0.264583"
+           x="277.02316"
+           y="65.236725">命题</tspan></text>
+    </g>
+    <g
+       id="g645-7-9"
+       transform="translate(147.58521,-24.195345)">
+      <rect
+         style="fill:#d5f6ff;stroke:#0000ff;stroke-width:0.264583"
+         id="rect4029-2-6-2-6-6-6-0-5-2-0-3-6-2-4-8-2"
+         width="13.417044"
+         height="7.1904674"
+         x="275.75098"
+         y="59.736889"
+         ry="7.6293945e-06"
+         inkscape:export-xdpi="192"
+         inkscape:export-ydpi="192" />
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="277.02316"
+         y="65.236725"
+         id="text571-4-0"><tspan
+           sodipodi:role="line"
+           id="tspan569-5-6"
+           style="stroke-width:0.264583"
+           x="277.02316"
+           y="65.236725">命题</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="422.34552"
+       y="-12.795484"
+       id="text867"><tspan
+         sodipodi:role="line"
+         id="tspan865"
+         style="stroke-width:0.264583"
+         x="422.34552"
+         y="-12.795484">=</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="392.74591"
+       y="-59.577614"
+       id="text908"><tspan
+         sodipodi:role="line"
+         id="tspan906"
+         style="stroke-width:0.264583"
+         x="392.74591"
+         y="-59.577614">强化学习的一般形式：（没有逻辑结构）</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="394.07278"
+       y="-24.507925"
+       id="text2416"><tspan
+         sodipodi:role="line"
+         id="tspan2414"
+         style="stroke-width:0.264583"
+         x="394.07278"
+         y="-24.507925">逻辑化：</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="394.54254"
+       y="1.0845398"
+       id="text2420"><tspan
+         sodipodi:role="line"
+         id="tspan2418"
+         style="stroke-width:0.264583"
+         x="394.54254"
+         y="1.0845398">转移函数 具有逻辑结构（例如：命题有可交换性）</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="475.69711"
+       y="-45.006195"
+       id="text3730"><tspan
+         sodipodi:role="line"
+         id="tspan3728"
+         style="stroke-width:0.264583"
+         x="475.69711"
+         y="-45.006195">（AGI 的所有知识</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="475.69711"
+         y="-37.950645"
+         id="tspan3732">储存在 转移函数内）</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="394.26495"
+       y="10.762419"
+       id="text468"><tspan
+         sodipodi:role="line"
+         id="tspan466"
+         style="stroke-width:0.264583"
+         x="394.26495"
+         y="10.762419">逻辑化 AGI 的基本架构：</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="392.69775"
+       y="60.352234"
+       id="text472"><tspan
+         sodipodi:role="line"
+         id="tspan470"
+         style="stroke-width:0.264583"
+         x="392.69775"
+         y="60.352234">问：转移函数 <tspan
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math'"
+   id="tspan524">F</tspan> 可不可以用 Transformer 替代？</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="392.69775"
+         y="67.656143"
+         id="tspan544" /><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="392.69775"
+         y="74.711693"
+         id="tspan532">有人指出 Transformer Self-Attention 的作用是为了</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="392.69775"
+         y="81.767242"
+         id="tspan534">发现 <tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi'"
+   id="tspan542">上下文关系</tspan>，其实「爸爸的爸爸 ⇒ 爷爷」也是</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="392.69775"
+         y="89.332115"
+         id="tspan536">一种关系的发现，而输出是「爷爷」。</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="392.69775"
+         y="96.387665"
+         id="tspan546" /><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="392.69775"
+         y="103.44321"
+         id="tspan528">以 Transformer 取代 逻辑推理 仍有不足之处：</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="392.69775"
+         y="110.49876"
+         id="tspan530">① 逻辑 rule 的<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi'"
+   id="tspan548">前提</tspan> 通常是几个命题，但它不一定取决</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="392.69775"
+         y="117.55431"
+         id="tspan550">     于单一个“query”命题（as in Transformer).</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="392.69775"
+         y="124.60986"
+         id="tspan552">② Transformer 一般有很多层，多层的意义是为了实现</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="392.69775"
+         y="131.66542"
+         id="tspan817">     复杂的非线性函数，用来近似逻辑推导。</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="392.69775"
+         y="138.72096"
+         id="tspan821">     但强化学习本身也是一个无限循环，在某种意义上</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="392.69775"
+         y="145.77652"
+         id="tspan825">     也是一种「深度」。 两者有没有 trade off 的可能？</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="392.69775"
+         y="152.83206"
+         id="tspan827">③ 同一状态下可以有多个逻辑推论，例如：拾起地上的</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="392.69775"
+         y="159.88762"
+         id="tspan894">     钞票，还是继续开车上班？ 这类似 multi-head</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="392.69775"
+         y="166.94316"
+         id="tspan896">     attention.  我们可以将它设计得更合乎逻辑的要求。</tspan></text>
+    <rect
+       style="fill:#d5f6ff;stroke:#0000ff;stroke-width:0.264583"
+       id="rect4029-2-6-2-6-6-6-0-5-2-0-3-6-2-4-3-9"
+       width="13.417044"
+       height="7.1904674"
+       x="455.08618"
+       y="35.541542"
+       ry="7.6293945e-06"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
+    <text
+       xml:space="preserve"
+       style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="456.35837"
+       y="41.041378"
+       id="text571-6-2"><tspan
+         sodipodi:role="line"
+         id="tspan569-1-6"
+         style="stroke-width:0.264583"
+         x="456.35837"
+         y="41.041378">命题</tspan></text>
+    <g
+       id="g785"
+       transform="translate(5.7334359,1.9589259)">
+      <rect
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.264583"
+         id="rect4029-2-6-2-6-6-6-0-5-2-0-3-6-2-4-3-9-3-5-2"
+         width="15.460865"
+         height="8.3537016"
+         x="396.62329"
+         y="14.838849"
+         ry="2.9293144"
+         inkscape:export-xdpi="192"
+         inkscape:export-ydpi="192" />
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="398.93741"
+         y="21.05377"
+         id="text780"><tspan
+           sodipodi:role="line"
+           id="tspan778"
+           style="stroke-width:0.264583"
+           x="398.93741"
+           y="21.05377">遗忘</tspan></text>
+    </g>
+    <rect
+       style="opacity:0.1;fill:none;fill-opacity:0.997908;stroke:#ff0000;stroke-width:0.529167"
+       id="rect950"
+       width="142.73877"
+       height="240.47408"
+       x="388.75781"
+       y="-69.352623" />
+  </g>
+</svg>
