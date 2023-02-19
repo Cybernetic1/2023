@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="103.2811mm"
+   height="90.170563mm"
+   viewBox="0 0 103.2811 90.170563"
+   version="1.1"
+   id="svg14267"
+   inkscape:version="1.2.2 (1:1.2.2+202212051550+b0a8486541)"
+   sodipodi:docname="modern-Hopfield-network.svg"
+   inkscape:export-filename="modern-Hopfield-network-energy-landscape.png"
+   inkscape:export-xdpi="192"
+   inkscape:export-ydpi="192"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview14269"
+     pagecolor="#ffffff"
+     bordercolor="#ff0000"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#ffffff"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="1"
+     inkscape:cx="367"
+     inkscape:cy="114.5"
+     inkscape:window-width="1920"
+     inkscape:window-height="1055"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs14264">
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect15000"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,2.1166667,0,1 @ F,0,0,1,0,2.1166667,0,1 @ F,0,0,1,0,2.1166667,0,1 @ F,0,0,1,0,2.1166667,0,1 @ F,0,0,1,0,2.1166667,0,1 @ F,0,0,1,0,2.1166667,0,1 @ F,0,0,1,0,2.1166667,0,1 @ F,0,0,1,0,2.1166667,0,1 @ F,0,0,1,0,2.1166667,0,1 @ F,0,0,1,0,0,0,1"
+       unit="px"
+       method="bezier"
+       mode="F"
+       radius="8"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-52.346407,-80.45695)">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 57.133525,102.50842 c 12.794939,0.0286 11.532627,-0.58452 16.677034,1.5875 4.267339,1.80172 5.959515,8.99584 10.591618,8.99584 4.632103,0 6.374571,-7.07936 10.591619,-8.99584 3.245114,-1.47477 10.575024,-1.5875 10.575024,-1.5875 0,0 7.32993,0.11273 10.57505,1.5875 4.21705,1.91648 5.95952,8.99584 10.59162,8.99584 4.6321,0 6.34448,-7.147 10.59162,-8.99584 4.15506,-1.80875 5.10256,-1.62508 13.50203,-1.5875"
+       id="path14334"
+       sodipodi:nodetypes="caaacaaac" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:0.793749, 0.793749;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 84.715772,98.509933 V 117.36843"
+       id="path14356"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:0.793749, 0.793749;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 127.04912,98.509933 V 117.36843"
+       id="path14356-0"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="84.946098"
+       y="88.053291"
+       id="text14862"><tspan
+         sodipodi:role="line"
+         id="tspan14860"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="84.946098"
+         y="88.053291">pattern</tspan><tspan
+         sodipodi:role="line"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="84.946098"
+         y="95.108841"
+         id="tspan14864">A</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="126.75024"
+       y="88.053291"
+       id="text14862-9"><tspan
+         sodipodi:role="line"
+         id="tspan14860-1"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="126.75024"
+         y="88.053291">pattern</tspan><tspan
+         sodipodi:role="line"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="126.75024"
+         y="95.108841"
+         id="tspan14864-7">B</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="105.93536"
+       y="116.59807"
+       id="text14900"><tspan
+         sodipodi:role="line"
+         id="tspan14898"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="105.93536"
+         y="116.59807">energy</tspan><tspan
+         sodipodi:role="line"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="105.93536"
+         y="123.65362"
+         id="tspan14902">landscape</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 57.397866,139.50451 h 23.135217 c 1.169003,0 2.191814,0.94468 2.287941,2.10973 0.352223,4.26888 1.175367,13.88208 1.77907,18.09509 0.164145,1.14551 0.757975,1.14541 0.908704,4.9e-4 0.554533,-4.21218 1.262769,-13.82391 1.564012,-18.09383 0.08226,-1.16603 1.093813,-2.11148 2.262816,-2.11148 l 3.681966,0 h 10.698858 11.46711 7.88082 c 1.16901,0 2.18542,0.94517 2.2734,2.11086 0.32204,4.26666 1.07449,13.86877 1.62926,18.08566 0.15101,1.14783 0.71753,1.15102 0.87866,0.005 0.59262,-4.21479 1.4306,-13.82471 1.7904,-18.09229 0.0982,-1.1648 1.1229,-2.10927 2.29191,-2.10927 h 19.16543"
+       id="path14334-7"
+       sodipodi:nodetypes="cczccccczcc"
+       inkscape:path-effect="#path-effect15000"
+       inkscape:original-d="M 57.397866,139.50451 H 82.64975 c 0,0 1.753828,22.19034 2.413626,22.24827 0.659798,0.0579 2.155583,-22.24827 2.155583,-22.24827 h 7.9153 10.698861 11.46711 7.88082 c 0,0 1.60648,22.2309 2.21562,22.24827 0.60914,0.0174 2.41467,-22.24827 2.41467,-22.24827 h 21.2821" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:0.793749, 0.793749;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 84.980091,129.70846 v 36.85015"
+       id="path14356-1"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:0.793749, 0.793749;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 127.31342,129.70846 v 36.85015"
+       id="path14356-0-1"
+       sodipodi:nodetypes="cc" />
+    <rect
+       style="fill:none;stroke:#ff0000;stroke-width:0.264583;stroke-dasharray:0.79375, 0.79375;stroke-dashoffset:0"
+       id="rect15038"
+       width="103.01652"
+       height="89.905983"
+       x="52.478699"
+       y="80.589241" />
+  </g>
+</svg>
