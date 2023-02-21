@@ -70,7 +70,7 @@
 
 \maketitle
 
-\setcounter{section}{0}
+\setcounter{section}{-1}
 
 % (1) Circled page number on upper left corner
 \begin{textblock*}{5cm}(2.1cm,2.3cm) % {block width} (coords) 
@@ -80,15 +80,23 @@
 \begin{minipage}{\textwidth}
 \setlength{\parskip}{0.4\baselineskip}
 
-大统一理论是在 \textbf{强化学习} 的框架下进行的，这是以 Richard Sutton 为代表人物 提出的理论框架。 
+\section{综述}
 
-在 强化学习里 最辣手的一个问题，就是如何 储存和计算 所有 \textbf{状态} 之上的 \textbf{概率分布}。 在 AGI 里，状态 = 
+\begin{itemize}
 
-现代 Hopfield 网络 的 update rule 跟 Transformer 重合。 
+	\item 大统一理论是在 \textbf{强化学习} 的框架下进行的，这是以 Richard Sutton 为代表人物 提出的理论框架。 
 
-Transformer 的 softmax 可以看成是 大脑中某种 ``winner-takes-all'' 机制。
+	\item 在 强化学习里 最辣手的一个问题，就是如何 储存和计算 所有 \textbf{状态} 之上的 \textbf{概率分布}。 对 AGI 来说，状态 = 思维空间。 我们需要的是 所有可能的思维之上的概率分布，而这是 AGI 的一个硬性需求，无法避免。 由于思维空间是高维的向量空间，它上面的概率分布是一个庞大的 mathematical object，很难在计算机上表示。 如果用 神经网络 表示，则问题是如何对这个概率分布进行 \textbf{采样} (sampling), 在神经网络里，这是很困难的。
 
-Hopfield 网络的权重 定义了一个 能量地势 (energy landscape)，它可以看成是一个 \textbf{概率分布}。 
+	\item \textbf{Hopfield 网络}的权重 定义了一个 能量地势 (energy landscape)，它可以看成是一个 implicit 的 \textbf{概率分布}。 透过 Hopfield 网络的 learning，可以改变这个概率分布。 但这需要修改 Hopfield 网络的算法，将 能量 诠释成 概率。
+
+	\item 根据 ``Hopfield Network is All You Need'' 论文，现代 Hopfield 网络的 update rule 跟 \textbf{Transformer} 重合。 换句话说，每执行一次 Transformer，就会趋向 Hopfield 的能量最低点。 
+
+	\item Transformer 的 softmax 可以看成是 \textbf{大脑}中某种 ``winner-takes-all'' 机制。 从这个角度，可以诠释大脑思考的机制。
+	
+	\item 我最新的论文 提出，Transformer 具有 \textbf{逻辑结构}，可以在逻辑基础上建立 AGI.
+
+\end{itemize}
 
 \section{Modern Hopfield networks}
 
