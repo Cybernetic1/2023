@@ -82,15 +82,17 @@
 
 \section{综述}
 
+\newcommand\reduline{\bgroup\markoverwith{\textcolor{red}{\rule[-0.5ex]{2pt}{0.4pt}}}\ULon}
+
 \begin{itemize}
 
 	\item 大统一理论是在 \textbf{强化学习} 的框架下进行的，这是以 Richard Sutton 为代表人物 提出的理论框架。 
 
 	\item 在 强化学习里 最辣手的一个问题，就是如何 储存和计算 所有 \textbf{状态} 之上的 \textbf{概率分布}。 对 AGI 来说，状态 = 思维空间。 我们需要的是 所有可能的思维之上的概率分布，而这是 AGI 的一个硬性需求，无法避免。 由于思维空间是高维的向量空间，它上面的概率分布是一个庞大的 mathematical object，很难在计算机上表示。 如果用 神经网络 表示，则问题是如何对这个概率分布进行 \textbf{采样} (sampling), 在神经网络里，这是很困难的。
 
-	\item \textbf{Hopfield 网络}的权重 定义了一个 能量地势 (energy landscape)，它可以看成是一个 implicit 的 \textbf{概率分布}。 透过 Hopfield 网络的 learning，可以改变这个概率分布。 但这需要修改 Hopfield 网络的算法，将 能量 诠释成 概率。
+	\item \textbf{Hopfield 网络}的权重 定义了一个 能量地势 (energy landscape)，它可以看成是一个 implicit 的 \textbf{概率分布}。 透过 Hopfield 网络的 learning，可以改变这个概率分布。 \reduline{但这需要修改 Hopfield 网络的算法，将 能量 诠释成 概率}，而这正是 \textbf{Boltzmann machine}.
 
-	\item 根据 ``Hopfield Network is All You Need'' 论文，现代 Hopfield 网络的 update rule 跟 \textbf{Transformer} 重合。 换句话说，每执行一次 Transformer，就会趋向 Hopfield 的能量最低点。 
+	\item 根据 ``Hopfield Network is All You Need'' 论文，现代 Hopfield 网络的 state update rule 跟 \textbf{Transformer} 重合\footnote{注意这是 state update rule 而不是 learning update rule.  前者 更改 Hopfield 网络的 激活 状态； 后者 更改 Hopfield 网络的权重／记忆。}。 换句话说，每执行一次 Transformer，就会趋向 Hopfield 的能量最低点。 
 
 	\item Transformer 的 softmax 可以看成是 \textbf{大脑}中某种 ``winner-takes-all'' 机制。 从这个角度，可以诠释大脑思考的机制。
 	
