@@ -62,7 +62,7 @@
 \cc{
 \title{\vspace{-1.5cm} \bfseries\color{blue}{\LARGE Transformer 是一种逻辑结构}}
 }{
-\title{\vspace{-1.5cm} \bfseries\color{blue}{\LARGE Transformer has logic structure}}
+\title{\vspace{-1.5cm} \bfseries\color{blue}{\LARGE Transformer as Logic-Base}}
 }
 
 % \author{YKY} % Your name
@@ -106,28 +106,51 @@ For example:
 \mbox{it's raining} \wedge \mbox{I'm heart-broken} \quad \Leftrightarrow \quad \mbox{I'm heart-broken} \wedge \mbox{it's raining}
 \end{equation}
 
-Propositions are made up of \textbf{atomic concepts}, but here, at the sub-propositional level, atoms cannot be permuted freely:
+Propositions are made up of \textbf{atomic concepts}, but here, at the sub-propositional level, atoms cannot be permuted freely, eg:
 \begin{equation}
 \mbox{I} \cdot \mbox{love} \cdot \mbox{you} \quad \neq \quad \mbox{you} \cdot \mbox{love} \cdot \mbox{me}
 \end{equation}
 otherwise there would be no such things as heart-breaks.
 
+Now let's refresh a bit on \textbf{classical logic-based AI}.  This is its basic architecture:
+\begin{equation}
+\vcenter{\hbox{\includegraphics[scale=1]{../2022/LBAI-basic-config-en.png}}}
+\end{equation}
+
+There would be a huge number of rules in the Knowledge Base, and the system needs to match these rules one by one against propositions in the system's \textbf{state} (= working memory):
+\begin{equation}
+\vcenter{\hbox{\includegraphics[scale=1]{../2022/rete-explained-1b.png}}}
+\end{equation}
+
+For the Transformer, it is a kind of memory stored \textbf{between} input elements (stored as the $Q, K, V$ matrices), and it \textbf{implicitly} plays the role of a logic rules-base:
+\begin{equation}
+\label{fig:self-attention-as-Rete}
+\vcenter{\hbox{\includegraphics[scale=0.9]{../2022/rete-explained-3b.png}}}
+\end{equation}
+
+Now consider LLMs (\textbf{Large Language Models}) such as BERT and GPT.
+
 Given a natural-language sentence, we'd like to convert or \textbf{decompose} it into a bunch of logic propositions:
 \begin{equation}
+\label{fig:NL-2-propositions}
 \vcenter{\hbox{\includegraphics[scale=1]{../2022/NL-sentence-2-propositions.png}}}
 \end{equation}
-The structure on the right is a \textbf{mental state} of a logical AI system.  It is composed of (exchangeable) propositions, which are in turn made up of atomic concepts.  This 2-level structure is characteristic of all \textbf{logical} systems.
+The structure on the right of (\ref{fig:NL-2-propositions}) is a \textbf{mental state} of a logical AI system.  It is composed of (exchangeable) propositions, which are in turn made up of atomic concepts.  This 2-level structure is characteristic of all \textbf{logical} systems.
 
 Surprisingly, I found out that the Transformer completely satisfies this 2-level logic structure.
 
-On the first layer, a Transformer transforms each input word token into one proposition:
+On the \textbf{first layer}, a Transformer transforms each input word token into one proposition:
 \begin{equation}
 \vcenter{\hbox{\includegraphics[scale=1]{../2022/Transformer-1st-layer.png}}}
 \end{equation}
-The crucial point here is that propositions are made up of atoms ($\atom$), which is achieved in the Transformer by \textbf{adding} vectors (that represent atomic concepts) together.  Note also that the Transformer is equivariant, so we must add ``positional encoding'' to each word.
+The crucial point here is that the propositions are composed of atoms ($\atom$), this is achieved in the Transformer by \textbf{adding} vectors (that represent atomic concepts), ie, by \textbf{superposition}.  Note also that the Transformer is equivariant, so we must add ``positional encoding'' to each word, to indicate their ordering.
 
+At \textbf{higher layers}, there is no need for positional encoding, and logic propositions can be freely exchanged, exactly as what happens in Transformers:
+\begin{equation}
+\vcenter{\hbox{\includegraphics[scale=1]{../2022/Transformer-higher-layers.png}}}
+\end{equation}
 
-
+Note that in the above, every $\Uparrow$ arrow uses the same $(Q,K,V)$ matrices as ``rule-base'', that may limit the number of rules that can be represented.  To circumvent this, \textbf{Multi-Head Attention} allows to use different $(Q,K,V)$ matrices on the same layer.
 
 \end{minipage}
 \end{preview}

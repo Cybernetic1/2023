@@ -1,0 +1,1091 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="285.53427mm"
+   height="325.16171mm"
+   viewBox="0 0 285.53427 325.16171"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (1:1.2.2+202212051550+b0a8486541)"
+   sodipodi:docname="AGI-design-flow-chart.svg"
+   inkscape:export-filename="AGI-design-flow-chart.png"
+   inkscape:export-xdpi="192"
+   inkscape:export-ydpi="192"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#ffcccc"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#ffffff"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1"
+     inkscape:cx="510"
+     inkscape:cy="648.5"
+     inkscape:window-width="1920"
+     inkscape:window-height="1055"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="TriangleStart"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="9.3240004"
+       markerHeight="10.779191"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="TriangleStart-7"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="9.3240004"
+       markerHeight="10.779191"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="TriangleStart-0"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="9.3240004"
+       markerHeight="10.779191"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-6" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="TriangleStart-7-8"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="9.3240004"
+       markerHeight="10.779191"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-0-7" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="TriangleStart-0-9"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="9.3240004"
+       markerHeight="10.779191"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-6-7" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="TriangleStart-7-8-2"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="9.3240004"
+       markerHeight="10.779191"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-0-7-9" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="TriangleStart-0-9-7"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="9.3240004"
+       markerHeight="10.779191"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-6-7-6" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="TriangleStart-0-9-7-7"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="9.3240004"
+       markerHeight="10.779191"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-6-7-6-4" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="TriangleStart-7-8-2-8"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="9.3240004"
+       markerHeight="10.779191"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-0-7-9-8" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="TriangleStart-7-8-3"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="9.3240004"
+       markerHeight="10.779191"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-0-7-1" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="TriangleStart-7-8-2-4-0"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="9.3240004"
+       markerHeight="10.779191"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-0-7-9-9-4" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="TriangleStart-7-8-2-8-2"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="9.3240004"
+       markerHeight="10.779191"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-0-7-9-8-7" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="TriangleStart-7-8-1"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="9.3240004"
+       markerHeight="10.779191"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-0-7-7" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="TriangleStart-0-9-7-3-3"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="9.3240004"
+       markerHeight="10.779191"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-6-7-6-6-9" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="TriangleStart-7-8-8"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="9.3240004"
+       markerHeight="10.779191"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-0-7-12" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="TriangleStart-7-8-8-8"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="9.3240004"
+       markerHeight="10.779191"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-0-7-12-8" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="TriangleStart-0-9-7-3-3-1"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="9.3240004"
+       markerHeight="10.779191"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-6-7-6-6-9-5" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="TriangleStart-0-9-7-3-0"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="9.3240004"
+       markerHeight="10.779191"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-6-7-6-6-3" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="TriangleStart-7-8-1-1"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="9.3240004"
+       markerHeight="10.779191"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-0-7-7-7" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="TriangleStart-7-8-1-1-5"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="9.3240004"
+       markerHeight="10.779191"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-0-7-7-7-7" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-15.215627,-3.3421035)">
+    <rect
+       style="fill:none;stroke:none;stroke-width:0.264583;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect8969"
+       width="285.53427"
+       height="325.16171"
+       x="15.215627"
+       y="3.3421035" />
+    <g
+       id="g1532"
+       transform="translate(-6.5776347,-75.89151)">
+      <rect
+         style="fill:#ffff00;stroke:none;stroke-width:0.264583;stroke-dasharray:0.79375, 0.79375"
+         id="rect231"
+         width="32"
+         height="32"
+         x="-58.497231"
+         y="174.08333"
+         transform="rotate(-45)" />
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="105.16529"
+         y="157.80811"
+         id="text113"><tspan
+           sodipodi:role="line"
+           id="tspan111"
+           style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="105.16529"
+           y="157.80811">强化学习</tspan><tspan
+           sodipodi:role="line"
+           style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="105.16529"
+           y="164.86366"
+           id="tspan115">作为 AGI的</tspan><tspan
+           sodipodi:role="line"
+           style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="105.16529"
+           y="171.9192"
+           id="tspan125">最高层架构</tspan><tspan
+           sodipodi:role="line"
+           style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="105.16529"
+           y="178.97476"
+           id="tspan389">？</tspan></text>
+    </g>
+    <g
+       id="g1532-2"
+       transform="translate(-6.5776347,-18.212337)">
+      <rect
+         style="fill:#ffff00;stroke:none;stroke-width:0.264583;stroke-dasharray:0.79375, 0.79375"
+         id="rect231-37"
+         width="32"
+         height="32"
+         x="-58.497231"
+         y="174.08333"
+         transform="rotate(-45)" />
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="105.16529"
+         y="157.80811"
+         id="text113-5"><tspan
+           sodipodi:role="line"
+           style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="105.16529"
+           y="157.80811"
+           id="tspan389-8">用逻辑结构</tspan><tspan
+           sodipodi:role="line"
+           style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="105.16529"
+           y="164.86366"
+           id="tspan1675">作为</tspan><tspan
+           sodipodi:role="line"
+           style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="105.16529"
+           y="171.9192"
+           id="tspan1677">inductive bias</tspan><tspan
+           sodipodi:role="line"
+           style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="105.16529"
+           y="178.97476"
+           id="tspan1679">？</tspan></text>
+    </g>
+    <g
+       id="g1532-2-2"
+       transform="translate(82.073796,94.966186)">
+      <rect
+         style="fill:#ffff00;stroke:none;stroke-width:0.264583;stroke-dasharray:0.79375, 0.79375"
+         id="rect231-37-6"
+         width="32"
+         height="32"
+         x="-58.497231"
+         y="174.08333"
+         transform="rotate(-45)" />
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="105.16529"
+         y="157.80811"
+         id="text113-5-1"><tspan
+           sodipodi:role="line"
+           style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="105.16529"
+           y="157.80811"
+           id="tspan389-8-0">加入</tspan><tspan
+           sodipodi:role="line"
+           style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="105.16529"
+           y="164.86366"
+           id="tspan1675-6">长期记忆</tspan><tspan
+           sodipodi:role="line"
+           style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="105.16529"
+           y="171.9192"
+           id="tspan1679-5">？</tspan></text>
+    </g>
+    <path
+       id="rect231-37-7"
+       style="fill:#adff2f;stroke-width:0.264583;stroke-dasharray:0.79375, 0.79375"
+       d="m 31.105141,182.65191 h 36.233333 l -10.583334,32 H 20.521807 Z"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       id="rect231-37-7-4"
+       style="fill:#adff2f;stroke-width:0.264583;stroke-dasharray:0.79375, 0.79375"
+       d="m 94.075978,182.65191 h 36.233342 l -10.58334,32 H 83.492644 Z"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       id="rect231-37-7-4-3"
+       style="fill:#adff2f;stroke-width:0.264583;stroke-dasharray:0.79375, 0.79375"
+       d="m 157.57601,182.65191 h 36.23335 l -10.58334,32 h -36.23335 z"
+       sodipodi:nodetypes="ccccc" />
+    <text
+       xml:space="preserve"
+       style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="109.07499"
+       y="193.09329"
+       id="text113-5-8"><tspan
+         sodipodi:role="line"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="109.07499"
+         y="193.09329"
+         id="tspan1825">Transformer 是</tspan><tspan
+         sodipodi:role="line"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="109.07499"
+         y="200.14885"
+         id="tspan2081">Hopfield 网络</tspan><tspan
+         sodipodi:role="line"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="109.07499"
+         y="207.20439"
+         id="tspan2083">的一个特例</tspan></text>
+    <path
+       id="rect231-37-7-4-9"
+       style="fill:#adff2f;stroke-width:0.264583;stroke-dasharray:0.79375, 0.79375"
+       d="m 34.411491,244.37515 h 36.233322 l -10.583334,32 H 23.828167 Z"
+       sodipodi:nodetypes="ccccc" />
+    <text
+       xml:space="preserve"
+       style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="46.764652"
+       y="252.17065"
+       id="text113-5-8-7"><tspan
+         sodipodi:role="line"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="46.764652"
+         y="252.17065"
+         id="tspan2083-7">特殊</tspan><tspan
+         sodipodi:role="line"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="46.764652"
+         y="259.2262"
+         id="tspan8668">planning</tspan><tspan
+         sodipodi:role="line"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="46.764652"
+         y="266.28177"
+         id="tspan8143">算法</tspan><tspan
+         sodipodi:role="line"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="46.764652"
+         y="273.33731"
+         id="tspan8145">？</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="171.86316"
+       y="189.58556"
+       id="text113-5-8-2"><tspan
+         sodipodi:role="line"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="171.86316"
+         y="189.58556"
+         id="tspan2081-7">Hopfield 网络</tspan><tspan
+         sodipodi:role="line"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="171.86316"
+         y="196.64111"
+         id="tspan2083-4">的概率化是</tspan><tspan
+         sodipodi:role="line"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="171.86316"
+         y="203.69666"
+         id="tspan2311">Boltzmann</tspan><tspan
+         sodipodi:role="line"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="171.86316"
+         y="210.75221"
+         id="tspan2313">machine</tspan></text>
+    <path
+       id="rect231-37-7-4-3-6"
+       style="fill:#adff2f;stroke-width:0.264583;stroke-dasharray:0.79375, 0.79375"
+       d="m 239.01254,247.90706 h 36.23335 l -10.58334,32 H 228.4292 Z"
+       sodipodi:nodetypes="ccccc" />
+    <text
+       xml:space="preserve"
+       style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="252.24142"
+       y="258.54489"
+       id="text113-5-8-2-31"><tspan
+         sodipodi:role="line"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="252.24142"
+         y="258.54489"
+         id="tspan2313-62">工作记忆</tspan><tspan
+         sodipodi:role="line"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="252.24142"
+         y="265.60043"
+         id="tspan9453">分拆成逻辑命题</tspan><tspan
+         sodipodi:role="line"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="252.24142"
+         y="272.65601"
+         id="tspan9455">&amp; 遗忘机制</tspan></text>
+    <path
+       id="rect231-37-7-4-3-4"
+       style="fill:#adff2f;stroke-width:0.264583;stroke-dasharray:0.79375, 0.79375"
+       d="m 158.10518,135.55605 h 36.23335 l -10.58334,32 h -36.23335 z"
+       sodipodi:nodetypes="ccccc" />
+    <text
+       xml:space="preserve"
+       style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="172.39232"
+       y="142.48967"
+       id="text113-5-8-2-3"><tspan
+         sodipodi:role="line"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="172.39232"
+         y="142.48967"
+         id="tspan2313-6">强化学习</tspan><tspan
+         sodipodi:role="line"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="172.39232"
+         y="149.54523"
+         id="tspan2989">需要处理</tspan><tspan
+         sodipodi:role="line"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="172.39232"
+         y="156.60077"
+         id="tspan2991">复杂的</tspan><tspan
+         sodipodi:role="line"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="172.39232"
+         y="163.65633"
+         id="tspan2993">概率分布</tspan></text>
+    <path
+       id="rect231-37-7-4-3-4-9"
+       style="fill:#7fffd4;stroke-width:0.264583;stroke-dasharray:0.79375, 0.79375"
+       d="m 212.79779,214.17771 h 33.58752 l -1e-5,13.47917 h -33.58752 z"
+       sodipodi:nodetypes="ccccc" />
+    <text
+       xml:space="preserve"
+       style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="229.73114"
+       y="222.69844"
+       id="text113-5-8-2-3-2"><tspan
+         sodipodi:role="line"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="229.73114"
+         y="222.69844"
+         id="tspan2993-9">世界模型</tspan></text>
+    <path
+       id="rect231-37-7-4-3-4-9-2"
+       style="fill:#7fffd4;stroke-width:0.264583;stroke-dasharray:0.79375, 0.79375"
+       d="m 260.42282,214.17771 h 33.58752 l -10e-6,13.47917 h -33.58752 z"
+       sodipodi:nodetypes="ccccc" />
+    <text
+       xml:space="preserve"
+       style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="277.35599"
+       y="222.69844"
+       id="text113-5-8-2-3-2-6"><tspan
+         sodipodi:role="line"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="277.35599"
+         y="222.69844"
+         id="tspan2993-9-6">价值函数</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="43.455624"
+       y="189.59666"
+       id="text113-5-8-1"><tspan
+         sodipodi:role="line"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="43.455624"
+         y="189.59666"
+         id="tspan1825-5">Transformer</tspan><tspan
+         sodipodi:role="line"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="43.455624"
+         y="196.65222"
+         id="tspan1976">完全符合</tspan><tspan
+         sodipodi:role="line"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="43.455624"
+         y="203.70776"
+         id="tspan1978">逻辑的</tspan><tspan
+         sodipodi:role="line"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="43.455624"
+         y="210.76332"
+         id="tspan1980">抽象结构</tspan></text>
+    <g
+       id="g397"
+       transform="translate(-59.888512,-107.74854)">
+      <rect
+         style="fill:#ffff00;stroke:none;stroke-width:0.264583;stroke-dasharray:0.79375, 0.79375"
+         id="rect231-3"
+         width="32"
+         height="32"
+         x="-2.7167015"
+         y="193.72639"
+         transform="rotate(-45)" />
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="158.49782"
+         y="132.25507"
+         id="text113-6"><tspan
+           sodipodi:role="line"
+           style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="158.49782"
+           y="132.25507"
+           id="tspan115-5">AGI 可以用</tspan><tspan
+           sodipodi:role="line"
+           style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="158.49782"
+           y="139.31062"
+           id="tspan125-3">单一算法实现</tspan><tspan
+           sodipodi:role="line"
+           style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="158.49782"
+           y="146.36617"
+           id="tspan385">（不需群体）</tspan><tspan
+           sodipodi:role="line"
+           style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="158.49782"
+           y="153.42172"
+           id="tspan387">？</tspan></text>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#TriangleStart)"
+       d="M 74.735795,31.721335 H 57.129618"
+       id="path462" />
+    <text
+       xml:space="preserve"
+       style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="45.555183"
+       y="33.723492"
+       id="text1408"><tspan
+         sodipodi:role="line"
+         id="tspan1406"
+         style="stroke-width:0.264583"
+         x="45.555183"
+         y="33.723492">No</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#TriangleStart-0)"
+       d="M 74.87133,88.318397 H 57.265153"
+       id="path462-2" />
+    <text
+       xml:space="preserve"
+       style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="45.690716"
+       y="90.320557"
+       id="text1408-6"><tspan
+         sodipodi:role="line"
+         id="tspan1406-1"
+         style="stroke-width:0.264583"
+         x="45.690716"
+         y="90.320557">No</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#TriangleStart-0-9)"
+       d="M 74.87133,145.99759 H 57.265153"
+       id="path462-2-3" />
+    <text
+       xml:space="preserve"
+       style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="45.690716"
+       y="147.99974"
+       id="text1408-6-6"><tspan
+         sodipodi:role="line"
+         id="tspan1406-1-1"
+         style="stroke-width:0.264583"
+         x="45.690716"
+         y="147.99974">No</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#TriangleStart-0-9-7)"
+       d="m 62.974286,198.97022 h 23.42701"
+       id="path462-2-3-5"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#TriangleStart-0-9-7-3-0)"
+       d="M 234.27366,258.86202 H 210.84665"
+       id="path462-2-3-5-56-0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#TriangleStart-0-9-7-3-3)"
+       d="M 162.8361,258.86202 H 139.40909"
+       id="path462-2-3-5-56-4"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#TriangleStart-0-9-7-3-3-1)"
+       d="M 90.869406,258.86202 H 67.442411"
+       id="path462-2-3-5-56-4-9"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#TriangleStart-0-9-7-7)"
+       d="m 128.75135,198.70208 h 20.25202"
+       id="path462-2-3-5-5"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#TriangleStart-7)"
+       d="m 98.044156,52.872006 v 10.72701"
+       id="path462-9"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="104.39021"
+       y="60.039417"
+       id="text1408-3"><tspan
+         sodipodi:role="line"
+         id="tspan1406-6"
+         style="stroke-width:0.264583"
+         x="104.39021"
+         y="60.039417">Yes</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#TriangleStart-7-8)"
+       d="m 97.721493,111.16182 v 10.72701"
+       id="path462-9-9"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:0.793749, 0.793749;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#TriangleStart-7-8-3)"
+       d="m 173.13764,167.27814 v 12.84368"
+       id="path462-9-9-4"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="104.06755"
+       y="118.32923"
+       id="text1408-3-2"><tspan
+         sodipodi:role="line"
+         id="tspan1406-6-0"
+         style="stroke-width:0.264583"
+         x="104.06755"
+         y="118.32923">Yes</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#TriangleStart-7-8-8)"
+       d="m 186.59732,280.7538 v 10.72701"
+       id="path462-9-9-9"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="192.94344"
+       y="287.92117"
+       id="text1408-3-2-3"><tspan
+         sodipodi:role="line"
+         id="tspan1406-6-0-90"
+         style="stroke-width:0.264583"
+         x="192.94344"
+         y="287.92117">No</tspan></text>
+    <g
+       id="g1532-2-2-5"
+       transform="translate(9.5779573,94.966186)">
+      <rect
+         style="fill:#ffff00;stroke:none;stroke-width:0.264583;stroke-dasharray:0.79375, 0.79375"
+         id="rect231-37-6-0"
+         width="32"
+         height="32"
+         x="-58.497231"
+         y="174.08333"
+         transform="rotate(-45)" />
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="105.16529"
+         y="157.80811"
+         id="text113-5-1-9"><tspan
+           sodipodi:role="line"
+           style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="105.16529"
+           y="157.80811"
+           id="tspan389-8-0-6">加入</tspan><tspan
+           sodipodi:role="line"
+           style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="105.16529"
+           y="164.86366"
+           id="tspan1675-6-3">自我意识</tspan><tspan
+           sodipodi:role="line"
+           style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="105.16529"
+           y="171.9192"
+           id="tspan1679-5-8">？</tspan></text>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#TriangleStart-7-8-8-8)"
+       d="m 114.10142,280.7538 v 10.72701"
+       id="path462-9-9-9-5"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="120.44748"
+       y="287.92117"
+       id="text1408-3-2-3-6"><tspan
+         sodipodi:role="line"
+         id="tspan1406-6-0-90-1"
+         style="stroke-width:0.264583"
+         x="120.44748"
+         y="287.92117">No</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#TriangleStart-7-8-1)"
+       d="m 253.86306,235.16591 v 10.72701"
+       id="path462-9-9-7"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#TriangleStart-7-8-1-1)"
+       d="M 253.86306,280.14509 V 290.8721"
+       id="path462-9-9-7-8"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#TriangleStart-7-8-1-1-5)"
+       d="m 41.667126,277.49925 v 10.72701"
+       id="path462-9-9-7-8-4"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#TriangleStart-7-8-2)"
+       d="m 97.721493,167.25351 v 6.53688 l -50.823279,-0.0216 -0.02328,6.65083"
+       id="path462-9-9-3"
+       sodipodi:nodetypes="cccc" />
+    <path
+       id="path462-9-9-3-5-8"
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#TriangleStart);marker-end:url(#TriangleStart-7-8-2-4-0)"
+       d="m 230.18658,211.28707 0.0233,-6.65083 47.27195,0.0108 0.0117,6.64003"
+       sodipodi:nodetypes="cccc" />
+    <path
+       id="path462-9-9-3-5-8-9"
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 230.18658,228.37423 0.0233,6.65083 47.27195,-0.0108 0.0117,-6.64003"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:0.793749, 0.793749;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#TriangleStart-7-8-2-8)"
+       d="m 114.58412,116.16092 59.81911,-0.0216 0.0233,17.23416"
+       id="path462-9-9-3-4"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:0.793749, 0.793749;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#TriangleStart-7-8-2-8-2)"
+       d="m 174.68867,116.06355 79.92744,-0.0216 0.0233,75.4425"
+       id="path462-9-9-3-4-2"
+       sodipodi:nodetypes="ccc" />
+    <text
+       xml:space="preserve"
+       style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="104.06755"
+       y="174.42097"
+       id="text1408-3-2-1"><tspan
+         sodipodi:role="line"
+         id="tspan1406-6-0-9"
+         style="stroke-width:0.264583"
+         x="104.06755"
+         y="174.42097">Yes</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="147.0329"
+       y="254.60744"
+       id="text1408-3-2-1-8"><tspan
+         sodipodi:role="line"
+         id="tspan1406-6-0-9-4"
+         style="stroke-width:0.264583"
+         x="147.0329"
+         y="254.60744">Yes</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="75.595352"
+       y="254.60744"
+       id="text1408-3-2-1-8-8"><tspan
+         sodipodi:role="line"
+         id="tspan1406-6-0-9-4-1"
+         style="stroke-width:0.264583"
+         x="75.595352"
+         y="254.60744">Yes</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 190.74789,193.9755 64.05244,-0.0216 0.0233,10.88416"
+       id="path462-9-9-3-4-7"
+       sodipodi:nodetypes="ccc" />
+    <ellipse
+       style="fill:#ffdab9;stroke:none;stroke-width:0.264583;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path8514"
+       cx="253.66806"
+       cy="308.07333"
+       rx="15.151813"
+       ry="14.901884" />
+    <text
+       xml:space="preserve"
+       style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="253.84467"
+       y="302.55496"
+       id="text8456"><tspan
+         sodipodi:role="line"
+         id="tspan8454"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="253.84467"
+         y="302.55496">AGI</tspan><tspan
+         sodipodi:role="line"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="253.84467"
+         y="309.6105"
+         id="tspan8460">prototype</tspan><tspan
+         sodipodi:role="line"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="253.84467"
+         y="316.66608"
+         id="tspan8458">完成</tspan></text>
+    <ellipse
+       style="fill:#ffdab9;stroke:none;stroke-width:0.264583;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path8514-4"
+       cx="42.306057"
+       cy="306.4071"
+       rx="15.151813"
+       ry="14.901884" />
+    <text
+       xml:space="preserve"
+       style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="42.482647"
+       y="304.59296"
+       id="text8456-4"><tspan
+         sodipodi:role="line"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="42.482647"
+         y="304.59296"
+         id="tspan8460-4">AGI</tspan><tspan
+         sodipodi:role="line"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="42.482647"
+         y="311.6485"
+         id="tspan8458-7">2.0</tspan></text>
+  </g>
+</svg>
