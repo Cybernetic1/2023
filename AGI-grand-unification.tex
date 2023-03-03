@@ -214,6 +214,14 @@ $a$ = action,\\
 \vcenter{\hbox{\includegraphics[scale=1]{LLM-vs-RL-vs-brain.png}}}
 \end{equation}
 
+在状态之中 某些命题 update，但其他命题 可以不变。 
+
+RL 里面，weights 决定 next state，utility 决定 next state，weights 决定 utility = energy = probability distribution over next states.  但 current state 的 utility value 似乎很难获得？  
+
+State 跟 action 的分别，似乎就是 新命题 跟 命题集合 的分别。 
+
+在大脑中，命题似乎有 位置的固定性。 
+
 \underconst \quad 这部分暂时仍未想清楚....
 
 {\color{red}TO-DO:} \reduline{求出 Hopfield-Boltzmann machine 的 \textbf{learning} update rule}.  但它似乎是根据 \textbf{记忆} 而 update 的？？
