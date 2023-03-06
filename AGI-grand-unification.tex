@@ -197,7 +197,24 @@ where partition function $\displaystyle Z = \sum_U e^{-\mathcal{E}(U)/T} $
 
 {\color{red}TO-DO:} \reduline{求出 现代版的 Hopfield network 的 Boltzmann state update rule}.
 
-\subsection{与强化学习 结合}
+
+{\color{red}TO-DO:} \reduline{求出 Hopfield-Boltzmann machine 的 \textbf{learning} update rule}.  但它似乎是根据 \textbf{记忆} 而 update 的？？
+
+\end{minipage}
+\end{preview}
+
+\begin{preview}
+\begin{minipage}{\textwidth}
+\setlength{\parskip}{0.4\baselineskip}
+
+\begin{textblock*}{20cm}(2.1cm,2cm) % {block width} (coords) 
+	{\color{red}{\large \textcircled{\small 2}}}
+	\hspace{8cm}
+	\color{blue}{\footnotesize \cc{AGI 大统一理论}{AGI Unification}}
+\end{textblock*}
+\vspace*{0.3cm} 
+
+\section{与强化学习 结合}
 
 强化学习 的 \textbf{Bellman update} 是根据 某个 output 的 reward, 例如我比较熟悉的 Q-Learning 的 temporal difference update:
 \begin{equation}
@@ -214,6 +231,8 @@ $a$ = action,\\
 \vcenter{\hbox{\includegraphics[scale=1]{LLM-vs-RL-vs-brain.png}}}
 \end{equation}
 
+从 model-based RL 的角度看（例如 PILCO），需要 预测世界。 但这不包括预测自己的思想。 但基于感觉资料的思想 包括对世界的预测。 模型就是对世界的思想。 究竟 model-based 跟 model-free 有什么分别？  对 世界的预测 帮助 寻找最佳的对策。 但我说 对世界的预测 是 sensory-based inference 而已。  
+
 在状态之中 某些命题 update，但其他命题 可以不变。 
 
 RL 里面，weights 决定 next state，utility 决定 next state，weights 决定 utility = energy = probability distribution over next states.  但 current state 的 utility value 似乎很难获得？  
@@ -224,28 +243,10 @@ State 跟 action 的分别，似乎就是 新命题 跟 命题集合 的分别�
 
 \underconst \quad 这部分暂时仍未想清楚....
 
-{\color{red}TO-DO:} \reduline{求出 Hopfield-Boltzmann machine 的 \textbf{learning} update rule}.  但它似乎是根据 \textbf{记忆} 而 update 的？？
-
-\end{minipage}
-\end{preview}
-
-\begin{comment}
-\begin{preview}
-\begin{minipage}{\textwidth}
-\setlength{\parskip}{0.4\baselineskip}
-
-\begin{textblock*}{20cm}(2.1cm,2cm) % {block width} (coords) 
-	{\color{red}{\large \textcircled{\small 2}}}
-	\hspace{8cm}
-	\color{blue}{\footnotesize \cc{AGI 大统一理论}{AGI Unification}}
-\end{textblock*}
-\vspace*{0.3cm} 
-
 \section{大脑}
 
 
 \end{minipage}
 \end{preview}
-\end{comment}
 
 \end{document}
