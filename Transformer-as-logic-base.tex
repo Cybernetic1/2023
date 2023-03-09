@@ -108,7 +108,7 @@ For example:
 
 Propositions are made up of \textbf{atomic concepts}, but here, at the sub-propositional level, atoms cannot be permuted freely, eg:
 \begin{equation}
-\mbox{I} \cdot \mbox{love} \cdot \mbox{you} \quad \neq \quad \mbox{you} \cdot \mbox{love} \cdot \mbox{me}
+\mbox{I} \cdot \mbox{love} \cdot \mbox{her} \quad \neq \quad \mbox{she} \cdot \mbox{loves} \cdot \mbox{me}
 \end{equation}
 otherwise there would be no such things as heart-breaks.
 
@@ -122,11 +122,13 @@ There would be a huge number of rules in the Knowledge Base, and the system need
 \vcenter{\hbox{\includegraphics[scale=1]{../2022/rete-explained-1b.png}}}
 \end{equation}
 
-For the Transformer, it is a kind of memory stored \textbf{between} input elements (stored as the $Q, K, V$ matrices), and it \textbf{implicitly} plays the role of a logic rules-base:
+For the Transformer, it is a kind of memory stored \textbf{between} input elements (stored as the $Q, K, V$ matrices), and it \textbf{implicitly} plays the role of a logic rule-base:
 \begin{equation}
 \label{fig:self-attention-as-Rete}
 \vcenter{\hbox{\includegraphics[scale=0.9]{../2022/rete-explained-3b.png}}}
 \end{equation}
+
+A crucial insight is that the \textbf{Self-Attention} mechanism had its origin in NTMs (\textbf{Neural Turing Machines}) proposed by Graves \textit{et al} 2014.  The Turing machine needs to have a ``memory tape'' but in the neural setting this memory must be \textit{differentiable}.  If the memory is addressed by an index $i \in \mathbb{N}$, then it won't be differentiable.  So they came up with a \textbf{content-addressable} memory mechanism where a memory matrix is looked up using the ``query-key-value'' method.  A nice explantion of NTMs can be found in the book \textit{Fundamentals of Deep Learning} [Buduma, Locascio 2017].
 
 Now consider LLMs (\textbf{Large Language Models}) such as BERT and GPT.
 

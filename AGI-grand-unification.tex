@@ -216,6 +216,43 @@ where partition function $\displaystyle Z = \sum_U e^{-\mathcal{E}(U)/T} $
 
 \section{与强化学习 结合}
 
+\subsection{LLM 内部很可能存在冗余}
+
+LLM (大型语言模型) 是根据 自回归 (auto-regression, 强迫模型的输出跟输入一样) 的原理训练。 在这种模式下，Transformer 用大约一半的资源，将输入句子转化成一个 \reduline{具有高度抽象语义的 内在表示}。 它的后半部 利用这个抽象表示 去预测掩盖了的词语：
+\begin{equation}
+\vcenter{\hbox{\includegraphics[scale=1]{redundancy-in-LLM-1.png}}}
+\end{equation}
+在一个智能系统里面，其实我们最需要的是 中间的那个 hidden representation，用来做「下游」的工作，但不一定是预测词语，所以后半部对智能系统来说，构成了一种\textbf{冗余}。
+
+有两个做法： 一是接受这个冗余，继续将整个 AGI 系统做出来。 二是改变系统架构，重新训练一个更合乎直观的模型。
+
+个人认为 强化学习 模型 更为直观，可以省却很多理解上的「拐弯抹角」，令 AGI 的设计更清晰：
+\begin{equation}
+\vcenter{\hbox{\includegraphics[scale=1]{redundancy-in-LLM-2.png}}}
+\end{equation}
+这个 transition function 就是一个类似 Transformer 的函数。
+
+\subsection[Transformer]{Transformer $\rightarrow$ Hopfield $\rightarrow$ Boltzmann}
+
+在强化学习里，系统需要 \textbf{储存} 并 \textbf{学习} 一个分布在所有状态或动作（包括 思维动作，即「思维空间」）之上的 \textbf{概率分布}。 由于思维空间是一个庞大的 高维向量空间，在计算机上很难处理。 （数学家们很轻松就写下这种空间，但我们必需考虑实践的可行性。 有人打趣说：「计算机学家就是赶时间的数学家」）
+
+不能简单地用 Transformer 输出这个 概率分布。 目前习惯是，Transformer 输出的 token，会乘上一个矩阵，让输出转换成一支很长的向量，它代表 词典里每个词的概率分布。 但这个 trick 转到 思维空间上就不管用了，因为将所有可能的思维枚举出来 不切实际。
+
+于是我们想到一个办法就是，用「隐式」的方法表示这个概率分布。 关键是一篇名为 “\textit{Hopfield Network is All You Need}” 的论文。 Hochreiter et al 论证，Transformer 是 Hopfield 网络的一个特例。
+
+Hopfield 网络是一种 特别简单的 fully-connected 神经网络，它具有 associative memory 的特性，可以凭部分 pattern 回忆整个 pattern. 记忆由神经元之间的 \textbf{连接权重} 决定，而这些权重定义了一个 \textbf{能量函数}。 Hopfield 网络就是统计物理学里面的 Ising model 应用到了神经网络上。 
+
+Hopfield 网络的能量函数可以转变为 概率，那就是 Boltzmann machine.  这个东西在深度学习里占有举足轻重的地位； Hinton、Bengio、LeCun 等人 都深入地研究过它，特别是因为它适用于 强化学习。 它也叫作 EBM (energy-based models).
+
+Transformer 可以轻易地转变为 Hopfield 网络，然后变成 EBM.  那么，根据强化学习的 Bellman 方程，必然可以找到它的 learning update rule, 于是可以建立 AGI 的最基本模型。
+
+这里还有一点细节需要想明白： 在 RL 的「状态」里面有很多逻辑命题，它们互相激活，导致下一个结论命题的出现。 这情况跟大脑里的 ``areas'' 互相激活 很相似。 或许大脑 可以给我们一些启发，如何更有效率地组织 大量 神经元之间的连接？
+\begin{equation}
+\vcenter{\hbox{\includegraphics[scale=1]{LLM-vs-RL-vs-brain.png}}}
+\end{equation}
+ 
+\subsection{RL update rule}
+
 强化学习 的 \textbf{Bellman update} 是根据 某个 output 的 reward, 例如我比较熟悉的 Q-Learning 的 temporal difference update:
 \begin{equation}
 Q(s,a) \mathrel{+}= \eta\left[ R + \gamma \Delta Q \right]
