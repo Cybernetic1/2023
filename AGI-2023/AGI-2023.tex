@@ -1,0 +1,146 @@
+% This is samplepaper.tex, a sample chapter demonstrating the
+% LLNCS macro package for Springer Computer Science proceedings;
+% Version 2.21 of 2022/01/12
+%
+\documentclass[runningheads]{llncs}
+%
+\usepackage[T1]{fontenc}
+% T1 fonts will be used to generate the final print and online PDFs,
+% so please use T1 fonts in your manuscript whenever possible.
+% Other font encondings may result in incorrect characters.
+%
+\usepackage{graphicx}
+% Used for displaying a sample figure. If possible, figure files should
+% be included in EPS format.
+%
+% If you use the hyperref package, please uncomment the following two lines
+% to display URLs in blue roman font according to Springer's eBook style:
+%\usepackage{color}
+%\renewcommand\UrlFont{\color{blue}\rmfamily}
+%
+\usepackage[backend=biber]{biblatex}
+\bibliography{../../AGI-book}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{float}
+\usepackage[many]{tcolorbox}
+
+\newcommand{\circled}[1]{{\textcircled{\sffamily \scriptsize{#1}}}}
+\tcbset{on line, 
+	boxsep=4pt, left=0pt,right=0pt,top=0pt,bottom=0pt,
+	colframe=red,colback=pink,
+	highlight math style={enhanced}
+}
+\newcommand{\atom}{\vcenter{\hbox{\tcbox{\mbox{     }}}}}
+
+\setlength{\abovedisplayskip}{10pt}
+\setlength{\belowdisplayskip}{10pt}
+
+\begin{document}
+%
+\title{Transformer as Symbolic Logic Rule-Base}
+%
+%\titlerunning{Abbreviated paper title}
+% If the paper title is too long for the running head, you can set
+% an abbreviated paper title here
+%
+\author{Yan King Yin\inst{1}\orcidID{0009-0007-8238-2442} \and
+Second Author\inst{2}\orcidID{1111-2222-3333-4444}}
+%
+\authorrunning{Yan et al.}
+% First names are abbreviated in the running head.
+% If there are more than two authors, 'et al.' is used.
+%
+\institute{\email{general.intelligence@gmail.com}\\ \and
+Springer Heidelberg, Tiergartenstr. 17, 69121 Heidelberg, Germany
+}
+%
+\maketitle              % typeset the header of the contribution
+%
+\begin{abstract}
+This short paper shows that Transformers can implement a certain flavor of symbolic-logic rules engine.  As Transformers are shown to be Turing universal\cite{Wei2021}, this should come as no surprise, but such an insight could be a cornerstone for neuro-symbolic AGI.
+
+\keywords{Transformer \and Self-Attention \and symbolic logic \and neuro-symbolic AI}
+\end{abstract}
+%
+%
+
+\begin{figure}
+	\includegraphics[scale=0.5]{fig1.png}
+	\caption{}
+	\label{fig1}
+\end{figure}
+
+Fig \ref{fig1}\circled{A} shows a schematic diagram of Transformer, which serves as a refresher, assuming the reader is familiar with its workings.  ``Input'' tokens are translated to $Q,K,V$ (query, key, value)'s via matrix multiplication, which can be regarded as a kind of table look-up, or \textbf{memory store} \ref{fig1}\circled{B}.  From an abstract point of view, the Transformer has the following structure, which gives rise to its \textbf{equivariance} property (if input elements are swapped in a certain order, the output elements changes the same way) \ref{fig1}\circled{C}.
+
+The equivariance property corresponds to the \textbf{exchangeability} of logic propositions:
+\begin{equation}
+A \wedge B \quad \Leftrightarrow \quad B \wedge A
+\end{equation}
+For example:
+\begin{equation}
+\mbox{it's raining} \wedge \mbox{I'm heart-broken} \quad \Leftrightarrow \quad \mbox{I'm heart-broken} \wedge \mbox{it's raining}
+\end{equation}
+Propositions are made up of \textbf{atomic concepts}, but here, at the sub-propositional level, atoms cannot be permuted freely, eg:
+\begin{equation}
+\mbox{I} \cdot \mbox{love} \cdot \mbox{her} \quad \neq \quad \mbox{she} \cdot \mbox{loves} \cdot \mbox{me}
+\end{equation}
+otherwise there would be no such things as heart-breaks.
+
+\begin{figure}[H]
+	\includegraphics[scale=0.6]{fig2.png}
+	\caption{}
+	\label{fig2}
+\end{figure}
+
+Now let's refresh a bit on \textbf{classical logic-based AI}.  This is its basic architecture \ref{fig2}\circled{A}.  There would be a huge number of rules in the Knowledge Base, and the system needs to match these rules one by one against propositions in the system's \textbf{state} (= working memory) \ref{fig2}\circled{B}.
+
+For the Transformer, it is a kind of memory stored \textbf{between} input elements (stored as the $Q, K, V$ matrices), and it \textbf{implicitly} plays the role of a logic rule-base \ref{fig2}\circled{C}.
+
+A crucial insight is that the \textbf{Self-Attention} mechanism had its origin in NTMs (\textbf{Neural Turing Machines}) proposed by Graves \textit{et al} 2014.  The Turing machine needs to have a ``memory tape'' but in the neural setting this memory must be \textit{differentiable}.  If the memory is addressed by an index $i \in \mathbb{N}$, then it won't be differentiable.  So they came up with a \textbf{content-addressable} memory mechanism where a memory matrix is looked up using the ``query-key-value'' method.  A nice explantion of NTMs can be found in the book \textit{Fundamentals of Deep Learning} [Buduma, Locascio 2017].
+
+\begin{figure}[h]
+	\includegraphics[scale=0.6]{fig3.png}
+	\caption{}
+	\label{fig3}
+\end{figure}
+
+Now consider LLMs (\textbf{Large Language Models}) such as BERT or GPT.  Given a natural-language sentence, we'd like to convert or \textbf{decompose} it into a bunch of logic propositions \ref{fig3}.  The structure on the right of (\ref{fig3}) is a \textbf{mental state} of a logical AI system.  It is composed of (exchangeable) propositions, which are in turn made up of atomic concepts.  This 2-level structure is characteristic of all \textbf{logical} systems.
+
+Surprisingly, I found that the Transformer completely satisfies this 2-level logic structure.
+
+On the \textbf{first layer}, a Transformer transforms each input word token into one proposition \ref{fig3}.
+
+The crucial point here is that the propositions are composed of atoms ($\atom$), this is achieved in the Transformer by \textbf{adding} vectors (that represent atomic concepts), ie, by \textbf{superposition}.  Note also that the Transformer is equivariant, so we must add ``positional encoding'' to each word, to indicate their ordering.
+
+At \textbf{higher layers}, there is no need for positional encoding, and logic propositions can be freely exchanged, exactly as what happens in Transformers \ref{fig3}.
+
+Note that in the above, every $\Uparrow$ arrow uses the same $(Q,K,V)$ matrices as ``rule-base'', that may limit the number of rules that can be represented.  To circumvent this, \textbf{Multi-Head Attention} allows to use different $(Q,K,V)$ matrices on the same layer.
+
+\begin{theorem}
+This is a sample theorem. The run-in heading is set in bold, while
+the following text appears in italics. Definitions, lemmas,
+propositions, and corollaries are styled the same way.
+\end{theorem}
+%
+% the environments 'definition', 'lemma', 'proposition', 'corollary',
+% 'remark', and 'example' are defined in the LLNCS documentclass as well.
+%
+
+% \subsubsection{Acknowledgements} Please place your acknowledgments at
+% the end of the paper, preceded by an unnumbered run-in heading (i.e.
+% 3rd-level heading).
+
+%
+% ---- Bibliography ----
+%
+% BibTeX users should specify bibliography style 'splncs04'.
+% References will then be sorted and formatted in the correct style.
+%
+% \bibliographystyle{splncs04}
+% \bibliography{mybibliography}
+%
+%\begin{thebibliography}{8}
+\printbibliography
+\end{document}
