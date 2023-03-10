@@ -116,6 +116,19 @@
 
 \section{Hopfield 网络}
 
+Hopfield 网络是一种 特别简单的 fully-connected 神经网络，它具有 \textbf{associative memory} 的特性，可以凭部分 pattern 回忆整个 pattern:
+\begin{equation}
+\vcenter{\hbox{\includegraphics[scale=0.7]{Hopfield-network-example.png}}}
+\end{equation}
+记忆由神经元之间的 \textbf{连接权重} 决定，而这些权重定义了一个 \textbf{能量函数}。 Hopfield 网络就是统计物理学里面的 \textbf{Ising model} 应用到了神经网络上。 
+
+可以将一个 Hopfield 网络 铺平 画成这样:
+\begin{equation}
+\vcenter{\hbox{\includegraphics[scale=0.7]{Hopfield-network-1.png}}}
+\label{fig:Hopfield-network}
+\end{equation}
+注意它不是 feed-forward 网络，它的 输入 和 输出 在同一地方。
+
 \subsection{经典 Hopfield 网络}
 
 我们的符号跟随 \textit{Hopfield Network is All You Need}.
@@ -174,6 +187,11 @@ Query patterns = $\vect{R} = (\vect{r}_1, ... , \vect{r}_M)$ 是网络的\textbf
 $\vect{Y}$ 就是 Hopfield 记忆里的 patterns，它们担任 Transformer 里 \textbf{keys} 的角色。
 
 在 Self-Attention 里，$\vect{R} = \vect{Y}$.
+
+跟图 (\ref{fig:Hopfield-network}) 比较，这个是 受 Transformer 结构 约束的 Hopfield 网络：
+\begin{equation}
+\vcenter{\hbox{\includegraphics[scale=0.7]{Hopfield-network-as-Transformer.png}}}
+\end{equation}
 
 \subsection{Boltzmann 机}
 
@@ -239,8 +257,6 @@ LLM (大型语言模型) 是根据 自回归 (auto-regression, 强迫模型的�
 不能简单地用 Transformer 输出这个 概率分布。 目前习惯是，Transformer 输出的 token，会乘上一个矩阵，让输出转换成一支很长的向量，它代表 词典里每个词的概率分布。 但这个 trick 转到 思维空间上就不管用了，因为将所有可能的思维枚举出来 不切实际。
 
 于是我们想到一个办法就是，用「隐式」的方法表示这个概率分布。 关键是一篇名为 “\textit{Hopfield Network is All You Need}” 的论文。 Hochreiter et al 论证，Transformer 是 Hopfield 网络的一个特例。
-
-Hopfield 网络是一种 特别简单的 fully-connected 神经网络，它具有 associative memory 的特性，可以凭部分 pattern 回忆整个 pattern. 记忆由神经元之间的 \textbf{连接权重} 决定，而这些权重定义了一个 \textbf{能量函数}。 Hopfield 网络就是统计物理学里面的 Ising model 应用到了神经网络上。 
 
 Hopfield 网络的能量函数可以转变为 概率，那就是 Boltzmann machine.  这个东西在深度学习里占有举足轻重的地位； Hinton、Bengio、LeCun 等人 都深入地研究过它，特别是因为它适用于 强化学习。 它也叫作 EBM (energy-based models).
 

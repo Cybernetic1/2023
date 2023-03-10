@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="147.54187mm"
    height="132.42101mm"
    viewBox="0 0 147.54187 132.421"
    version="1.1"
    id="svg9913"
-   inkscape:version="1.2.2 (1:1.2.2+202212051550+b0a8486541)"
+   inkscape:version="1.0.2 (1.0.2+r75+1)"
    sodipodi:docname="LLM-RL-brain.svg"
    inkscape:export-filename="LLM-vs-RL-vs-brain.png"
    inkscape:export-xdpi="192"
-   inkscape:export-ydpi="192"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:dc="http://purl.org/dc/elements/1.1/">
+   inkscape:export-ydpi="192">
   <defs
      id="defs9907">
     <marker
@@ -1011,7 +1011,7 @@
        inkscape:collect="always"
        preserveAspectRatio="xMidYMid">
       <path
-         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.5pt"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:#000000;stroke-width:0.5pt;stroke-opacity:1"
          d="M 2.885,0 -1.44,2.5 v -5 z"
          id="path135-9-1" />
     </marker>
@@ -1029,7 +1029,7 @@
        inkscape:collect="always"
        preserveAspectRatio="xMidYMid">
       <path
-         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.5pt"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:#000000;stroke-width:0.5pt;stroke-opacity:1"
          d="M 2.885,0 -1.44,2.5 v -5 z"
          id="path135-9-1-1" />
     </marker>
@@ -1047,7 +1047,7 @@
        inkscape:collect="always"
        preserveAspectRatio="xMidYMid">
       <path
-         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.5pt"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:#000000;stroke-width:0.5pt;stroke-opacity:1"
          d="M 2.885,0 -1.44,2.5 v -5 z"
          id="path135-9-1-9" />
     </marker>
@@ -1065,7 +1065,7 @@
        inkscape:collect="always"
        preserveAspectRatio="xMidYMid">
       <path
-         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.5pt"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:#000000;stroke-width:0.5pt;stroke-opacity:1"
          d="M 2.885,0 -1.44,2.5 v -5 z"
          id="path135-9-1-7" />
     </marker>
@@ -1083,7 +1083,7 @@
        inkscape:collect="always"
        preserveAspectRatio="xMidYMid">
       <path
-         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.5pt"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:#000000;stroke-width:0.5pt;stroke-opacity:1"
          d="M 2.885,0 -1.44,2.5 v -5 z"
          id="path135-9-1-5" />
     </marker>
@@ -1101,7 +1101,7 @@
        inkscape:collect="always"
        preserveAspectRatio="xMidYMid">
       <path
-         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.5pt"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:#000000;stroke-width:0.5pt;stroke-opacity:1"
          d="M 2.885,0 -1.44,2.5 v -5 z"
          id="path135-9-1-1-9" />
     </marker>
@@ -1119,7 +1119,7 @@
        inkscape:collect="always"
        preserveAspectRatio="xMidYMid">
       <path
-         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.5pt"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:#000000;stroke-width:0.5pt;stroke-opacity:1"
          d="M 2.885,0 -1.44,2.5 v -5 z"
          id="path135-9-1-12" />
     </marker>
@@ -1137,7 +1137,7 @@
        inkscape:collect="always"
        preserveAspectRatio="xMidYMid">
       <path
-         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.5pt"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:#000000;stroke-width:0.5pt;stroke-opacity:1"
          d="M 2.885,0 -1.44,2.5 v -5 z"
          id="path135-9-1-1-3" />
     </marker>
@@ -1155,7 +1155,7 @@
        inkscape:collect="always"
        preserveAspectRatio="xMidYMid">
       <path
-         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.5pt"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:#000000;stroke-width:0.5pt;stroke-opacity:1"
          d="M 2.885,0 -1.44,2.5 v -5 z"
          id="path135-9-1-1-9-0" />
     </marker>
@@ -1173,7 +1173,7 @@
        inkscape:collect="always"
        preserveAspectRatio="xMidYMid">
       <path
-         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.5pt"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:#000000;stroke-width:0.5pt;stroke-opacity:1"
          d="M 2.885,0 -1.44,2.5 v -5 z"
          id="path135-9-1-7-8" />
     </marker>
@@ -1191,7 +1191,7 @@
        inkscape:collect="always"
        preserveAspectRatio="xMidYMid">
       <path
-         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.5pt"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:#000000;stroke-width:0.5pt;stroke-opacity:1"
          d="M 2.885,0 -1.44,2.5 v -5 z"
          id="path135-9-1-9-0" />
     </marker>
@@ -1209,7 +1209,7 @@
        inkscape:collect="always"
        preserveAspectRatio="xMidYMid">
       <path
-         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.5pt"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:#000000;stroke-width:0.5pt;stroke-opacity:1"
          d="M 2.885,0 -1.44,2.5 v -5 z"
          id="path135-9-1-5-6" />
     </marker>
@@ -1227,7 +1227,7 @@
        inkscape:collect="always"
        preserveAspectRatio="xMidYMid">
       <path
-         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.5pt"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:#000000;stroke-width:0.5pt;stroke-opacity:1"
          d="M 2.885,0 -1.44,2.5 v -5 z"
          id="path135-9-1-12-8" />
     </marker>
@@ -1245,7 +1245,7 @@
        inkscape:collect="always"
        preserveAspectRatio="xMidYMid">
       <path
-         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.5pt"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:#000000;stroke-width:0.5pt;stroke-opacity:1"
          d="M 2.885,0 -1.44,2.5 v -5 z"
          id="path135-9-1-1-3-8" />
     </marker>
@@ -1263,7 +1263,7 @@
        inkscape:collect="always"
        preserveAspectRatio="xMidYMid">
       <path
-         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.5pt"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:#000000;stroke-width:0.5pt;stroke-opacity:1"
          d="M 2.885,0 -1.44,2.5 v -5 z"
          id="path135-9-1-1-9-0-0" />
     </marker>
@@ -1281,7 +1281,7 @@
        inkscape:collect="always"
        preserveAspectRatio="xMidYMid">
       <path
-         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.5pt"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:#000000;stroke-width:0.5pt;stroke-opacity:1"
          d="M 2.885,0 -1.44,2.5 v -5 z"
          id="path135-9-1-7-8-0" />
     </marker>
@@ -1299,7 +1299,7 @@
        inkscape:collect="always"
        preserveAspectRatio="xMidYMid">
       <path
-         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.5pt"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:#000000;stroke-width:0.5pt;stroke-opacity:1"
          d="M 2.885,0 -1.44,2.5 v -5 z"
          id="path135-9-1-9-0-4" />
     </marker>
@@ -1317,7 +1317,7 @@
        inkscape:collect="always"
        preserveAspectRatio="xMidYMid">
       <path
-         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.5pt"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:#000000;stroke-width:0.5pt;stroke-opacity:1"
          d="M 2.885,0 -1.44,2.5 v -5 z"
          id="path135-9-1-5-6-4" />
     </marker>
@@ -1371,7 +1371,7 @@
        inkscape:collect="always"
        preserveAspectRatio="xMidYMid">
       <path
-         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.5pt"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:#000000;stroke-width:0.5pt;stroke-opacity:1"
          d="M 2.885,0 -1.44,2.5 v -5 z"
          id="path135-9-1-5-6-4-1" />
     </marker>
@@ -1389,7 +1389,7 @@
        inkscape:collect="always"
        preserveAspectRatio="xMidYMid">
       <path
-         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.5pt"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:#000000;stroke-width:0.5pt;stroke-opacity:1"
          d="M 2.885,0 -1.44,2.5 v -5 z"
          id="path135-9-1-9-0-4-0" />
     </marker>
@@ -1407,7 +1407,7 @@
        inkscape:collect="always"
        preserveAspectRatio="xMidYMid">
       <path
-         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.5pt"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:#000000;stroke-width:0.5pt;stroke-opacity:1"
          d="M 2.885,0 -1.44,2.5 v -5 z"
          id="path135-9-1-12-8-5" />
     </marker>
@@ -1425,7 +1425,7 @@
        inkscape:collect="always"
        preserveAspectRatio="xMidYMid">
       <path
-         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.5pt"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:#000000;stroke-width:0.5pt;stroke-opacity:1"
          d="M 2.885,0 -1.44,2.5 v -5 z"
          id="path135-9-1-5-6-4-1-2" />
     </marker>
@@ -1443,7 +1443,7 @@
        inkscape:collect="always"
        preserveAspectRatio="xMidYMid">
       <path
-         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.5pt"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:#000000;stroke-width:0.5pt;stroke-opacity:1"
          d="M 2.885,0 -1.44,2.5 v -5 z"
          id="path135-9-1-5-6-4-1-2-6" />
     </marker>
@@ -1456,14 +1456,14 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="-544"
-     inkscape:cy="695.5"
+     inkscape:cx="-828.5"
+     inkscape:cy="641.47403"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1055"
+     inkscape:window-height="1059"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -1521,27 +1521,37 @@
        id="rect962-3-7"
        style="fill:none;stroke:#000000;stroke-width:0.529167;marker-start:url(#TriangleStart-2-9)"
        d="m 485.50691,88.158945 c 0.0267,-9.142295 -15.22825,-9.25665 -15.05115,7.872945 0.12214,11.81425 12.13365,19.43404 15.05115,5.07218"
-       sodipodi:nodetypes="csc" />
+       sodipodi:nodetypes="csc"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
     <path
        id="rect962-3-7-1"
        style="fill:none;stroke:#000000;stroke-width:0.529167;marker-start:url(#TriangleStart-2-9-7)"
        d="m 521.17113,88.104125 c 0.0267,-9.1423 -15.22825,-9.25665 -15.05115,7.87294 0.12214,11.814255 12.13365,19.434045 15.05115,5.072185"
-       sodipodi:nodetypes="csc" />
+       sodipodi:nodetypes="csc"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
     <path
        id="rect962-3-7-1-4"
        style="fill:none;stroke:#000000;stroke-width:0.529167;marker-start:url(#TriangleStart-2-9-7-3)"
        d="m 530.08719,88.104125 c 0.0267,-9.1423 -15.22825,-9.25665 -15.05115,7.87294 0.12214,11.814255 12.13365,19.434045 15.05115,5.072185"
-       sodipodi:nodetypes="csc" />
+       sodipodi:nodetypes="csc"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
     <path
        id="rect962-3-7-3"
        style="fill:none;stroke:#000000;stroke-width:0.529167;marker-start:url(#TriangleStart-2-9-76)"
        d="m 512.25508,88.010814 c 0.0267,-9.142295 -15.22825,-9.25665 -15.05115,7.872945 0.12214,11.814251 12.13365,19.434041 15.05115,5.072181"
-       sodipodi:nodetypes="csc" />
+       sodipodi:nodetypes="csc"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
     <path
        id="rect962-3-7-7"
        style="fill:none;stroke:#000000;stroke-width:0.529167;marker-start:url(#TriangleStart-2-9-5)"
        d="m 494.42297,87.980926 c 0.0267,-9.1423 -15.22825,-9.25665 -15.05115,7.87294 0.12214,11.814254 12.13365,19.434044 15.05115,5.072184"
-       sodipodi:nodetypes="csc" />
+       sodipodi:nodetypes="csc"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
     <g
        id="g686-8-1"
        transform="translate(60.180343,-48.329749)">
@@ -4532,39 +4542,61 @@
        id="rect962-3-7-6"
        style="fill:none;stroke:#000000;stroke-width:0.529167;marker-start:url(#TriangleStart-2-9-6)"
        d="m 503.33902,88.116428 c 0.0267,-9.142295 -15.22825,-9.25665 -15.05115,7.872945 0.12214,11.814247 12.13365,19.434037 15.05115,5.072177"
-       sodipodi:nodetypes="csc" />
+       sodipodi:nodetypes="csc"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
     <path
        id="rect962-3-7-38"
        style="fill:none;stroke:#000000;stroke-width:0.529167;marker-start:url(#TriangleStart-2-9-8)"
        d="m 484.90356,132.07434 c 0.0267,-9.1423 -15.22825,-9.25665 -15.05115,7.87294 0.12214,11.81425 12.13365,19.43404 15.05115,5.07218"
-       sodipodi:nodetypes="csc" />
+       sodipodi:nodetypes="csc"
+       inkscape:export-filename="./Hopfield-network-as-Transformer.png"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
     <path
        id="rect962-3-7-1-5"
        style="fill:none;stroke:#000000;stroke-width:0.529167;marker-start:url(#TriangleStart-2-9-7-9)"
        d="m 521.41446,132.01952 c 0.0267,-9.1423 -15.22825,-9.25665 -15.05115,7.87293 0.12214,11.81426 12.13365,19.43405 15.05115,5.07219"
-       sodipodi:nodetypes="csc" />
+       sodipodi:nodetypes="csc"
+       inkscape:export-filename="./Hopfield-network-as-Transformer.png"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
     <path
        id="rect962-3-7-1-4-6"
        style="fill:none;stroke:#000000;stroke-width:0.529167;marker-start:url(#TriangleStart-2-9-7-3-9)"
        d="m 530.54218,132.01952 c 0.0267,-9.1423 -15.22825,-9.25665 -15.05115,7.87293 0.12214,11.81426 12.13365,19.43405 15.05115,5.07219"
-       sodipodi:nodetypes="csc" />
+       sodipodi:nodetypes="csc"
+       inkscape:export-filename="./Hopfield-network-as-Transformer.png"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
     <path
        id="rect962-3-7-3-1"
        style="fill:none;stroke:#000000;stroke-width:0.529167;marker-start:url(#TriangleStart-2-9-76-8)"
        d="m 512.28673,131.92621 c 0.0267,-9.1423 -15.22825,-9.25665 -15.05115,7.87294 0.12214,11.81425 12.13365,19.43404 15.05115,5.07218"
-       sodipodi:nodetypes="csc" />
+       sodipodi:nodetypes="csc"
+       inkscape:export-filename="./Hopfield-network-as-Transformer.png"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
     <path
        id="rect962-3-7-7-1"
        style="fill:none;stroke:#000000;stroke-width:0.529167;marker-start:url(#TriangleStart-2-9-5-5)"
        d="m 494.03128,131.89632 c 0.0267,-9.1423 -15.22825,-9.25665 -15.05115,7.87294 0.12214,11.81425 12.13365,19.43404 15.05115,5.07218"
-       sodipodi:nodetypes="csc" />
+       sodipodi:nodetypes="csc"
+       inkscape:export-filename="./Hopfield-network-as-Transformer.png"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
     <path
        id="rect962-3-7-6-5"
        style="fill:none;stroke:#000000;stroke-width:0.529167;marker-start:url(#TriangleStart-2-9-6-9)"
        d="m 503.15901,132.03182 c 0.0267,-9.14229 -15.22825,-9.25665 -15.05115,7.87294 0.12214,11.81425 12.13365,19.43404 15.05115,5.07218"
-       sodipodi:nodetypes="csc" />
+       sodipodi:nodetypes="csc"
+       inkscape:export-filename="./Hopfield-network-as-Transformer.png"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
     <g
-       id="g36498">
+       id="g5004"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192">
       <rect
          style="fill:#ffff00;stroke:#000000;stroke-width:0.264583"
          id="rect4029-2-6-2-6-6-6-0-5-2-0-3-6-2-4-2-3-7-4-9"
@@ -4581,7 +4613,9 @@
          style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
          x="490.02066"
          y="95.614029"
-         id="text32874-3-2-13-37-8-4-7"><tspan
+         id="text32874-3-2-13-37-8-4-7"
+         inkscape:export-xdpi="192"
+         inkscape:export-ydpi="192"><tspan
            sodipodi:role="line"
            id="tspan32872-85-0-74-2-9-5-2"
            style="stroke-width:0.264583"
@@ -4592,7 +4626,9 @@
          style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
          x="512.12634"
          y="95.543762"
-         id="text32874-3-2-7-0-6-04-3-6"><tspan
+         id="text32874-3-2-7-0-6-04-3-6"
+         inkscape:export-xdpi="192"
+         inkscape:export-ydpi="192"><tspan
            sodipodi:role="line"
            id="tspan32872-85-0-59-3-4-8-0-1"
            style="stroke-width:0.264583"
@@ -4626,6 +4662,13 @@
          x="525.96515"
          y="93.749016"
          ry="1.6175715"
+         inkscape:export-xdpi="192"
+         inkscape:export-ydpi="192" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 527.55266,95.336516 15.01033,-2.881895"
+         id="path4907"
+         sodipodi:nodetypes="cc"
          inkscape:export-xdpi="192"
          inkscape:export-ydpi="192" />
     </g>
@@ -4667,7 +4710,10 @@
          y="89.625771">=</tspan></text>
     <g
        id="g37309"
-       transform="translate(-8.2878501,-5.4013499)">
+       transform="translate(-8.2878501,-5.4013499)"
+       inkscape:export-filename="./Hopfield-network-as-Transformer.png"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192">
       <rect
          style="fill:#ffff00;stroke:#000000;stroke-width:0.264583"
          id="rect4029-2-6-2-6-6-6-0-5-2-0-3-6-2-4-2-3-7-4"
@@ -4790,60 +4836,61 @@
     <path
        id="rect962-3-7-38-5"
        style="fill:none;stroke:#000000;stroke-width:0.529167;marker-start:url(#TriangleStart-2-9-8-9)"
-       d="m 488.20676,177.68469 c 0.0267,-9.1423 -15.22825,-9.25665 -15.05115,7.87294 0.12214,11.81425 12.13365,19.43404 15.05115,5.07218"
+       d="m 517.84028,177.68469 c 0.0267,-9.1423 -15.22825,-9.25665 -15.05115,7.87294 0.12214,11.81425 12.13365,19.43404 15.05115,5.07218"
        sodipodi:nodetypes="csc" />
     <path
        id="rect962-3-7-1-5-9"
        style="fill:none;stroke:#000000;stroke-width:0.529167;marker-start:url(#TriangleStart-2-9-7-9-4)"
-       d="m 522.76056,177.62987 c 0.0267,-9.1423 -15.22825,-9.25665 -15.05115,7.87293 0.12214,11.81426 12.13365,19.43405 15.05115,5.07219"
+       d="m 552.39408,177.62987 c 0.0267,-9.1423 -15.22825,-9.25665 -15.05115,7.87293 0.12214,11.81426 12.13365,19.43405 15.05115,5.07219"
        sodipodi:nodetypes="csc" />
     <path
        id="rect962-3-7-1-4-6-6"
        style="fill:none;stroke:#000000;stroke-width:0.529167;marker-start:url(#TriangleStart-2-9-7-3-9-1)"
-       d="m 531.39901,177.62987 c 0.0267,-9.1423 -15.22825,-9.25665 -15.05115,7.87293 0.12214,11.81426 12.13365,19.43405 15.05115,5.07219"
+       d="m 561.03253,177.62987 c 0.0267,-9.1423 -15.22825,-9.25665 -15.05115,7.87293 0.12214,11.81426 12.13365,19.43405 15.05115,5.07219"
        sodipodi:nodetypes="csc" />
     <path
        id="rect962-3-7-3-1-2"
        style="fill:none;stroke:#000000;stroke-width:0.529167;marker-start:url(#TriangleStart-2-9-76-8-3)"
-       d="m 514.12211,177.53656 c 0.0267,-9.1423 -15.22825,-9.25665 -15.05115,7.87294 0.12214,11.81425 12.13365,19.43404 15.05115,5.07218"
+       d="m 543.75563,177.53656 c 0.0267,-9.1423 -15.22825,-9.25665 -15.05115,7.87294 0.12214,11.81425 12.13365,19.43404 15.05115,5.07218"
        sodipodi:nodetypes="csc" />
     <path
        id="rect962-3-7-7-1-1"
        style="fill:none;stroke:#000000;stroke-width:0.529167;marker-start:url(#TriangleStart-2-9-5-5-4)"
-       d="m 496.84521,177.50667 c 0.0267,-9.1423 -15.22825,-9.25665 -15.05115,7.87294 0.12214,11.81425 12.13365,19.43404 15.05115,5.07218"
+       d="m 526.47873,177.50667 c 0.0267,-9.1423 -15.22825,-9.25665 -15.05115,7.87294 0.12214,11.81425 12.13365,19.43404 15.05115,5.07218"
        sodipodi:nodetypes="csc" />
     <path
        id="rect962-3-7-6-5-7"
        style="fill:none;stroke:#000000;stroke-width:0.529167;marker-start:url(#TriangleStart-2-9-6-9-4)"
-       d="m 505.48366,177.64217 c 0.0267,-9.14229 -15.22825,-9.25665 -15.05115,7.87294 0.12214,11.81425 12.13365,19.43404 15.05115,5.07218"
+       d="m 535.11718,177.64217 c 0.0267,-9.14229 -15.22825,-9.25665 -15.05115,7.87294 0.12214,11.81425 12.13365,19.43404 15.05115,5.07218"
        sodipodi:nodetypes="csc" />
     <path
        id="rect962-3-7-38-5-0"
        style="fill:none;stroke:#000000;stroke-width:0.529167;marker-start:url(#TriangleStart-2-9-8-9-8)"
-       d="m 445.01451,177.68469 c 0.0267,-9.1423 -15.22825,-9.25665 -15.05115,7.87294 0.12214,11.81425 12.13365,19.43404 15.05115,5.07218"
+       d="m 474.64803,177.68469 c 0.0267,-9.1423 -15.22825,-9.25665 -15.05115,7.87294 0.12214,11.81425 12.13365,19.43404 15.05115,5.07218"
        sodipodi:nodetypes="csc" />
     <path
        id="rect962-3-7-7-1-1-6"
        style="fill:none;stroke:#000000;stroke-width:0.529167;marker-start:url(#TriangleStart-2-9-5-5-4-1)"
-       d="m 453.65296,177.50667 c 0.0267,-9.1423 -15.22825,-9.25665 -15.05115,7.87294 0.12214,11.81425 12.13365,19.43404 15.05115,5.07218"
+       d="m 483.28648,177.50667 c 0.0267,-9.1423 -15.22825,-9.25665 -15.05115,7.87294 0.12214,11.81425 12.13365,19.43404 15.05115,5.07218"
        sodipodi:nodetypes="csc" />
     <path
        id="rect962-3-7-6-5-7-4"
        style="fill:none;stroke:#000000;stroke-width:0.529167;marker-start:url(#TriangleStart-2-9-6-9-4-5)"
-       d="m 470.92986,177.64217 c 0.0267,-9.14229 -15.22825,-9.25665 -15.05115,7.87294 0.12214,11.81425 12.13365,19.43404 15.05115,5.07218"
+       d="m 500.56338,177.64217 c 0.0267,-9.14229 -15.22825,-9.25665 -15.05115,7.87294 0.12214,11.81425 12.13365,19.43404 15.05115,5.07218"
        sodipodi:nodetypes="csc" />
     <path
        id="rect962-3-7-6-5-7-4-5"
        style="fill:none;stroke:#000000;stroke-width:0.529167;marker-start:url(#TriangleStart-2-9-6-9-4-5-6)"
-       d="m 462.29141,177.64217 c 0.0267,-9.14229 -15.22825,-9.25665 -15.05115,7.87294 0.12214,11.81425 12.13365,19.43404 15.05115,5.07218"
+       d="m 491.92493,177.64217 c 0.0267,-9.14229 -15.22825,-9.25665 -15.05115,7.87294 0.12214,11.81425 12.13365,19.43404 15.05115,5.07218"
        sodipodi:nodetypes="csc" />
     <path
        id="rect962-3-7-6-5-7-4-5-2"
        style="fill:none;stroke:#000000;stroke-width:0.529167;marker-start:url(#TriangleStart-2-9-6-9-4-5-6-8)"
-       d="m 479.56831,177.64217 c 0.0267,-9.14229 -15.22825,-9.25665 -15.05115,7.87294 0.12214,11.81425 12.13365,19.43404 15.05115,5.07218"
+       d="m 509.20183,177.64217 c 0.0267,-9.14229 -15.22825,-9.25665 -15.05115,7.87294 0.12214,11.81425 12.13365,19.43404 15.05115,5.07218"
        sodipodi:nodetypes="csc" />
     <g
-       id="g40069">
+       id="g40069"
+       transform="translate(29.633346)">
       <rect
          style="fill:#ffff00;stroke:#000000;stroke-width:0.264583"
          id="rect4029-2-6-2-6-6-6-0-5-2-0-3-6-2-4-2-3-7-4-5"
@@ -5060,5 +5107,78 @@
          inkscape:export-xdpi="192"
          inkscape:export-ydpi="192" />
     </g>
+    <text
+       xml:space="preserve"
+       style="font-weight:300;font-size:7.05556px;line-height:1.25;font-family:'Alibaba Sans';-inkscape-font-specification:'Alibaba Sans, Light';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.264583"
+       x="555.36517"
+       y="94.504333"
+       id="text4911"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192"><tspan
+         sodipodi:role="line"
+         id="tspan4909"
+         x="555.36517"
+         y="94.504333"
+         style="stroke-width:0.264583">neuron</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 527.02349,139.25738 20.74488,-4.27846"
+       id="path4907-4"
+       sodipodi:nodetypes="cc"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192"
+       inkscape:export-filename="./Hopfield-network-as-Transformer.png" />
+    <text
+       xml:space="preserve"
+       style="font-weight:300;font-size:7.05556px;line-height:1.25;font-family:'Alibaba Sans';-inkscape-font-specification:'Alibaba Sans, Light';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.264583"
+       x="567.00702"
+       y="136.83768"
+       id="text4911-9"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192"
+       inkscape:export-filename="./Hopfield-network-as-Transformer.png"><tspan
+         sodipodi:role="line"
+         id="tspan4909-2"
+         x="567.00702"
+         y="136.83768"
+         style="stroke-width:0.264583">proposition</tspan><tspan
+         sodipodi:role="line"
+         x="567.00702"
+         y="145.65712"
+         style="stroke-width:0.264583"
+         id="tspan5498">(multiple neurons)</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 459.97164,125.07746 21.1575,5.46574"
+       id="path4907-4-0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192"
+       inkscape:export-filename="./Hopfield-network-as-Transformer.png" />
+    <text
+       xml:space="preserve"
+       style="font-weight:300;font-size:7.05556px;line-height:1.25;font-family:'Alibaba Sans';-inkscape-font-specification:'Alibaba Sans, Light';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;white-space:pre;inline-size:55.8209;stroke-width:0.264583"
+       x="440.72473"
+       y="128.48116"
+       id="text4911-9-6"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192"
+       transform="translate(-7.4083325,-1.0583331)"
+       inkscape:export-filename="./Hopfield-network-as-Transformer.png"><tspan
+         x="440.72473"
+         y="128.48116"><tspan
+           style="stroke-width:0.264583">connections are</tspan><tspan
+           y="128.48116"> </tspan></tspan><tspan
+         x="440.72473"
+         y="137.3006"><tspan
+           style="stroke-width:0.264583">restricted by</tspan><tspan
+           y="137.3006"> </tspan></tspan><tspan
+         x="440.72473"
+         y="146.12005"><tspan
+           style="stroke-width:0.264583">Transformer</tspan><tspan
+           y="146.12005"> </tspan></tspan><tspan
+         x="440.72473"
+         y="154.93951"><tspan
+           style="stroke-width:0.264583">structure</tspan></tspan></text>
   </g>
 </svg>
