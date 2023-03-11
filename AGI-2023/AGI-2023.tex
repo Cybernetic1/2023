@@ -101,6 +101,7 @@ For the Transformer, it is a kind of memory stored \textbf{between} input elemen
 A crucial insight is that the \textbf{Self-Attention} mechanism had its origin in NTMs (\textbf{Neural Turing Machines}) proposed by Graves \textit{et al} 2014.  The Turing machine needs to have a ``memory tape'' but in the neural setting this memory must be \textit{differentiable}.  If the memory is addressed by an index $i \in \mathbb{N}$, then it won't be differentiable.  So they came up with a \textbf{content-addressable} memory mechanism where a memory matrix is looked up using the ``query-key-value'' method.  A nice explantion of NTMs can be found in the book \textit{Fundamentals of Deep Learning} [Buduma, Locascio 2017].
 
 \begin{figure}[h]
+	\centering
 	\includegraphics[scale=0.6]{fig3.png}
 	\caption{}
 	\label{fig3}

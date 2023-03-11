@@ -1,6 +1,9 @@
 \input{../YKY-preamble.tex}
 \setmainfont[BoldFont=Alibaba_Sans_Regular.otf,ItalicFont=Alibaba_Sans_Light_Italic.otf]{Alibaba_Sans_Light.otf}
-	
+
+\usepackage[backend=biber]{biblatex}
+\bibliography{../AGI-book}
+
 \usepackage[active,tightpage]{preview}		% for continuous page(s)
 \renewcommand{\PreviewBorder}{0.5cm}
 \renewcommand{\thempfootnote}{\arabic{mpfootnote}}
@@ -118,13 +121,13 @@
 
 Hopfield 网络是一种 特别简单的 fully-connected 神经网络，它具有 \textbf{associative memory} 的特性，可以凭部分 pattern 回忆整个 pattern:
 \begin{equation}
-\vcenter{\hbox{\includegraphics[scale=0.7]{Hopfield-network-example.png}}}
+\vcenter{\hbox{\includegraphics[scale=0.8]{Hopfield-network-example.png}}}
 \end{equation}
 记忆由神经元之间的 \textbf{连接权重} 决定，而这些权重定义了一个 \textbf{能量函数}。 Hopfield 网络就是统计物理学里面的 \textbf{Ising model} 应用到了神经网络上。 
 
 可以将一个 Hopfield 网络 铺平 画成这样:
 \begin{equation}
-\vcenter{\hbox{\includegraphics[scale=0.7]{Hopfield-network-1.png}}}
+\vcenter{\hbox{\includegraphics[scale=0.8]{Hopfield-network-1.png}}}
 \label{fig:Hopfield-network}
 \end{equation}
 注意它不是 feed-forward 网络，它的 输入 和 输出 在同一地方。
@@ -190,7 +193,7 @@ $\vect{Y}$ 就是 Hopfield 记忆里的 patterns，它们担任 Transformer 里 
 
 跟图 (\ref{fig:Hopfield-network}) 比较，这个是 受 Transformer 结构 约束的 Hopfield 网络：
 \begin{equation}
-\vcenter{\hbox{\includegraphics[scale=0.7]{Hopfield-network-as-Transformer.png}}}
+\vcenter{\hbox{\includegraphics[scale=0.8]{Hopfield-network-as-Transformer.png}}}
 \end{equation}
 
 \subsection{Boltzmann 机}
@@ -269,15 +272,50 @@ Transformer 可以轻易地转变为 Hopfield 网络，然后变成 EBM.  那么
  
 \subsection{RL update rule}
 
-强化学习 的 \textbf{Bellman update} 是根据 某个 output 的 reward, 例如我比较熟悉的 Q-Learning 的 temporal difference update:
+首先，\textbf{Deep Q Learning} (DQN) 的问题是它无法处理 连续的 action space（例如高维向量空间）：
 \begin{equation}
-Q(s,a) \mathrel{+}= \eta\left[ R + \gamma \Delta Q \right]
+\vcenter{\hbox{\includegraphics[scale=1]{deep-Q-learning.png}}}
+\label{fig:DQN}
 \end{equation}
-$\eta$ = learning rate,\\
-$\gamma$ = discount factor,\\
-$s$ = state,\\
-$a$ = action,\\
-而 这个 $Q$ 值可以看成是某种 \textbf{能量}。
+所谓 Q-value 就是 $Q(s,a) =$ 在状态 $s$ 做动作 $a$ 的\textbf{价值}。 大家想想： 如果状态 $s$ 包含所有可能的思维状态，动作 $a$ 包含所有可能的思维动作，则 $Q(s,a)$ 的讯息就包含了一个智能系统的所有智慧！
+
+(s,a) 是连续空间 这个问题可以用 \textbf{Energy-Based Model} (EBM) 解决，最早提出的似乎是 Hinton \& Sallans 2004 \cite{Sallans2004}, 而在那篇论文里，他们正正是为了解决 RL 问题\footnote{大家可参看《Quantum Enhancements for Deep Reinforcement Learning in Large Spaces》 [2021]，此文的目标虽然是 量子计算，但它考察了 deep RL 的最新研究。}。 中心思想就是 \reduline{用 free energy\footnote{所谓 free energy 是指，在 Hopfield 或 Boltzmann 模型里，有 visible ($v_i$) 和 hidden ($h_i$) 神经元之分。 Energy $E$ 的表达式包含 $v_i$ 和 $h_i$.  Free energy 是 $E$ 对 $h_i$ 的求和，即 marginalization: $F(v) = \sum_{h} E(v,h)$.} $F$ 近似 Q-value}: $ Q(s,a) \approx -F(s,a) $.
+
+强化学习 的 \textbf{Bellman update} 根据 状态 $s$ 的奖励 $R(s,a)$ 更新某价值函数, 例如我比较熟悉的 Q-Learning 的 temporal difference update:
+\begin{equation}
+% Q(s,a) \mathrel{+}= \eta \left[ R + \gamma \Delta Q \right]
+Q(s,a) \mathrel{+}= \eta \left[ R(s,a) + \gamma \max_{a'} Q'(s',a') - Q(s,a) \right]
+\end{equation}
+( $\eta$ = learning rate, $\gamma$ = discount factor, $s$ = state, $a$ = action )\\
+$Q$ 就是系统选择某行动的预期价值，系统（带有随机性地）选择 $Q$ 最大的那些动作。 这跟 Hopfield 或 Boltzmann 模型 里面的 状态转移 $s \rightarrow s'$ 的概率 或能量 $F$ 是异曲同工的。 
+
+$Q$ 的 update rule 基本上就是 Hopfield 或 Boltzmann 模型的权重的 update rule.  这些初步工作已经被 Hinton \& Sallans 做了。 但这个 na\"{i}ve 的做法 可能不够计算效率，它甚至丧失了 back-prop，我们目前最强的武器！
+
+（没有受限的）Boltzmann machine 只是一块扁平的东西：
+\begin{equation}
+\vcenter{\hbox{\includegraphics[scale=0.8]{Hopfield-network-1.png}}}
+\end{equation}
+对比于 图(\ref{fig:DQN}) 它缺少了「深度」，虽然 强化学习 的 loop 也可以看成是一种深度，但它跟 back-prop 好像不一样。 这样会不会丧失了深度学习的优势呢？ 必需详细分析.....
+
+\printbibliography
+
+\end{minipage}
+\end{preview}
+
+\begin{preview}
+\begin{minipage}{\textwidth}
+\setlength{\parskip}{0.4\baselineskip}
+
+\begin{textblock*}{20cm}(2.1cm,2cm) % {block width} (coords) 
+	{\color{red}{\large \textcircled{\small 2}}}
+	\hspace{8cm}
+	\color{blue}{\footnotesize \cc{AGI 大统一理论}{AGI Unification}}
+\end{textblock*}
+\vspace*{0.3cm} 
+
+\section{Personal Notes}
+
+于是 Ngiam \textit{et al} 2011（在 Andrew Ng 为导师下）提出了 \textbf{Deep Energy Models} (DEMs).
 
 下图中，我们比较 LLM, RL 和 大脑。 它们的\textbf{状态} 有什么对应关系？ 
 \begin{equation}
@@ -297,7 +335,6 @@ State 跟 action 的分别，似乎就是 新命题 跟 命题集合 的分别�
 \underconst \quad 这部分暂时仍未想清楚....
 
 \section{大脑}
-
 
 \end{minipage}
 \end{preview}
