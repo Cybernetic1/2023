@@ -121,7 +121,7 @@
 
 Hopfield 网络是一种 特别简单的 fully-connected 神经网络，它具有 \textbf{associative memory} 的特性，可以凭部分 pattern 回忆整个 pattern:
 \begin{equation}
-\vcenter{\hbox{\includegraphics[scale=0.8]{Hopfield-network-example.png}}}
+\vcenter{\hbox{\includegraphics[scale=0.9]{Hopfield-network-example.png}}}
 \end{equation}
 记忆由神经元之间的 \textbf{连接权重} 决定，而这些权重定义了一个 \textbf{能量函数}。 Hopfield 网络就是统计物理学里面的 \textbf{Ising model} 应用到了神经网络上。 
 
@@ -296,6 +296,11 @@ $Q$ 的 update rule 基本上就是 Hopfield 或 Boltzmann 模型的权重的 up
 \vcenter{\hbox{\includegraphics[scale=0.8]{Hopfield-network-1.png}}}
 \end{equation}
 对比于 图(\ref{fig:DQN}) 它缺少了「深度」，虽然 强化学习 的 loop 也可以看成是一种深度，但它跟 back-prop 好像不一样。 这样会不会丧失了深度学习的优势呢？ 必需详细分析.....
+
+有某些问题： \\
+1. Hopfield / Boltzmann spin 出了 set of next propositions. \\
+2. 想知道这些 propositions 的 $P(x_i | \vect{X})$, 但似乎不易。 \\
+3. 
 
 \printbibliography
 
