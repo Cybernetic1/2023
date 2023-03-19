@@ -81,7 +81,7 @@
 
 In this infographic I'd explain a major finding that is the culmination of many years of my research: the Transformer is a symbolic-logic machine.
 
-For your convenience let's refresh on the Transformer's \textbf{Self-Attention} mechanism:
+For your convenience here is a refresher on the Transformer's \textbf{Self-Attention} mechanism:
 \begin{equation}
 \vcenter{\hbox{\includegraphics[scale=0.9]{../2022/self-attention-2.png}}}
 \end{equation}
@@ -111,7 +111,7 @@ Propositions are made up of \textbf{atomic concepts}, but here, at the sub-propo
 \end{equation}
 otherwise there would be no such things as heart-breaks.
 
-Now let's recall the basics of \textbf{classical logic-based AI}.  This is its basic architecture:
+Now let's recall some notions of \textbf{classical logic-based AI}.  This is its basic architecture:
 \begin{equation}
 \vcenter{\hbox{\includegraphics[scale=1]{../2022/LBAI-basic-config-en.png}}}
 \end{equation}
@@ -131,14 +131,14 @@ A crucial insight is that the \textbf{Self-Attention} mechanism had its origin i
 
 Now consider LLMs (\textbf{Large Language Models}) such as BERT and GPT.
 
-Given a natural-language sentence, we'd like to convert or \textbf{decompose} it into a bunch of logic propositions:
+Given a natural-language sentence, we'd like to convert or \textbf{decompose} it into a list of logic propositions:
 \begin{equation}
 \label{fig:NL-2-propositions}
 \vcenter{\hbox{\includegraphics[scale=1]{../2022/NL-sentence-2-propositions.png}}}
 \end{equation}
-The structure on the right of (\ref{fig:NL-2-propositions}) is a \textbf{mental state} of a logical AI system.  It is composed of (exchangeable) propositions, which are in turn made up of atomic concepts.  This 2-level structure is characteristic of all \textbf{logical} systems.
+The structure on the right of (\ref{fig:NL-2-propositions}) is the \textbf{mental state} of a logical AI system.  It is composed of (exchangeable) propositions, which are in turn composed of atomic concepts.  This 2-level structure is characteristic of all \textbf{symbolic logic} systems.
 
-Surprisingly, I found that the Transformer completely satisfies this 2-level logic structure.
+Surprisingly, we found that the Transformer completely satisfies this 2-level logic structure.
 
 On the \textbf{first layer}, a Transformer transforms each input word token into one proposition:
 \begin{equation}

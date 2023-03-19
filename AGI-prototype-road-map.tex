@@ -1,0 +1,109 @@
+\input{../YKY-preamble.tex}
+\setmainfont[BoldFont=Alibaba_Sans_Regular.otf,ItalicFont=Alibaba_Sans_Light_Italic.otf]{Alibaba_Sans_Light.otf}
+
+% \usepackage[backend=biber]{biblatex}
+% \bibliography{../AGI-book}
+
+\usepackage[active,tightpage]{preview}		% for continuous page(s)
+\renewcommand{\PreviewBorder}{0.5cm}
+\renewcommand{\thempfootnote}{\arabic{mpfootnote}}
+
+\usepackage[absolute,overlay]{textpos}		% for page number on upper left corner
+
+\usepackage{color}
+\usepackage{mathtools}
+\usepackage[hyperfootnotes=false]{hyperref}
+
+% \usepackage[backend=biber,style=numeric]{biblatex}
+% \bibliography{../AGI-book}
+% \renewcommand*{\bibfont}{\footnotesize}
+
+\usetikzlibrary{shapes}
+\usepackage[export]{adjustbox}				% ??
+\usepackage{verbatim} % for comments
+% \usepackage{newtxtext,newtxmath}	% Times New Roman font
+
+% \titleformat{\subsection}[hang]{\bfseries\large\color{blue}}{}{0pt}{} 
+% \numberwithin{equation}{subsection}
+
+\newcommand{\underdash}[1]{%
+	\tikz[baseline=(toUnderline.base)]{
+		\node[inner sep=1pt,outer sep=10pt] (toUnderline) {#1};
+		\draw[dashed] ([yshift=-0pt]toUnderline.south west) -- ([yshift=-0pt]toUnderline.south east);
+	}%
+}%
+
+\newcommand\reduline{\bgroup\markoverwith{\textcolor{red}{\rule[-0.5ex]{2pt}{0.4pt}}}\ULon}
+
+%\DeclareSymbolFont{symbolsC}{U}{txsyc}{m}{n}
+%\DeclareMathSymbol{\strictif}{\mathrel}{symbolsC}{74}
+\DeclareSymbolFont{AMSb}{U}{msb}{m}{n}
+\DeclareSymbolFontAlphabet{\mathbb}{AMSb}
+% \setmathfont{Latin Modern Math}
+\DeclareMathOperator*{\argmin}{arg\,min}
+
+% \usepackage[most]{tcolorbox}
+\tcbset{on line, 
+	boxsep=4pt, left=0pt,right=0pt,top=0pt,bottom=0pt,
+	colframe=red,colback=pink,
+	highlight math style={enhanced}
+}
+\newcommand{\atom}{\vcenter{\hbox{\tcbox{....}}}}
+
+\let\oldtextbf\textbf
+\renewcommand{\textbf}[1]{\textcolor{blue}{\oldtextbf{#1}}}
+
+\newcommand{\logic}[1]{{\color{violet}{\textit{#1}}}}
+\newcommand{\underconst}{\includegraphics[scale=0.5]{../2020/UnderConst.png}}
+\newcommand{\KBsymbol}{\vcenter{\hbox{\includegraphics[scale=1]{../KB-symbol.png}}}}
+\newcommand{\token}{\vcenter{\hbox{\includegraphics[scale=1]{token.png}}}}
+\newcommand{\proposition}{\vcenter{\hbox{\includegraphics[scale=0.8]{proposition.png}}}}
+
+\newcommand{\circled}[1]{{\textcircled{\sffamily \scriptsize{#1}}}}
+
+\begin{document}
+
+\begin{preview}
+
+\cc{
+\title{\vspace{-1.5cm} \bfseries\color{blue}{\LARGE AGI Prototype Road Map}}
+}{
+\title{\vspace{-1.5cm} \bfseries\color{blue}{\LARGE AGI Prototype Road Map}}
+}
+
+% \author{YKY} % Your name
+\date{\vspace{-2cm}} % Date, can be changed to a custom date
+
+\maketitle
+
+\setcounter{section}{-1}
+
+% (1) Circled page number on upper left corner
+% \begin{textblock*}{5cm}(2.1cm,2.3cm) % {block width} (coords) 
+% {\color{red}{\large \textcircled{\small 1}}}
+% \end{textblock*}
+
+\begin{minipage}{\textwidth}
+\setlength{\parskip}{0.4\baselineskip}
+
+可以分拆成以下较细问题：
+\begin{itemize}
+	\item [\circled{1}] \textbf{选择机制}： Transformer 输出 $N$ 个 tokens，每个 token 有它的 Q-value，我们选择最高 Q-值 的 tokens 放进 工作记忆。 这似乎没有什么困难。
+
+	\item [\circled{1}{\small B}] \textbf{encode Q-值}： token 通常是一个 512-维向量，我认为应该增加维数（因为命题空间明显应该比 词汇空间更大）。 透过矩阵乘法，一个 token 可以变成词汇之上的概率分布。 
+
+	\item [\circled{1}{\small C}] \textbf{工作记忆 cache}： 因为 Transformer 每次输出一大堆 candidates，工作记忆 遗忘的速度不够快，似乎需要 caching.
+
+	\item [\circled{2}] \textbf{「找关系」函数}： 设计一个 $M$-in $N$-out $c$ 函数 $c$ = ``chooser''，$M$ 和 $N$ 是 tokens 个数，$M \gg N$。 它的作用是 从 $M$ 个 tokens 里找出最有可能是 某个逻辑 rule 的前提的 $N$ 个 tokens，作为 Transformer 的输入。 注意： 每个 rule 的前提都是不同的，所以 $c$ 的输出 可以有很多可能。 这个问题其实在 LLM 里已经有研究，因为我们不需要 Transformer 有太长的遥距相关。 
+	
+	\item [\circled{3}] \textbf{遗忘机制}： 在工作记忆里，如何选出那些要被遗忘的 tokens？
+	
+	\item [\circled{4}] \textbf{输入/输出 编码方法}： 工作记忆里面，所有 tokens = 命题 都是没有次序的。 那么需要一个位置编码的方法，这个跟以前 Transformer 的要求是一样的。
+	
+	\item [\circled{5}]  \textbf{RL 的训练方法}： 在 强化学习下，输入新的句子后，我们的 RL 系统会在 $n$ 步之后输出 词语，组成句子。我们要用 GPT 给予 RL 系统奖励。
+	
+\end{itemize}
+
+\end{minipage}
+\end{preview}
+\end{document}
