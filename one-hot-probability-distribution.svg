@@ -2,15 +2,16 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="183.95917mm"
+   height="119.21291mm"
+   viewBox="0 0 183.95915 119.21292"
    version="1.1"
    id="svg11890"
    inkscape:version="1.2.2 (1:1.2.2+202212051550+b0a8486541)"
    sodipodi:docname="one-hot-probability-distribution.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns:ns1="http://wanglongqi.github.io/WriteTeX">
@@ -22,12 +23,12 @@
      inkscape:showpageshadow="0"
      inkscape:pageopacity="1"
      inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
+     inkscape:deskcolor="#ffffff"
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="1"
-     inkscape:cx="489"
-     inkscape:cy="564.5"
+     inkscape:cx="351"
+     inkscape:cy="279.5"
      inkscape:window-width="1080"
      inkscape:window-height="1895"
      inkscape:window-x="0"
@@ -80,7 +81,8 @@
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(-7.1625031,-70.44108)">
     <rect
        style="fill:#d5f6ff;stroke:#0000ff;stroke-width:0.264583"
        id="rect4029-2-6-2-6-6-6-0-5-2-0-8-8-8-9"
@@ -550,6 +552,17 @@
     <text
        xml:space="preserve"
        style="font-weight:300;font-size:11.2889px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="117.7139"
+       y="183.54359"
+       id="text10818-2"><tspan
+         sodipodi:role="line"
+         id="tspan10816-7"
+         style="font-size:11.2889px;stroke-width:0.264583"
+         x="117.7139"
+         y="183.54359">. . . .</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:300;font-size:11.2889px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
        x="122.8273"
        y="100.10782"
        id="text10818-4"><tspan
@@ -579,6 +592,22 @@
          x="52.499874"
          y="131.46654"
          id="tspan11038">token</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="33.668755"
+       y="182.05093"
+       id="text10864-6"><tspan
+         sodipodi:role="line"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="33.668755"
+         y="182.05093"
+         id="tspan11038-1">修改后，</tspan><tspan
+         sodipodi:role="line"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="33.668755"
+         y="189.10649"
+         id="tspan4584">transformer 的输出：</tspan></text>
     <path
        sodipodi:nodetypes="csscssccsscsscc"
        inkscape:connector-curvature="0"
@@ -601,7 +630,10 @@
        style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
        x="130.66907"
        y="79.675873"
-       id="text11213"><tspan
+       id="text11213"
+       inkscape:export-filename="one-hot-probability-distribution.png"
+       inkscape:export-xdpi="196"
+       inkscape:export-ydpi="196"><tspan
          sodipodi:role="line"
          id="tspan11211"
          style="text-align:center;text-anchor:middle;stroke-width:0.264583"
@@ -612,5 +644,73 @@
          x="130.66907"
          y="86.731422"
          id="tspan11215">在所有词汇上</tspan></text>
+    <rect
+       style="fill:none;stroke:#020000;stroke-width:0.264583;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       id="rect8028-3"
+       width="139.26376"
+       height="79.600578"
+       x="34.310455"
+       y="70.573372"
+       inkscape:export-filename="AGI-road-map.png"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
+    <g
+       id="g4416"
+       inkscape:tile-cx="38.866674"
+       inkscape:tile-cy="135.75694"
+       inkscape:tile-w="20.540077"
+       inkscape:tile-h="10.667065"
+       inkscape:tile-x0="28.596635"
+       inkscape:tile-y0="130.42341"
+       transform="translate(-2.594173,-27.410795)">
+      <rect
+         style="fill:#d5f6ff;stroke:#0000ff;stroke-width:0.264583"
+         id="rect4029-2-6-2-6-6-6-0-5-2-0-8-8-8-9-5"
+         width="6.1769423"
+         height="10.402482"
+         x="69.597183"
+         y="205.66522"
+         ry="7.6293945e-06"
+         inkscape:export-xdpi="192"
+         inkscape:export-ydpi="192" />
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="62.975063"
+         y="212.56152"
+         id="text4411"><tspan
+           sodipodi:role="line"
+           id="tspan4409"
+           style="stroke-width:0.264583"
+           x="62.975063"
+           y="212.56152">（       , Q）</tspan></text>
+    </g>
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#g4416"
+       xlink:href="#g4416"
+       id="use4428" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#g4416"
+       xlink:href="#g4416"
+       transform="translate(26.7021)"
+       id="use4430" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#g4416"
+       xlink:href="#g4416"
+       transform="translate(80.106301)"
+       id="use4434" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#g4416"
+       xlink:href="#g4416"
+       transform="translate(106.8084)"
+       id="use4436" />
   </g>
 </svg>
