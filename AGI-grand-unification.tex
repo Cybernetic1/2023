@@ -269,7 +269,33 @@ Transformer 可以轻易地转变为 Hopfield 网络，然后变成 EBM.  那么
 \begin{equation}
 \vcenter{\hbox{\includegraphics[scale=1]{LLM-vs-RL-vs-brain.png}}}
 \end{equation}
- 
+
+如果我没理解错，Hopfield 网络 是 fully-connected, 可以这样表示：
+\begin{equation}
+	\vcenter{\hbox{\includegraphics[scale=0.8]{Hopfield-network-1.png}}}
+\end{equation}
+根据《Hopfield Network Is All You Need》，它代表 一层的 Transformer 的 forward inference（但在 Hopfield 网络里，输入和输出的神经元是同一组）：
+\begin{equation}
+	\vcenter{\hbox{\includegraphics[scale=1]{1-layer-of-Transformer.png}}}
+\end{equation}
+我们希望 将 Hopfield $\rightarrow$ Boltzmann，让输出符合 概率分布。 但 Boltzmann machine 一般来说是 intractable 的，需要 restricted Boltzmann machine, 也就是一个 bipartite graph，这个 结构 让概率分布函数可以 factorize：
+\begin{equation}
+\vcenter{\hbox{\includegraphics[scale=1]{restricted-Boltzmann-machine.png}}}
+\label{fig:Boltzmann-machine}
+\end{equation}
+换句话说，图 (\ref{fig:Boltzmann-machine}) 是 \textbf{概率化}了的 一层 Transformer。
+
+然后，我们可以将 Boltzmann machine 叠起来，这类似于 传统的多层 Transformer，但是 概率化了：
+\begin{equation}
+\vcenter{\hbox{\includegraphics[scale=1]{multi-layer-Boltzmann-machine.png}}}
+\label{fig:multi-layer-Boltzmann}
+\end{equation}
+而 图 (\ref{fig:multi-layer-Boltzmann}) 有点类似大脑的 ``areas'' 结构：
+\begin{equation}
+\vcenter{\hbox{\includegraphics[scale=1]{brain-areas-structure.png}}}
+\end{equation}
+但不同于 (\ref{fig:multi-layer-Boltzmann}) 的是，大脑 areas 之间的连接是 \textbf{双向}的。 但我们可以根据这一点启发，设计更有效率的 AGI 网络结构： 分成很多个 areas，areas 之间以 Transformer 连接。 新的 Transformer 或许可以是 双向的，但细节未弄清楚。
+
 \subsection{RL update rule}
 
 首先，\textbf{Deep Q Learning} (DQN) 的问题是它无法处理 连续的 action space（例如高维向量空间）：
