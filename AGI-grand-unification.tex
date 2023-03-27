@@ -75,10 +75,13 @@
 \maketitle
 
 \setcounter{section}{-1}
+\newcounter{mypage}
+\setcounter{mypage}{1}
 
 % (1) Circled page number on upper left corner
 \begin{textblock*}{5cm}(2.1cm,2.3cm) % {block width} (coords) 
-{\color{red}{\large \textcircled{\small 1}}}
+{\color{red}{\large \textcircled{\small \themypage}}}
+\addtocounter{mypage}{1}
 \end{textblock*}
 
 \begin{minipage}{\textwidth}
@@ -111,10 +114,11 @@
 \setlength{\parskip}{0.4\baselineskip}
 
 \begin{textblock*}{20cm}(2.1cm,2cm) % {block width} (coords) 
-	{\color{red}{\large \textcircled{\small 2}}}
+	{\color{red}{\large \textcircled{\small \themypage}}}
 	\hspace{8cm}
 	\color{blue}{\footnotesize \cc{AGI 大统一理论}{AGI Unification}}
 \end{textblock*}
+\addtocounter{mypage}{1}
 \vspace*{0.3cm} 
 
 \section{Hopfield 网络}
@@ -229,10 +233,11 @@ where partition function $\displaystyle Z = \sum_U e^{-\mathcal{E}(U)/T} $
 \setlength{\parskip}{0.4\baselineskip}
 
 \begin{textblock*}{20cm}(2.1cm,2cm) % {block width} (coords) 
-	{\color{red}{\large \textcircled{\small 2}}}
+	{\color{red}{\large \textcircled{\small \themypage}}}
 	\hspace{8cm}
 	\color{blue}{\footnotesize \cc{AGI 大统一理论}{AGI Unification}}
 \end{textblock*}
+\addtocounter{mypage}{1}
 \vspace*{0.3cm} 
 
 \section{与强化学习 结合}
@@ -270,14 +275,36 @@ Transformer 可以轻易地转变为 Hopfield 网络，然后变成 EBM.  那么
 \vcenter{\hbox{\includegraphics[scale=1]{LLM-vs-RL-vs-brain.png}}}
 \end{equation}
 
+\end{minipage}
+\end{preview}
+
+\begin{preview}
+\begin{minipage}{\textwidth}
+\setlength{\parskip}{0.4\baselineskip}
+
+\begin{textblock*}{20cm}(2.1cm,2cm) % {block width} (coords) 
+	{\color{red}{\large \textcircled{\small \themypage}}}
+	\hspace{8cm}
+	\color{blue}{\footnotesize \cc{AGI 大统一理论}{AGI Unification}}
+\end{textblock*}
+\addtocounter{mypage}{1}
+\vspace*{0.3cm} 
+
+\subsection{结合 Transformer + RL ： Road Map}
+
 如果我没理解错，Hopfield 网络 是 fully-connected, 可以这样表示：
 \begin{equation}
 	\vcenter{\hbox{\includegraphics[scale=0.8]{Hopfield-network-1.png}}}
+	\label{fig:1-layer-Hopfield-net}
 \end{equation}
-根据《Hopfield Network Is All You Need》，它代表 一层的 Transformer 的 forward inference（但在 Hopfield 网络里，输入和输出的神经元是同一组）：
+
+\subsubsection{第1步}
+根据《Hopfield Network Is All You Need》，(\ref{fig:1-layer-Hopfield-net}) 代表 一层的 Transformer 的 forward inference（但在 Hopfield 网络里，输入和输出的神经元是同一组）：
 \begin{equation}
 	\vcenter{\hbox{\includegraphics[scale=1]{1-layer-of-Transformer.png}}}
 \end{equation}
+
+\subsubsection{第2步}
 我们希望 将 Hopfield $\rightarrow$ Boltzmann，让输出符合 概率分布。 但 Boltzmann machine 一般来说是 intractable 的，需要 restricted Boltzmann machine, 也就是一个 bipartite graph，这个 结构 让概率分布函数可以 factorize：
 \begin{equation}
 \vcenter{\hbox{\includegraphics[scale=1]{restricted-Boltzmann-machine.png}}}
@@ -285,16 +312,37 @@ Transformer 可以轻易地转变为 Hopfield 网络，然后变成 EBM.  那么
 \end{equation}
 换句话说，图 (\ref{fig:Boltzmann-machine}) 是 \textbf{概率化}了的 一层 Transformer。
 
+\subsubsection{第3步}
 然后，我们可以将 Boltzmann machine 叠起来，这类似于 传统的多层 Transformer，但是 概率化了：
 \begin{equation}
 \vcenter{\hbox{\includegraphics[scale=1]{multi-layer-Boltzmann-machine.png}}}
 \label{fig:multi-layer-Boltzmann}
 \end{equation}
-而 图 (\ref{fig:multi-layer-Boltzmann}) 有点类似大脑的 ``areas'' 结构：
+到这一步以后，可以直接将这个网络嵌入 强化学习里，造成最简单的 AGI 模型。
+
+\subsubsection{第4步}
+（这步并非必需，但可以作为参考，获得灵感）
+
+图 (\ref{fig:multi-layer-Boltzmann}) 有点类似大脑的 ``areas'' 结构：
 \begin{equation}
 \vcenter{\hbox{\includegraphics[scale=1]{brain-areas-structure.png}}}
 \end{equation}
 但不同于 (\ref{fig:multi-layer-Boltzmann}) 的是，大脑 areas 之间的连接是 \textbf{双向}的。 但我们可以根据这一点启发，设计更有效率的 AGI 网络结构： 分成很多个 areas，areas 之间以 Transformer 连接。 新的 Transformer 或许可以是 双向的，但细节未弄清楚。
+
+\end{minipage}
+\end{preview}
+
+\begin{preview}
+\begin{minipage}{\textwidth}
+\setlength{\parskip}{0.4\baselineskip}
+
+\begin{textblock*}{20cm}(2.1cm,2cm) % {block width} (coords) 
+	{\color{red}{\large \textcircled{\small \themypage}}}
+	\hspace{8cm}
+	\color{blue}{\footnotesize \cc{AGI 大统一理论}{AGI Unification}}
+\end{textblock*}
+\addtocounter{mypage}{1}
+\vspace*{0.3cm} 
 
 \subsection{RL update rule}
 
@@ -338,10 +386,11 @@ $Q$ 的 update rule 基本上就是 Hopfield 或 Boltzmann 模型的权重的 up
 \setlength{\parskip}{0.4\baselineskip}
 
 \begin{textblock*}{20cm}(2.1cm,2cm) % {block width} (coords) 
-	{\color{red}{\large \textcircled{\small 2}}}
+	{\color{red}{\large \textcircled{\small \themypage}}}
 	\hspace{8cm}
 	\color{blue}{\footnotesize \cc{AGI 大统一理论}{AGI Unification}}
 \end{textblock*}
+\addtocounter{mypage}{1}
 \vspace*{0.3cm} 
 
 \section{Personal Notes}
