@@ -92,16 +92,20 @@ This is an illustration of how the Transformer processes tokens:
 \end{equation}
 
 \begin{itemize}
+\item The Transformer is basically a neural network function or mapping that accepts a \textbf{sequence} token by token, and outputs a new token per each input token.  The output of each token is equivalent to looking up a \textbf{logic rule base} with premises drawn from the input tokens.
+	
 \item \cc{
 	Transformer 的一次 变换 是以某个 token 作为 支点 (pivot) 或 主轴（红色粗线）再结合其他 tokens 的 叠加讯息。}{
 	Each pass of Self-Attention has an \textbf{axis} (thick red line), where a \textbf{pivot} token is combined with other tokens via super-position. \\
-	Why does it 
+	Why do pivots exist?  The pivot is the \textbf{latest} token being added to the ``state'' of the system, ie, the sequence of tokens up to time $t$.  The rest of the state has not changed except for this ``delta'' token.  Therefore, the logical conclusions that were drawn up to time $t-1$ has already been outputted.  What we need to do is to output the new conclusions that is now deducible from the newest token and the rest of the state.  This situation is completely analogous to ``rule-based systems'' in the old days, eg. the SOAR architecture, where tokens are called WMEs (working memory elements).
 }
 
 \item \cc{
 	每个 token 似乎是时间 0....t 的句子 前缀 的内容概括。这内容概括似乎是分布式的表示，但也可能有 softmax 的选择性的解偶 (disentanglement).}{
-	Each token seems to be the ``summary'' of the incoming tokens up to time $t$.  Such a summary seems to be a distributive representation made of superpositions, but due to softmax, it may also be a \textbf{disentangled} representation closer to logic.
+	Each token seems to be the ``summary'' of the incoming tokens up to time $t$.  Such a summary seems to be a distributive representation made of superpositions of values $V = W^V X$, but due to the action of \textit{softmax}, some tokens may be \textbf{selected} over others.  This may have the effect of \textbf{disentangled representations} that are closer to symbolic logic.
 }
+
+\item We want to see if Self-Attention can perform ``variable substitution'' in  logic rules.  This requires extracting some vector components of a token and copying them to the next layer.  But this operation varies from rule to rule.  
 \end{itemize}
 
 \end{minipage}
