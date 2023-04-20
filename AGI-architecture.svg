@@ -29,7 +29,7 @@
      showgrid="false"
      inkscape:zoom="0.5"
      inkscape:cx="728"
-     inkscape:cy="1381"
+     inkscape:cy="1383"
      inkscape:window-width="1080"
      inkscape:window-height="1895"
      inkscape:window-x="0"
@@ -1253,7 +1253,10 @@
        d="m 3.1283146,420.64132 v 11.45911"
        id="path1259-6-4-3-6-9-1-9"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" /><path
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="AGI-architecture-LLM-MBRL-LTM.png"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" /><path
        style="font-variation-settings:normal;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow1Mend-7-9-5-4-0);stop-color:#000000"
        d="M 20.590815,433.45101 V 423.5794"
        id="path1259-6-4-3-6-9-1-9-9"
@@ -3861,27 +3864,27 @@
        transform="translate(56.773748,-189.55544)"><tspan
          x="-93.67247"
          y="665.82733"
-         id="tspan27670">= transition function
+         id="tspan96273">= transition function
 </tspan><tspan
          x="-93.67247"
          y="671.11901"
-         id="tspan27672">
+         id="tspan96275">
 </tspan><tspan
          x="-93.67247"
          y="676.4107"
-         id="tspan27674">= proposition
+         id="tspan96277">= proposition
 </tspan><tspan
          x="-93.67247"
          y="681.70239"
-         id="tspan27676">
+         id="tspan96279">
 </tspan><tspan
          x="-93.67247"
          y="686.99407"
-         id="tspan27678">= state /
+         id="tspan96281">= state /
 </tspan><tspan
          x="-93.67247"
          y="692.28576"
-         id="tspan27680">   working memory</tspan></text><rect
+         id="tspan96283">   working memory</tspan></text><rect
        style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:0;stroke:#a9a9a9;stroke-width:0.211667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
        id="rect77187"
        width="55.65382"

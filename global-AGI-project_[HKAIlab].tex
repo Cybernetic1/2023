@@ -14,6 +14,7 @@
 \usepackage{mathtools}
 \usepackage[hyperfootnotes=false]{hyperref}
 
+\usepackage{pict2e}		% pciture drawing polygon
 % \usepackage[backend=biber,style=numeric]{biblatex}
 % \bibliography{../AGI-book}
 % \renewcommand*{\bibfont}{\footnotesize}
@@ -41,6 +42,10 @@
 \DeclareSymbolFontAlphabet{\mathbb}{AMSb}
 % \setmathfont{Latin Modern Math}
 \DeclareMathOperator*{\argmin}{arg\,min}
+
+% For cover-page graphics
+\def\Put(#1,#2)#3{\leavevmode\makebox(0,0){\put(#1,#2){#3}}}
+
 
 % \usepackage[most]{tcolorbox}
 \tcbset{on line, 
@@ -70,8 +75,6 @@
 % \author{YKY} % Your name
 \date{\vspace{-2cm}} % Date, can be changed to a custom date
 
-\maketitle
-
 \setcounter{section}{-1}
 \newcounter{mypage}
 \setcounter{mypage}{1}
@@ -81,8 +84,31 @@
 % {\color{red}{\large \textcircled{\small 1}}}
 % \end{textblock*}
 
+%\begin{minipage}{\textwidth}
+%	\setlength{\parskip}{0.4\baselineskip}
+%
+%	\begin{picture}(600,220)
+%	\put(0,65){\includegraphics[scale=1]{../2021/Genifer-square-logo.png}}
+%	\definecolor{graygray}{rgb}{.867,0.867,0.867}
+%	{\color{graygray}\polygon*(-55,-80)(-55,-5)(400,110)(400,-80)}
+%	\Put(215,-105){\includegraphics[scale=0.08]{../2021/robot1.jpg}}
+%	\end{picture}
+%\end{minipage}
+%\end{preview}
+%\begin{preview}
+
 \begin{minipage}{\textwidth}
 \setlength{\parskip}{0.4\baselineskip}
+blah
+\end{minipage}
+\end{preview}
+
+\begin{preview}
+
+\begin{minipage}{\textwidth}
+\setlength{\parskip}{0.4\baselineskip}
+
+\maketitle
 
 \section{About Myself}
 
@@ -162,7 +188,7 @@
 
 	\item Currently the USA (or Anglo-American companies) dominates the global technological landscape, especially in the field of AI.  This may pose a threat to diversity if there is a systematic bias towards Anglo-American values.  Another weakness may come from the homogeneity of AGI architectures designed by similar companies.  It would be beneficial for humanity as a whole if there is a globally collaborative AGI project.
 
-	\item \textbf{Hong Kong}'s special position at the intersection of East and West makes it an ideal place to launch this global AGI project.
+	\item \textbf{Hong Kong}'s special position at the intersection of East and West makes it an ideal place to launch this global AGI project.  But, many Hong Kongers suffer from a psychological inferiority complex left over from colonialism, that makes them extremely averse to standing up against racism or challenging Anglo-American dominance, even though what I propose to do is positively regarded by many Westerners as the trend of the future.
 
 \end{itemize}
 
@@ -177,8 +203,8 @@
 \section{Our Team / Current State of Our Project}
 
 \begin{itemize}
-	\item 158 people on WeChat group, mostly students and researchers of AGI, mainly from mainland China
-	
+	\item 160 members in WeChat group, mostly students and researchers of AGI, mainly from mainland China
+
 	\item An international team is also in the process of forming, on Telegram and Discord. (I used to have an international AGI research team circa 2000's)
 	
 	\item 1-2 angel investors (from mainland China)
