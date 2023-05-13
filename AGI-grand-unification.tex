@@ -121,59 +121,106 @@
 \addtocounter{mypage}{1}
 \vspace*{0.3cm} 
 
-\section{Hopfield 网络}
+\section{Hopfield \cc{网络}{Networks}}
 
-Hopfield 网络是一种 特别简单的 fully-connected 神经网络，它具有 \textbf{associative memory} 的特性，可以凭部分 pattern 回忆整个 pattern:
+\cc{
+Hopfield 网络是一种 特别简单的 fully-connected 神经网络，它具有 \textbf{associative memory} 的特性，可以凭部分 pattern 回忆整个 pattern:}{
+Hopfield networks are a type of particularly simple, fully-connected neural networks, capable of \textbf{associative memory} retrieval:
+}
 \begin{equation}
 \vcenter{\hbox{\includegraphics[scale=0.9]{Hopfield-network-example.png}}}
+\label{fig:Hopfield-image-example}
 \end{equation}
-记忆由神经元之间的 \textbf{连接权重} 决定，而这些权重定义了一个 \textbf{能量函数}。 Hopfield 网络就是统计物理学里面的 \textbf{Ising model} 应用到了神经网络上。 
+\cc{
+记忆由神经元之间的 \textbf{连接权重} 决定，而这些权重定义了一个 \textbf{能量函数}。 Hopfield 网络就是统计物理学里面的 \textbf{Ising model} 应用到了神经网络上。 }{
+Memory patterns are determined by connection weights of the network, which define an \textbf{energy function}.  The Hopfield network is actually the Ising model of statistical physics applied to neural networks.
+}
 
-可以将一个 Hopfield 网络 铺平 画成这样:
+\cc{
+可以将一个 Hopfield 网络 铺平 画成这样:}{
+One can flatten a Hopfield network and draw it like this:
+}
 \begin{equation}
 \vcenter{\hbox{\includegraphics[scale=0.8]{Hopfield-network-1.png}}}
 \label{fig:Hopfield-network}
 \end{equation}
-注意它不是 feed-forward 网络，它的 输入 和 输出 在同一地方。
+\cc{
+注意它不是 feed-forward 网络，它的 输入 和 输出 在同一地方。}{
+Note that it is not a feed-forward network;  its input and output neurons are the same.
+}
 
-\subsection{经典 Hopfield 网络}
+\subsection{\cc{经典 Hopfield 网络}{Classical Hopfield Network}}
 
-我们的符号跟随 \textit{Hopfield Network is All You Need}.
+\cc{
+我们的符号跟随 \textit{Hopfield Network is All You Need} [2021].}{
+Our notation follows \textit{Hopfield Network is All You Need} [2021].
+}
 
-$\vect{x}^i$ = 需要记忆的 \textbf{patterns} (有 $N$ 个), $x^i_{s}$ 是它的 $s$-th bit.
+\cc{
+$\vect{x}^i$ = 需要记忆的 \textbf{patterns} (有 $N$ 个), $x^i_{s}$ 是它的 $s$-th bit.}{
+$\vect{x}^i$ = \textbf{memory patterns}.  There are $N$ of them, $x^i_{s}$ is the $s$-th bit of the $i$-th pattern.
+}
 
-$\vect{X} = (\vect{x}^1, ... , \vect{x}^N)$ 是所有 patterns 的矩阵。
+\cc{
+$\vect{X} = (\vect{x}^1, ... , \vect{x}^N)$ 是所有 patterns 的矩阵。}{
+$\vect{X} = (\vect{x}^1, ... , \vect{x}^N)$ is the matrix containing all memory patterns.
+}
 
-$\vect{\xi}$ = 网络的 \textbf{状态}，$\xi_s$ = $s$-th 神经元 的 激活状态。
+\cc{
+$\vect{\xi}$ = 网络的 \textbf{状态}，$\xi_s$ = $s$-th 神经元 的 激活状态。}{
+$\vect{\xi}$ = \textbf{state} of the Hopfield net, $\xi_s$ = activation state of the $s$-th neuron.
+}
 
-\textbf{连接权重} between $s$-th and $t$-th neurons:
+\cc{
+\textbf{连接权重} between $s$-th and $t$-th neurons:}{
+\textbf{Connection weight} between the $s$-th and $t$-th neurons:
+}
 \begin{equation}
 \boxed{\mbox{Weights}} \quad T_{s,t} = \sum_i x^i_s x^i_t
 \end{equation}
+Refering to figure (\ref{fig:Hopfield-image-example}), the weights actually record the \textbf{co-activation} of pixel pairs.
 
-\textbf{总能量} (Hamiltonian):
+\cc{
+\textbf{总能量} (Hamiltonian):}{
+Total energy (Hamiltonian):
+}
+
 \begin{equation}
 \boxed{\mbox{Energy}} \quad E = -\frac{1}{2} \sum_s \sum_{t \neq s} \xi_s T_{s,t} \xi_t
 \end{equation}
 
-\subsection{Modern Hopfield 网络}
+\subsection{\cc{Modern Hopfield 网络}{Modern Hopfield Network}}
 
-在经典 Hopfield 网络里，当 A 和 B 两个 patterns 太靠近的时候，它们会互相干扰，导致可以储存的 patterns 数量不大。  现代 Hopfield 网络 改变 Hamiltonian 能量函数，令干扰减弱，可以储存数量更多的 patterns：
+\cc{
+在经典 Hopfield 网络里，当 A 和 B 两个 patterns 太靠近的时候，它们会互相干扰，导致可以储存的 patterns 数量不大。  现代 Hopfield 网络 改变 Hamiltonian 能量函数，令干扰减弱，可以储存数量更多的 patterns：}{
+In the classical Hopfield network, when two patterns A and B are too close together, they would interfere, so the storage capacity is limited.  Modern Hopfield networks modify the energy function such that interference is reduced, resulting in greater storage capacity: 
+}
+
 \begin{equation}
 \vcenter{\hbox{\includegraphics[scale=0.7]{modern-Hopfield-network-energy-landscape.png}}}
 \end{equation}
 
-\textbf{新的能量}函数:
+\cc{
+\textbf{新的能量}函数:}{
+The \textbf{new energy function}:
+}
 \begin{equation}
 \boxed{\mbox{New Energy}} \quad E = - \sum_i F( \vect{\xi}^T \vect{x}^i )
 \end{equation}
-注： $ \displaystyle \vect{\xi}^T \vect{x}^i = \sum_s \xi_s x^i_s$ ，\; $F$ = interaction function.
+\cc{注：}{Note: } $ \displaystyle \vect{\xi}^T \vect{x}^i = \sum_s \xi_s x^i_s$ , \; $F$ = interaction function.
 
-[Demircigil et al 2017] 提出 $F$ 用 exponential 函数。
+\cc{
+[Demircigil et al 2017] 提出 $F$ 用 exponential 函数。}{
+[Demircigil et al 2017] proposes to use the exponential function for $F$.
+}
 
 \textbf{State update rule}:
 \begin{equation}
 \vect{\xi}^{\mbox{new}} = \vect{X} \; \mbox{softmax}(\beta \vect{X}^T \vect{\xi})
+\end{equation}
+This corresponds to the update rule of the conventional Transformer:
+\begin{equation}
+	\vect{Z} = \mbox{softmax} \left( \frac{1}{\sqrt{d_k}} \vect{Q} \, \vect{K}^T \right) \vect{V}
 \end{equation}
 
 \subsection{Hopfield-Transformer 对应}
