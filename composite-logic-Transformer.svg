@@ -7,7 +7,7 @@
    viewBox="0 0 268.32932 421.51352"
    version="1.1"
    id="svg5"
-   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   inkscape:version="1.2.2 (1:1.2.2+202212051550+b0a8486541)"
    sodipodi:docname="composite-logic-Transformer.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -24,11 +24,11 @@
      inkscape:deskcolor="#ffffff"
      inkscape:document-units="px"
      showgrid="false"
-     inkscape:zoom="1"
-     inkscape:cx="477.5"
-     inkscape:cy="2397"
-     inkscape:window-width="1920"
-     inkscape:window-height="1059"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="-550.12908"
+     inkscape:cy="1297.5409"
+     inkscape:window-width="1080"
+     inkscape:window-height="1895"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -2097,12 +2097,36 @@
          style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
          transform="matrix(-0.4,0,0,-0.4,-4,0)" />
     </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend-7-9-6-2-9-87-6-0-6-2"
+       style="overflow:visible"
+       viewBox="0 0 8.886927 5.078244"
+       markerWidth="4"
+       markerHeight="2.2857146"
+       preserveAspectRatio="xMidYMid"
+       markerUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3885-8-1-7-6-7-04-2-56-3-6"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
   </defs>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(10.672101,-10.756454)">
+    <path
+       style="font-variation-settings:normal;display:inline;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.396875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       d="m -167.75994,438.08238 h -6.38663 c -1.99514,0 -3.60134,-1.60619 -3.60134,-3.60133 v -19.22752 -0.17752"
+       id="path37327-49-5-4-7-5"
+       sodipodi:nodetypes="csscc" />
     <rect
        style="display:inline;fill:#ffff00;stroke:#000000;stroke-width:0.264583"
        id="rect4029-2-6-2-6-6-6-0-5-2-0-3-6-2-4-2-3-7-4-19-7-2-3-3-9-3"
@@ -3555,19 +3579,19 @@
        transform="translate(-327.69218,-68.66037)"><tspan
          x="463.85352"
          y="173.70686"
-         id="tspan20904"><tspan
+         id="tspan10597"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan20902">tokens (logic conclusions) </tspan></tspan><tspan
+           id="tspan10595">tokens (logic conclusions) </tspan></tspan><tspan
          x="463.85352"
          y="180.76242"
-         id="tspan20908"><tspan
+         id="tspan10601"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan20906">derived from the same </tspan></tspan><tspan
+           id="tspan10599">derived from the same </tspan></tspan><tspan
          x="463.85352"
          y="187.81798"
-         id="tspan20912"><tspan
+         id="tspan10605"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan20910">new word</tspan></tspan></text>
+           id="tspan10603">new word</tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;white-space:pre;inline-size:53.787;display:inline;stroke-width:0.264583"
@@ -3577,24 +3601,24 @@
        transform="translate(-337.34587,-43.22263)"><tspan
          x="463.85352"
          y="173.70686"
-         id="tspan20916"><tspan
+         id="tspan10609"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan20914">each time add one </tspan></tspan><tspan
+           id="tspan10607">each time add one </tspan></tspan><tspan
          x="463.85352"
          y="180.76242"
-         id="tspan20920"><tspan
+         id="tspan10613"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan20918">new token, this is the </tspan></tspan><tspan
+           id="tspan10611">new token, this is the </tspan></tspan><tspan
          x="463.85352"
          y="187.81798"
-         id="tspan20924"><tspan
+         id="tspan10617"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan20922">observed world </tspan></tspan><tspan
+           id="tspan10615">observed world </tspan></tspan><tspan
          x="463.85352"
          y="194.87354"
-         id="tspan20928"><tspan
+         id="tspan10621"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan20926">change &quot;delta&quot;</tspan></tspan></text>
+           id="tspan10619">change &quot;delta&quot;</tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;white-space:pre;inline-size:53.787;display:inline;stroke-width:0.264583"
@@ -3604,24 +3628,24 @@
        transform="translate(-347.40498,117.12445)"><tspan
          x="463.85352"
          y="173.70686"
-         id="tspan20932"><tspan
+         id="tspan10625"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan20930">each time add one </tspan></tspan><tspan
+           id="tspan10623">each time add one </tspan></tspan><tspan
          x="463.85352"
          y="180.76242"
-         id="tspan20936"><tspan
+         id="tspan10629"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan20934">new token, this is the </tspan></tspan><tspan
+           id="tspan10627">new token, this is the </tspan></tspan><tspan
          x="463.85352"
          y="187.81798"
-         id="tspan20940"><tspan
+         id="tspan10633"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan20938">observed world </tspan></tspan><tspan
+           id="tspan10631">observed world </tspan></tspan><tspan
          x="463.85352"
          y="194.87354"
-         id="tspan20944"><tspan
+         id="tspan10637"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan20942">change &quot;delta&quot;</tspan></tspan></text>
+           id="tspan10635">change &quot;delta&quot;</tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-size:6.35px;line-height:0.95;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#ff0000;stroke-width:0.264583"
@@ -3653,15 +3677,15 @@
        transform="translate(-296.99939,17.569295)"><tspan
          x="463.85352"
          y="173.70686"
-         id="tspan20948"><tspan
+         id="tspan10641"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan20946">send together
+           id="tspan10639">send together
 </tspan></tspan><tspan
          x="463.85352"
          y="180.76242"
-         id="tspan20952"><tspan
+         id="tspan10645"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan20950">after cycles complete</tspan></tspan></text>
+           id="tspan10643">after cycles complete</tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;white-space:pre;inline-size:64.8931;display:inline;stroke-width:0.264583"
@@ -3671,17 +3695,17 @@
        transform="translate(-232.15921,160.02204)"><tspan
          x="463.85352"
          y="173.70686"
-         id="tspan20956"><tspan
+         id="tspan10649"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan20954">tokens (logic conclusions)
+           id="tspan10647">tokens (logic conclusions)
 </tspan></tspan><tspan
          x="463.85352"
          y="180.76242"
-         id="tspan20962"><tspan
+         id="tspan10655"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan20958">derived from the same </tspan><tspan
+           id="tspan10651">derived from the same </tspan><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan20960">Δ</tspan></tspan></text>
+           id="tspan10653">Δ</tspan></tspan></text>
     <path
        style="font-variation-settings:normal;display:inline;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.346557;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
        d="m 198.02486,202.0789 c -8.95391,3.46351 -8.37985,-0.84485 -17.88701,2.52336"
@@ -3943,13 +3967,13 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
-       x="29.988045"
+       x="29.988047"
        y="370.51569"
        id="text13021"><tspan
          sodipodi:role="line"
          id="tspan13019"
          style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi Light';stroke-width:0.264583"
-         x="29.988045"
+         x="29.988047"
          y="370.51569">0.4</tspan></text>
     <text
        xml:space="preserve"
@@ -3987,24 +4011,24 @@
     <text
        xml:space="preserve"
        style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
-       x="30.084"
+       x="30.084002"
        y="386.33798"
        id="text13037"><tspan
          sodipodi:role="line"
          id="tspan13035"
          style="stroke-width:0.264583"
-         x="30.084"
+         x="30.084002"
          y="386.33798">0.3</tspan></text>
     <text
        xml:space="preserve"
        style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
-       x="30.030376"
+       x="30.030378"
        y="402.16025"
        id="text13041"><tspan
          sodipodi:role="line"
          id="tspan13039"
          style="stroke-width:0.264583"
-         x="30.030376"
+         x="30.030378"
          y="402.16025">0.2</tspan></text>
     <text
        xml:space="preserve"
@@ -4020,13 +4044,13 @@
     <text
        xml:space="preserve"
        style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
-       x="28.219925"
+       x="28.219927"
        y="432.26999"
        id="text13045-6"><tspan
          sodipodi:role="line"
          id="tspan13043-3"
          style="stroke-width:0.264583"
-         x="28.219925"
+         x="28.219927"
          y="432.26999">Σ = 1</tspan></text>
     <text
        xml:space="preserve"
@@ -4149,6 +4173,435 @@
          style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:8.46667px;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
          x="84.365349"
          y="348.74435">前缀表示</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.47625;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m -193.04546,406.03591 h 25.82208"
+       id="path13259-09"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.396875;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m -189.34129,421.91092 h 22.11791"
+       id="path13259-1-2" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.396875;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m -189.34129,453.66094 h 22.11791"
+       id="path13259-0-5" />
+    <path
+       style="font-variation-settings:normal;display:inline;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       d="m -42.253062,417.50363 c -0.8644,-4.69751 -6.152885,-11.3135 -24.045427,-10.84972 m 24.045427,20.6375 c -0.8644,4.69751 -5.10897,10.6989 -13.99126,10.84972"
+       id="path1259-6-4-3-6-9-1-6-9-9-7-2-0"
+       sodipodi:nodetypes="cccc" />
+    <rect
+       style="fill:#ffee6f;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+       id="rect8495-9"
+       width="15.875"
+       height="10.847917"
+       x="-201.63756"
+       y="416.4108"
+       ry="2.673944" />
+    <text
+       xml:space="preserve"
+       style="font-size:8.46667px;line-height:1.25;font-family:'AR PL KaitiM GB';-inkscape-font-specification:'AR PL KaitiM GB';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="-199.9205"
+       y="425.14346"
+       id="text12667-4"><tspan
+         sodipodi:role="line"
+         id="tspan12665-6"
+         style="font-size:8.46667px;stroke-width:0.264583"
+         x="-199.9205"
+         y="425.14346">She</tspan></text>
+    <rect
+       style="fill:#ffee6f;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+       id="rect8495-5-2"
+       width="38.364586"
+       height="10.847917"
+       x="-170.41675"
+       y="416.4108"
+       ry="2.673944" />
+    <text
+       xml:space="preserve"
+       style="font-size:8.46667px;line-height:1.25;font-family:'AR PL KaitiM GB';-inkscape-font-specification:'AR PL KaitiM GB';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="-168.17053"
+       y="425.14346"
+       id="text12667-3-2"><tspan
+         sodipodi:role="line"
+         id="tspan12665-5-4"
+         style="font-size:8.46667px;stroke-width:0.264583"
+         x="-168.17053"
+         y="425.14346">is bitch</tspan></text>
+    <rect
+       style="fill:#ffee6f;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+       id="rect8495-1-7"
+       width="10.163332"
+       height="10.847917"
+       x="-201.63756"
+       y="400.53583"
+       ry="2.673944" />
+    <text
+       xml:space="preserve"
+       style="font-size:8.46667px;line-height:1.25;font-family:'AR PL KaitiM GB';-inkscape-font-specification:'AR PL KaitiM GB';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="-199.39134"
+       y="409.26849"
+       id="text12667-27-5"><tspan
+         sodipodi:role="line"
+         id="tspan12665-0-4"
+         style="font-size:8.46667px;stroke-width:0.264583"
+         x="-199.39134"
+         y="409.26849">I</tspan></text>
+    <g
+       id="g4781"
+       transform="translate(-11.112501)">
+      <rect
+         style="fill:#ffee6f;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         id="rect8495-1-9-1"
+         width="47.625"
+         height="10.847917"
+         x="-284.73563"
+         y="400.80566"
+         ry="2.673944" />
+      <text
+         xml:space="preserve"
+         style="font-size:8.46667px;line-height:1.25;font-family:'AR PL KaitiM GB';-inkscape-font-specification:'AR PL KaitiM GB';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="-281.96021"
+         y="409.53833"
+         id="text12667-27-2-2"><tspan
+           sodipodi:role="line"
+           id="tspan12665-0-2-8"
+           style="font-size:8.46667px;stroke-width:0.264583"
+           x="-281.96021"
+           y="409.53833">I love her</tspan></text>
+    </g>
+    <g
+       id="g4786"
+       transform="translate(-11.112501)">
+      <rect
+         style="fill:#ffee6f;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         id="rect8495-1-9-8-3"
+         width="55.5625"
+         height="10.847917"
+         x="-293.20258"
+         y="416.68063"
+         ry="2.673944" />
+      <text
+         xml:space="preserve"
+         style="font-size:8.46667px;line-height:1.25;font-family:'AR PL KaitiM GB';-inkscape-font-specification:'AR PL KaitiM GB';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="-290.95596"
+         y="425.4133"
+         id="text12667-27-2-9-6"><tspan
+           sodipodi:role="line"
+           id="tspan12665-0-2-7-8"
+           style="font-size:8.46667px;stroke-width:0.264583"
+           x="-290.95596"
+           y="425.4133">She is bitch</tspan></text>
+    </g>
+    <rect
+       style="fill:#ffee6f;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+       id="rect8495-1-9-8-7-2"
+       width="51.064583"
+       height="10.847917"
+       x="-170.43541"
+       y="448.43063"
+       ry="2.673944" />
+    <text
+       xml:space="preserve"
+       style="font-size:8.46667px;line-height:1.25;font-family:'AR PL KaitiM GB';-inkscape-font-specification:'AR PL KaitiM GB';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="-168.18921"
+       y="457.1633"
+       id="text12667-27-2-9-2-1"><tspan
+         sodipodi:role="line"
+         id="tspan12665-0-2-7-2-0"
+         style="font-size:8.46667px;stroke-width:0.264583"
+         x="-168.18921"
+         y="457.1633">is illusion</tspan></text>
+    <g
+       id="g4791"
+       transform="translate(-11.112501)">
+      <rect
+         style="fill:#ffee6f;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         id="rect8495-1-9-3-1"
+         width="55.5625"
+         height="10.847917"
+         x="-293.20224"
+         y="432.5556"
+         ry="2.673944" />
+      <text
+         xml:space="preserve"
+         style="font-size:8.46667px;line-height:1.25;font-family:'AR PL KaitiM GB';-inkscape-font-specification:'AR PL KaitiM GB';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="-290.95596"
+         y="441.28827"
+         id="text12667-27-2-6-1"><tspan
+           sodipodi:role="line"
+           id="tspan12665-0-2-1-0"
+           style="font-size:8.46667px;stroke-width:0.264583"
+           x="-290.95596"
+           y="441.28827">I am bad too</tspan></text>
+    </g>
+    <g
+       id="g4796"
+       transform="translate(-11.112501)">
+      <rect
+         style="fill:#ffee6f;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         id="rect8495-1-9-2-5"
+         width="73.554169"
+         height="10.847917"
+         x="-310.87637"
+         y="448.43057"
+         ry="2.673944" />
+      <text
+         xml:space="preserve"
+         style="font-size:8.46667px;line-height:1.25;font-family:'AR PL KaitiM GB';-inkscape-font-specification:'AR PL KaitiM GB';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="-308.10092"
+         y="457.16324"
+         id="text12667-27-2-93-0"><tspan
+           sodipodi:role="line"
+           id="tspan12665-0-2-19-6"
+           style="font-size:8.46667px;stroke-width:0.264583"
+           x="-308.10092"
+           y="457.16324">Love is illusion</tspan></text>
+    </g>
+    <rect
+       style="fill:#ffee6f;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+       id="rect8495-5-9-6"
+       width="38.364586"
+       height="10.847917"
+       x="-170.41675"
+       y="400.53583"
+       ry="2.673944" />
+    <text
+       xml:space="preserve"
+       style="font-size:8.46667px;line-height:1.25;font-family:'AR PL KaitiM GB';-inkscape-font-specification:'AR PL KaitiM GB';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="-168.17053"
+       y="409.26849"
+       id="text12667-3-3-2"><tspan
+         sodipodi:role="line"
+         id="tspan12665-5-6-5"
+         style="font-size:8.46667px;stroke-width:0.264583"
+         x="-168.17053"
+         y="409.26849">love her</tspan></text>
+    <rect
+       style="fill:#ffee6f;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+       id="rect8495-1-4-6"
+       width="21.166668"
+       height="10.847917"
+       x="-201.63756"
+       y="448.16074"
+       ry="2.673944" />
+    <text
+       xml:space="preserve"
+       style="font-size:8.46667px;line-height:1.25;font-family:'AR PL KaitiM GB';-inkscape-font-specification:'AR PL KaitiM GB';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="-199.39134"
+       y="456.8934"
+       id="text12667-27-9-2"><tspan
+         sodipodi:role="line"
+         id="tspan12665-0-5-8"
+         style="font-size:8.46667px;stroke-width:0.264583"
+         x="-199.39134"
+         y="456.8934">Love</tspan></text>
+    <rect
+       style="fill:#ffee6f;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+       id="rect8495-5-92-7"
+       width="46.302086"
+       height="10.847917"
+       x="-170.41675"
+       y="432.28577"
+       ry="2.673944" />
+    <text
+       xml:space="preserve"
+       style="font-size:8.46667px;line-height:1.25;font-family:'AR PL KaitiM GB';-inkscape-font-specification:'AR PL KaitiM GB';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="-168.17053"
+       y="441.01843"
+       id="text12667-3-0-2"><tspan
+         sodipodi:role="line"
+         id="tspan12665-5-2-4"
+         style="font-size:8.46667px;stroke-width:0.264583"
+         x="-168.17053"
+         y="441.01843">am bad too</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="-243.89008"
+       y="408.00598"
+       id="text13021-0"><tspan
+         sodipodi:role="line"
+         id="tspan13019-6"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi Light';stroke-width:0.264583"
+         x="-243.89008"
+         y="408.00598">0.4</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="-243.79413"
+       y="423.82828"
+       id="text13037-2"><tspan
+         sodipodi:role="line"
+         id="tspan13035-9"
+         style="stroke-width:0.264583"
+         x="-243.79413"
+         y="423.82828">0.3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="-243.84775"
+       y="439.65054"
+       id="text13041-9"><tspan
+         sodipodi:role="line"
+         id="tspan13039-0"
+         style="stroke-width:0.264583"
+         x="-243.84775"
+         y="439.65054">0.2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="-243.01237"
+       y="455.47284"
+       id="text13045-8"><tspan
+         sodipodi:role="line"
+         id="tspan13043-13"
+         style="stroke-width:0.264583"
+         x="-243.01237"
+         y="455.47284">0.1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="-245.6582"
+       y="469.76028"
+       id="text13045-6-1"><tspan
+         sodipodi:role="line"
+         id="tspan13043-3-1"
+         style="stroke-width:0.264583"
+         x="-245.6582"
+         y="469.76028">Σ = 1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="-214.96649"
+       y="469.76028"
+       id="text13045-6-9-0"><tspan
+         sodipodi:role="line"
+         id="tspan13043-3-4-3"
+         style="stroke-width:0.264583"
+         x="-214.96649"
+         y="469.76028">Σ = 1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="-43.091129"
+       y="424.17093"
+       id="text13045-6-9-8-4"><tspan
+         sodipodi:role="line"
+         id="tspan13043-3-4-1-0"
+         style="stroke-width:0.264583"
+         x="-43.091129"
+         y="424.17093">Σ = 1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="-114.77359"
+       y="408.53516"
+       id="text13021-5-3"><tspan
+         sodipodi:role="line"
+         id="tspan13019-9-9"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi Light';stroke-width:0.264583"
+         x="-114.77359"
+         y="408.53516">P(love her | I) = 2/3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="-114.67766"
+       y="424.35745"
+       id="text13037-7-1"><tspan
+         sodipodi:role="line"
+         id="tspan13035-7-9"
+         style="stroke-width:0.264583"
+         x="-114.67766"
+         y="424.35745">P(is bitch | she) = 1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="-114.73127"
+       y="440.17972"
+       id="text13041-6-6"><tspan
+         sodipodi:role="line"
+         id="tspan13039-7-9"
+         style="stroke-width:0.264583"
+         x="-114.73127"
+         y="440.17972">P(am bad too | I) = 1/3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="-114.95418"
+       y="456.00201"
+       id="text13045-3-3"><tspan
+         sodipodi:role="line"
+         id="tspan13043-6-3"
+         style="stroke-width:0.264583"
+         x="-114.95418"
+         y="456.00201">P(is illusion | love) = 1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="-213.19836"
+       y="408.00598"
+       id="text13021-9-8"><tspan
+         sodipodi:role="line"
+         id="tspan13019-0-0"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi Light';stroke-width:0.264583"
+         x="-213.19836"
+         y="408.00598">0.6</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="-213.1024"
+       y="423.82828"
+       id="text13037-9-5"><tspan
+         sodipodi:role="line"
+         id="tspan13035-1-6"
+         style="stroke-width:0.264583"
+         x="-213.1024"
+         y="423.82828">0.3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="-212.32065"
+       y="455.47284"
+       id="text13045-1-6"><tspan
+         sodipodi:role="line"
+         id="tspan13043-1-4"
+         style="stroke-width:0.264583"
+         x="-212.32065"
+         y="455.47284">0.1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:300;font-size:6.35px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="-272.83347"
+       y="378.82629"
+       id="text13311-0"><tspan
+         sodipodi:role="line"
+         id="tspan13309-0"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:8.46667px;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="-272.83347"
+         y="378.82629">Propositional</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:8.46667px;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="-272.83347"
+         y="389.40964"
+         id="tspan4639">Representation</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:300;font-size:6.35px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="-159.06245"
+       y="378.29721"
+       id="text13311-9-4"><tspan
+         sodipodi:role="line"
+         id="tspan13309-4-6"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:8.46667px;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="-159.06245"
+         y="378.29721">Prefix</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:8.46667px;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="-159.06245"
+         y="388.88055"
+         id="tspan4691">Representation</tspan></text>
     <path
        style="font-variation-settings:normal;display:inline;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.396875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow1Mend-7-9-6-2-9-87-6-0);stop-color:#000000"
        d="m 91.898083,225.24529 h 3.211627 c 1.995128,0 3.601309,-1.60619 3.601309,-3.60133 v -3.35252 -0.17752"
@@ -5262,24 +5715,24 @@
        transform="translate(-342.78145,392.84441)"><tspan
          x="463.85352"
          y="173.70686"
-         id="tspan20966"><tspan
+         id="tspan10659"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan20964">each time add one </tspan></tspan><tspan
+           id="tspan10657">each time add one </tspan></tspan><tspan
          x="463.85352"
          y="180.76242"
-         id="tspan20970"><tspan
+         id="tspan10663"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan20968">new token, this is the </tspan></tspan><tspan
+           id="tspan10661">new token, this is the </tspan></tspan><tspan
          x="463.85352"
          y="187.81798"
-         id="tspan20974"><tspan
+         id="tspan10667"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan20972">observed world </tspan></tspan><tspan
+           id="tspan10665">observed world </tspan></tspan><tspan
          x="463.85352"
          y="194.87354"
-         id="tspan20978"><tspan
+         id="tspan10671"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan20976">change &quot;delta&quot;</tspan></tspan></text>
+           id="tspan10669">change &quot;delta&quot;</tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-size:6.35px;line-height:0.95;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#ff0000;stroke-width:0.264583"
@@ -5540,15 +5993,15 @@
        transform="translate(-334.35251,330.81988)"><tspan
          x="463.85352"
          y="173.70686"
-         id="tspan20982"><tspan
+         id="tspan10675"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan20980">send together
+           id="tspan10673">send together
 </tspan></tspan><tspan
          x="463.85352"
          y="180.76242"
-         id="tspan20986"><tspan
+         id="tspan10679"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan20984">after cycles complete</tspan></tspan></text>
+           id="tspan10677">after cycles complete</tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;white-space:pre;inline-size:65.7318;display:inline;stroke-width:0.264583"
@@ -5558,15 +6011,15 @@
        transform="translate(-335.07241,497.91907)"><tspan
          x="463.85352"
          y="173.70686"
-         id="tspan20990"><tspan
+         id="tspan10683"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan20988">reinforcement-
+           id="tspan10681">reinforcement-
 </tspan></tspan><tspan
          x="463.85352"
          y="180.76242"
-         id="tspan20994"><tspan
+         id="tspan10687"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan20992">learning loop</tspan></tspan></text>
+           id="tspan10685">learning loop</tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;white-space:pre;inline-size:65.7318;display:inline;stroke-width:0.264583"
@@ -5576,9 +6029,9 @@
        transform="translate(-336.33651,480.69693)"><tspan
          x="463.85352"
          y="173.70686"
-         id="tspan20998"><tspan
+         id="tspan10691"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan20996">k atoms = 1 proposition</tspan></tspan></text>
+           id="tspan10689">k atoms = 1 proposition</tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;white-space:pre;inline-size:65.7318;display:inline;fill:#ff0000;stroke-width:0.264583"
@@ -5588,7 +6041,7 @@
        transform="translate(-326.27946,468.25707)"><tspan
          x="463.85352"
          y="173.70686"
-         id="tspan21000">last token = attention axis</tspan></text>
+         id="tspan10693">last token = attention axis</tspan></text>
     <text
        xml:space="preserve"
        style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;white-space:pre;inline-size:64.8931;display:inline;stroke-width:0.264583"
@@ -5598,17 +6051,17 @@
        transform="translate(-328.30906,370.13648)"><tspan
          x="463.85352"
          y="173.70686"
-         id="tspan21004"><tspan
+         id="tspan10697"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan21002">tokens (logic conclusions)
+           id="tspan10695">tokens (logic conclusions)
 </tspan></tspan><tspan
          x="463.85352"
          y="180.76242"
-         id="tspan21010"><tspan
+         id="tspan10703"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan21006">derived from the same </tspan><tspan
+           id="tspan10699">derived from the same </tspan><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan21008">Δ</tspan></tspan></text>
+           id="tspan10701">Δ</tspan></tspan></text>
     <path
        style="font-variation-settings:normal;display:inline;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.346557;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
        d="m 143.17411,502.47909 c -8.95391,3.46351 -8.37985,-0.84485 -17.88701,2.52336"
@@ -5858,24 +6311,24 @@
        transform="translate(-343.69575,540.20917)"><tspan
          x="463.85352"
          y="173.70686"
-         id="tspan21014"><tspan
+         id="tspan10707"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan21012">each time add one </tspan></tspan><tspan
+           id="tspan10705">each time add one </tspan></tspan><tspan
          x="463.85352"
          y="180.76242"
-         id="tspan21018"><tspan
+         id="tspan10711"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan21016">new token, this is the </tspan></tspan><tspan
+           id="tspan10709">new token, this is the </tspan></tspan><tspan
          x="463.85352"
          y="187.81798"
-         id="tspan21022"><tspan
+         id="tspan10715"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan21020">observed world </tspan></tspan><tspan
+           id="tspan10713">observed world </tspan></tspan><tspan
          x="463.85352"
          y="194.87354"
-         id="tspan21026"><tspan
+         id="tspan10719"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan21024">change &quot;delta&quot;</tspan></tspan></text>
+           id="tspan10717">change &quot;delta&quot;</tspan></tspan></text>
     <g
        id="g2226"
        transform="translate(39.223518,8.155188)">
@@ -5931,6 +6384,11 @@
        style="font-variation-settings:normal;display:inline;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.396875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#Arrow1Mend-7-9-6-2-9-87-6-0-6);stop-color:#000000"
        d="m 102.17685,678.51413 h 6.38663 c 1.99514,0 3.60133,-1.60619 3.60133,-3.60133 v -6.52752 -0.17752"
        id="path37327-49-5-4"
+       sodipodi:nodetypes="csscc" />
+    <path
+       style="font-variation-settings:normal;display:inline;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.396875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       d="m -177.77694,415.96218 v -6.38663 c 0,-1.99514 -1.60619,-3.60133 -3.60133,-3.60133 h -6.52752 -1.76502"
+       id="path37327-49-5-4-7"
        sodipodi:nodetypes="csscc" />
     <path
        style="font-variation-settings:normal;display:inline;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.396875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
