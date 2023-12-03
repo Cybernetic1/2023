@@ -1,5 +1,6 @@
 \input{../YKY-preamble.tex}
-\setmainfont[BoldFont=Alibaba_Sans_Regular.otf,ItalicFont=Alibaba_Sans_Light_Italic.otf]{Alibaba_Sans_Light.otf}
+% \usepackage[no-math]{fontspec}
+% \setmainfont[BoldFont=Alibaba_Sans_Regular.otf,ItalicFont=Alibaba_Sans_Light_Italic.otf]{Alibaba_Sans_Light.otf}
 
 \usepackage[backend=biber]{biblatex}
 \bibliography{../AGI-book}
@@ -11,7 +12,7 @@
 \usepackage[absolute,overlay]{textpos}		% for page number on upper left corner
 
 \usepackage{color}
-\usepackage{mathtools}
+% \usepackage{mathtools}
 \usepackage[hyperfootnotes=false]{hyperref}
 
 % \usepackage[backend=biber,style=numeric]{biblatex}
@@ -19,7 +20,7 @@
 % \renewcommand*{\bibfont}{\footnotesize}
 
 \usetikzlibrary{shapes}
-\usepackage[export]{adjustbox}				% ??
+% \usepackage[export]{adjustbox}	% ??
 \usepackage{verbatim} % for comments
 % \usepackage{newtxtext,newtxmath}	% Times New Roman font
 
@@ -37,18 +38,19 @@
 
 %\DeclareSymbolFont{symbolsC}{U}{txsyc}{m}{n}
 %\DeclareMathSymbol{\strictif}{\mathrel}{symbolsC}{74}
-\DeclareSymbolFont{AMSb}{U}{msb}{m}{n}
-\DeclareSymbolFontAlphabet{\mathbb}{AMSb}
-% \setmathfont{Latin Modern Math}
+%\DeclareSymbolFont{AMSb}{U}{msb}{m}{n}
+%\DeclareSymbolFontAlphabet{\mathbb}{AMSb}
+%\setmathfont{lmroman17-regular.otf}
 \DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\argmax}{arg\,max}
 
 % \usepackage[most]{tcolorbox}
-\tcbset{on line, 
-	boxsep=4pt, left=0pt,right=0pt,top=0pt,bottom=0pt,
-	colframe=red,colback=pink,
-	highlight math style={enhanced}
-}
-\newcommand{\atom}{\vcenter{\hbox{\tcbox{....}}}}
+%\tcbset{on line, 
+%	boxsep=4pt, left=0pt,right=0pt,top=0pt,bottom=0pt,
+%	colframe=red,colback=pink,
+%	highlight math style={enhanced}
+%}
+%\newcommand{\atom}{\vcenter{\hbox{\tcbox{....}}}}
 
 \let\oldtextbf\textbf
 \renewcommand{\textbf}[1]{\textcolor{blue}{\oldtextbf{#1}}}
@@ -83,9 +85,9 @@
 \begin{minipage}{\textwidth}
 \setlength{\parskip}{0.4\baselineskip}
 
-\section{Quick review of generative models}
+\section{Quick overview of generative models}
 
-(This quick review is based from the book ``The Science of Deep Learning'' [Iddo Drori, 2023] with my own simplifications)
+(This section is based from the book ``The Science of Deep Learning'' [Iddo Drori, 2023] with my own simplifications)
 
 A generative model, as opposed to a classifying model, is one that learns the probability distribution of the data and outputs \textbf{samplings} from the learned distribution:
 \begin{equation}
@@ -98,10 +100,11 @@ A generative model, as opposed to a classifying model, is one that learns the pr
 One class of generative models are \textbf{auto-encoders}, which forces information to flow through a narrow bottleneck, thus \textbf{compressing} the data into a compact, latent representation:
 \begin{equation}
 	\vcenter{\hbox{\includegraphics[scale=0.8]{auto-encoder.png}}}
+	\label{fig:auto-encoder}
 \end{equation}
 Of which, the \textbf{VAE (variational auto-encoder)} uses variational methods to find a probability distribution $q_\phi(z|x)$ that approximates the true `posterior' distribution $q(z|x)$:
 \begin{equation}
-	\vcenter{\hbox{\includegraphics[scale=0.6]{VAE.png}}}
+	\vcenter{\hbox{\includegraphics[scale=0.5]{VAE.png}}}
 \end{equation}
 One variational inference algorithm recently proposed is \textbf{SVGD (Stein variational gradient descent)} which exploits efficiency in reproducing kernel Hilbert space.
 
@@ -109,6 +112,12 @@ Another generative model is the \textbf{diffusion model}, whose latent represent
 \begin{equation}
 	\vcenter{\hbox{\includegraphics[scale=0.8]{diffusion-model.png}}}
 \end{equation}
+
+Interestingly, the \textbf{human brain} also has the structure of an auto-encoder.  Sensory information is processed by a hierarchy of cortical areas, getting increasingly abstract representations, which information is then \textbf{back-projected} towards the primary sensory areas, thus forming an auto-encoder similar to (\ref{fig:auto-encoder}) but folded in the middle.
+\begin{equation}
+	\vcenter{\hbox{\includegraphics[scale=1.2]{visual-cortex.png}}}
+\end{equation}
+
 
 \end{minipage}
 \end{preview}
@@ -122,27 +131,65 @@ Another generative model is the \textbf{diffusion model}, whose latent represent
 \begin{minipage}{\textwidth}
 	\setlength{\parskip}{0.4\baselineskip}
 
-\section{What is AGI?}
+\section{Reinforcement learning}
 
-In my opinion, AGI should be developed under the framework of \textbf{RL (reinforcement learning)}, which tries to find an optimal policy that acts in an environment, that maximizes the total reward over a time horizon:
+AGI should be developed under the framework of \textbf{RL (reinforcement learning)}, which tries to find an optimal policy that acts in an environment, that maximizes the total reward over a time horizon:
 \begin{equation}
-\vcenter{\hbox{\includegraphics[scale=0.7]{RL.png}}}
+\vcenter{\hbox{\includegraphics[scale=0.75]{RL.png}}}
 \end{equation}
-State-of-the-art RL algorithms tend to have an actor-critic structure, that simultaneously learns \textbf{value functions} (denoted $Q$ or $V$) and \textbf{policy functions} (denoted $\pi$).
-
-I tend to favor the \textbf{SAC (soft actor-critic)} algorithm for AGI because it has an elegant theoretical underpinning based on entropy maximization.  This ensures that the resulting policy not only maximizes rewards, but also maximizes randomness so as to \textbf{explore} the environment adequately.
 
 In its most general form, an RL algorithm tries to maximize the following Bellman objective:
 \begin{equation}
 \max_{\pi} \; \underset{\substack{a_t \;\sim\; \pi(\cdot | s_t) \\ s_{t+1} \;\sim\; p(\cdot | s_t, a_t) }} {\mathbb{E}} \left[ \sum_{t} \gamma^t R(s_t, a_t) \right]
+\label{eqn:RL-objective}
 \end{equation}
-The solution consists of two probability distributions: the policy $\pi$ and the world model $p$.
+RL only needs to learn two things (probability distributions): the \textbf{policy} $\pi$ which is concerned with ``values'', and the \textbf{world model} $p$ which is concerned with ``truths''.
 
-The actor and critic seem distinct from the world model.  The world model learns to predict the next state from the current state and action, ie. $p(s_{t+1} | s_t, a_t)$.  As such, it is not influenced by rewards or ``value judgements''.  We could say that the world model seeks only the ``\textbf{truth}'', whereas the actor-critic seeks values \footnote{but we can also let the world model predict rewards as well, in which case its role partly overlaps with the critic.}.  How might a world model help RL be more efficient?  Perhaps by letting the actor-critic explore the world model virtually:
+State-of-the-art RL algorithms tend to have an actor-critic structure, that simultaneously learns \textbf{value functions} (denoted $Q$ or $V$) and \textbf{policy functions} (denoted $\pi$).
+
+I tend to favor the \textbf{SAC (soft actor-critic)} algorithm for AGI because it has an elegant theoretical underpinning based on entropy maximization.  If an RL algorithm always chooses the highest reward and does not explore the environment, such a strategy may turn out inferior to one that has some kind of ``curiosity''.  So we add an entropy term $H$ to the objective (\ref{eqn:RL-objective}) to make it ``soft'', so the agent tries to maximize rewards as well as make its behavior most ``random'':
 \begin{equation}
-	\vcenter{\hbox{\includegraphics[scale=0.8]{RL-with-world-model.png}}}
+\max_\pi \mathbb{E}_\pi \left[ \sum_t \gamma^t R(s_t, a_t) + \alpha H(\pi(a_t | s_t)) \right]
+\label{eqn:SAC-objective}
 \end{equation}
-This is significant in physical environments, where physical actions are much more costly.  Ironically, most current AI training environments are already virtual, so this may not bring about large improvements.
+
+The function $Q(s,a)$ is a cross-section of the value function $V(s)$, which explicitly shows the choice of actions.  If we always choose $\argmax_a Q(s,a)$, such a strategy is purely exploitative.  So we make Q into a probability distribution via Boltzmann's construction:
+\begin{equation}
+\pi(\mathbf{a}|\mathbf{s}) \propto \frac{\exp Q(\mathbf{s}, \mathbf{a}) }{Z}
+\end{equation}
+where $Z$ is the partition function.  It turns out amazingly that this policy maximizes the objective (\ref{eqn:SAC-objective})
+
+\section{RL + World Model}
+
+The simplest RL architecture is like this:
+\begin{equation}
+\vcenter{\hbox{\includegraphics[scale=0.75]{minimal-RL.png}}}
+\end{equation}
+I propose to integrate it with an auto-encoder like this:
+\begin{equation}
+\vcenter{\hbox{\includegraphics[scale=0.75]{RL-with-autoencoder.png}}}
+\end{equation}
+which means the two algorithms shares the same state.
+
+For example, if the auto-encoder sees an apple then it produces a high-level representation of apple in its hidden layer(s).  If the RL desires to eat an apple it will produce the actions necessary to grab it.
+
+One tricky issue here deserves explanation: I posited the RL to work in ``\textbf{mental space}'', whose actions are ``\textbf{thoughts}'' (but could also include real physical actions).  So the RL not only learns how to act in the world, but also learns how to ``think'' based on rewards.  After some thinking I concluded that this setup will not create inconsistencies.
+
+Now the state (yellow box) is altered by two different algorithms with distinct objectives.  After some considerations I also tend to think it is OK....
+
+\subsection{About our group}
+
+We operate as a \textbf{DAO} (decentralized autonomous organization) based on transparent operations and reward system based on weighted voting, to enable global collaboration without racial (or other forms of) discrimination.
+
+We value: democracy, freedom of speech, racial equality, transparency, tolerance of mistakes, and a learning environment.
+
+It is OK for anyone to challenge other member's theories, ideas, proposals, etc.
+
+%The actor and critic seem distinct from the world model.  The world model learns to predict the next state from the current state and action, ie. $p(s_{t+1} | s_t, a_t)$.  As such, it is not influenced by rewards or ``value judgements''.  We could say that the world model seeks only the ``\textbf{truth}'', whereas the actor-critic seeks values \footnote{but we can also let the world model predict rewards as well, in which case its role partly overlaps with the critic.}.  How might a world model help RL be more efficient?  Perhaps by letting the actor-critic explore the world model virtually:
+%\begin{equation}
+%	\vcenter{\hbox{\includegraphics[scale=0.8]{RL-with-world-model.png}}}
+%\end{equation}
+%This is significant in physical environments, where physical actions are much more costly.  Ironically, most current AI training environments are already virtual, so this may not bring about large improvements.
 
 \end{minipage}
 \end{preview}

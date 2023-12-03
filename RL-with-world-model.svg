@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1268"
+   inkscape:version="1.2.2 (1:1.2.2+202212051550+b0a8486541)"
+   sodipodi:docname="RL-with-world-model.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1270"
+     pagecolor="#ffffff"
+     bordercolor="#cccccc"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="2"
+     inkscape:cx="211"
+     inkscape:cy="723.25"
+     inkscape:window-width="1080"
+     inkscape:window-height="1895"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1265">
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Colorize"
+       id="filter68641"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feColorMatrix
+         values="0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0 0 0 1 0 "
+         id="feColorMatrix68639"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix1833" />
+      <feComposite
+         in2="fbSourceGraphic"
+         id="feComposite1835"
+         operator="arithmetic"
+         k1="0.5"
+         k2="0.5"
+         result="composite1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix1837"
+         in="composite1"
+         values="1"
+         type="saturate"
+         result="colormatrix1" />
+      <feFlood
+         id="feFlood1839"
+         flood-opacity="0.372549"
+         flood-color="rgb(255,253,0)"
+         result="flood1" />
+      <feBlend
+         in2="colormatrix1"
+         id="feBlend1841"
+         in="flood1"
+         mode="multiply"
+         result="blend1" />
+      <feBlend
+         in2="blend1"
+         id="feBlend1843"
+         mode="normal"
+         result="blend2" />
+      <feColorMatrix
+         id="feColorMatrix1845"
+         in="blend2"
+         values="1"
+         type="saturate"
+         result="colormatrix2" />
+      <feComposite
+         in2="fbSourceGraphic"
+         id="feComposite1847"
+         in="colormatrix2"
+         operator="in"
+         k2="1"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix1849" />
+      <feComposite
+         in2="fbSourceGraphic"
+         id="feComposite1851"
+         operator="arithmetic"
+         k1="0.5"
+         k2="0.5"
+         result="composite1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix1853"
+         in="composite1"
+         values="1"
+         type="saturate"
+         result="colormatrix1" />
+      <feFlood
+         id="feFlood1855"
+         flood-opacity="0.372549"
+         flood-color="rgb(255,218,0)"
+         result="flood1" />
+      <feBlend
+         in2="colormatrix1"
+         id="feBlend1857"
+         in="flood1"
+         mode="multiply"
+         result="blend1" />
+      <feBlend
+         in2="blend1"
+         id="feBlend1859"
+         mode="normal"
+         result="blend2" />
+      <feColorMatrix
+         id="feColorMatrix1861"
+         in="blend2"
+         values="1"
+         type="saturate"
+         result="colormatrix2" />
+      <feComposite
+         in2="fbSourceGraphic"
+         id="feComposite1863"
+         in="colormatrix2"
+         operator="in"
+         k2="1"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix1977" />
+      <feComposite
+         in2="fbSourceGraphic"
+         id="feComposite1979"
+         operator="arithmetic"
+         k1="0.7"
+         k2="0.7"
+         result="composite1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix1981"
+         in="composite1"
+         values="1"
+         type="saturate"
+         result="colormatrix1" />
+      <feFlood
+         id="feFlood1983"
+         flood-opacity="1"
+         flood-color="rgb(255,252,0)"
+         result="flood1" />
+      <feBlend
+         in2="colormatrix1"
+         id="feBlend1985"
+         in="flood1"
+         mode="multiply"
+         result="blend1" />
+      <feBlend
+         in2="blend1"
+         id="feBlend1987"
+         mode="normal"
+         result="blend2" />
+      <feColorMatrix
+         id="feColorMatrix1989"
+         in="blend2"
+         values="1"
+         type="saturate"
+         result="colormatrix2" />
+      <feComposite
+         in2="fbSourceGraphic"
+         id="feComposite1991"
+         in="colormatrix2"
+         operator="in"
+         k2="1"
+         result="composite2" />
+    </filter>
+    <marker
+       style="overflow:visible"
+       id="TriangleStart-7-5-6"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="5.3244081"
+       markerHeight="6.155385"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid"
+       markerUnits="strokeWidth">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-5-6-1" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="TriangleStart-7-5-6-3"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="5.3244081"
+       markerHeight="6.155385"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid"
+       markerUnits="strokeWidth">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-5-6-1-6" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="TriangleStart-7-5-6-1"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="5.3244081"
+       markerHeight="6.155385"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid"
+       markerUnits="strokeWidth">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-5-6-1-2" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="rect390-3-5"
+       style="fill:none;stroke:#000000;stroke-width:0.99219;stop-color:#000000"
+       d="m 135.13542,26.816612 c 0,-7.08482 5.70365,-12.78847 12.78845,-12.78847 l 12.30063,0.008 c 7.0848,0 12.78845,5.70365 12.78845,12.78846 v 15.875 c 0,7.0848 -5.70365,12.788447 -12.78845,12.788447 l -12.30063,-0.008 c -7.0848,0 -12.78845,-5.703637 -12.78845,-12.788437 z"
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:export-filename="RL-with-autoencoder.png"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
+    <rect
+       style="fill:#ffffff;stroke-width:1.05833;stroke-linecap:round;stroke-dasharray:none;stop-color:#000000"
+       id="rect1432"
+       width="5.5612483"
+       height="6.0122695"
+       x="132.54774"
+       y="20.99962"
+       ry="0" />
+    <g
+       id="g1378"
+       transform="translate(50.22124,-126.063)">
+      <path
+         id="rect67505-5"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:1.143;stroke-dasharray:none;stop-color:#000000"
+         d="m 68.242985,153.773 16.198577,3.81001 v 10.47214 l -16.198577,3.81 z"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         id="rect67505-8-3"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:1.143;stroke-dasharray:none;stop-color:#000000"
+         d="m 102.1581,153.773 -16.198598,3.81001 v 10.47214 l 16.198598,3.81 z"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         id="use69167-4-1"
+         style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1.143;stroke-dasharray:none;stop-color:#000000"
+         d="m 83.513866,157.51966 h 3.244584 v 10.47216 h -3.244584 z"
+         sodipodi:nodetypes="ccccc"
+         inkscape:tile-x0="27.512444"
+         inkscape:tile-y0="-320.67129" />
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.85926;marker-end:url(#TriangleStart-7-5-6);stop-color:#000000"
+       d="m 153.85588,14.035872 h 1.01888"
+       id="path65933-9-1"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-weight:300;font-size:6.35px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;white-space:pre;inline-size:129.108;display:inline;stroke-width:0.264583"
+       x="21.446598"
+       y="64.498283"
+       id="text4811"><tspan
+         x="21.446598"
+         y="64.498283"
+         id="tspan2214">RL 產生的 δx 是否应放进 自编码器？
+</tspan><tspan
+         x="21.446598"
+         y="72.435787"
+         id="tspan2216">自编码器 的 x 明显是属于 RL state 的一部分
+</tspan><tspan
+         x="21.446598"
+         y="80.373287"
+         id="tspan2218">似乎 二者的内容应该分享
+</tspan><tspan
+         x="21.446598"
+         y="88.310787"
+         id="tspan2220">但 二者是如何融合？
+</tspan><tspan
+         x="21.446598"
+         y="96.248287"
+         id="tspan2222">RL 根据什么给出 δx？每个 x 有价值函数
+</tspan><tspan
+         x="21.446598"
+         y="104.18579"
+         id="tspan2224">AE 根据的是 reconstruction error
+</tspan><tspan
+         x="21.446598"
+         y="112.12329"
+         id="tspan2226">但二者是否可以 同时运行而没有抵触？
+</tspan><tspan
+         x="21.446598"
+         y="120.06079"
+         id="tspan2228">每个 algorithm 更新的其实是 weights 而已
+</tspan><tspan
+         x="21.446598"
+         y="127.99829"
+         id="tspan2230">但状态的改变会否影响算法的收敛？
+</tspan><tspan
+         x="21.446598"
+         y="135.93579"
+         id="tspan2232">在资料有限的情况下，
+</tspan><tspan
+         x="21.446598"
+         y="143.87329"
+         id="tspan2234">算法收敛到能准确地解释资料的程度
+</tspan><tspan
+         x="21.446598"
+         y="151.81079"
+         id="tspan2236">
+</tspan><tspan
+         x="21.446598"
+         y="159.74829"
+         id="tspan2238">但如果将这架构 应用到 井子棋上则好像不行？
+</tspan><tspan
+         x="21.446598"
+         y="167.68579"
+         id="tspan2240">问题是预测 TTT 的状态
+</tspan><tspan
+         x="21.446598"
+         y="175.62329"
+         id="tspan2242">然后状态 再推导出行动
+</tspan></text>
+    <g
+       id="g7102-9"
+       transform="translate(124.39245,-427.60641)">
+      <rect
+         style="fill:#cccccc;stroke-width:0.264583;stroke-dasharray:0.529167, 0.529167;-inkscape-stroke:none;stop-color:#000000"
+         id="rect330-2-2-2-0-4"
+         width="15.49725"
+         height="16.300793"
+         x="40.667614"
+         y="453.5441"
+         ry="7.2534728" />
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:6.35px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;fill:#ff0000;stroke-width:0.264583"
+         x="44.599758"
+         y="463.78436"
+         id="text233-3-9-2-3-8"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi Bold';fill:#ff0000;stroke-width:0.264583"
+           x="44.599758"
+           y="463.78436"
+           id="tspan274-2-8-6-1">RL</tspan></text>
+    </g>
+    <path
+       id="rect390-3-5-7"
+       style="fill:none;stroke:#000000;stroke-width:0.99219;stop-color:#000000"
+       d="m 37.330476,29.131179 c 0,-7.08482 5.703647,-12.788463 12.788431,-12.788463 l 12.300639,0.008 c 7.0848,0 12.78845,5.703643 12.78845,12.788453 v 5.29166 c 0,7.08479 -5.70365,12.78844 -12.78845,12.78844 l -12.300639,-0.008 c -7.084784,0 -12.788431,-5.70364 -12.788431,-12.78843 z"
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:export-filename="minimal-RL.png"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.85926;marker-end:url(#TriangleStart-7-5-6-3);stop-color:#000000"
+       d="m 56.050928,16.350449 h 1.01888"
+       id="path65933-9-1-5"
+       sodipodi:nodetypes="cc" />
+    <g
+       id="g7102-9-3"
+       transform="translate(26.587502,-430.58352)">
+      <rect
+         style="fill:#cccccc;stroke-width:0.264583;stroke-dasharray:0.529167, 0.529167;-inkscape-stroke:none;stop-color:#000000"
+         id="rect330-2-2-2-0-4-5"
+         width="15.49725"
+         height="16.300793"
+         x="40.667614"
+         y="453.5441"
+         ry="7.2534728" />
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:6.35px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;fill:#ff0000;stroke-width:0.264583"
+         x="44.599758"
+         y="463.78436"
+         id="text233-3-9-2-3-8-6"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi Bold';fill:#ff0000;stroke-width:0.264583"
+           x="44.599758"
+           y="463.78436"
+           id="tspan274-2-8-6-1-2">RL</tspan></text>
+    </g>
+    <g
+       id="g1235"
+       transform="translate(-50.537863,-57.924726)">
+      <path
+         id="use69167-4-1-9"
+         style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-dasharray:none;stop-color:#000000"
+         d="m 77.434593,93.441664 v -8.656001 h 21.033263 v 8.656001 z"
+         sodipodi:nodetypes="ccccc"
+         inkscape:tile-x0="27.512444"
+         inkscape:tile-y0="-320.67129" />
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:6.35px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="80.567101"
+         y="91.155724"
+         id="text1181"><tspan
+           sodipodi:role="line"
+           id="tspan1179"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi';stroke-width:0.264583"
+           x="80.567101"
+           y="91.155724">state</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-weight:300;font-size:5.08px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;fill:#ff0000;stroke-width:0.211666"
+       x="118.63871"
+       y="25.310961"
+       id="text233-31-6"><tspan
+         sodipodi:role="line"
+         id="tspan231-4-8"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi Bold';fill:#ff0000;stroke-width:0.211666"
+         x="118.63871"
+         y="25.310961">auto-encoder</tspan></text>
+    <path
+       id="rect390-3-5-70"
+       style="fill:none;stroke:#000000;stroke-width:0.99219;stop-color:#000000"
+       d="m 94.136046,223.94728 c 0,-7.08482 5.70365,-12.78847 12.788454,-12.78847 l 12.30063,0.008 c 7.0848,0 12.78845,5.70365 12.78845,12.78846 v 15.875 c 0,7.0848 -5.70365,12.78845 -12.78845,12.78845 l -12.30063,-0.008 c -7.084804,0 -12.788454,-5.70364 -12.788454,-12.78844 z"
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:export-filename="RL-with-autoencoder.png"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
+    <rect
+       style="fill:#ffffff;stroke-width:1.05833;stroke-linecap:round;stroke-dasharray:none;stop-color:#000000"
+       id="rect1432-9"
+       width="5.5612483"
+       height="6.0122695"
+       x="91.54837"
+       y="218.13028"
+       ry="0" />
+    <g
+       id="g1378-3"
+       transform="translate(9.2218663,71.067668)">
+      <path
+         id="rect67505-5-6"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:1.143;stroke-dasharray:none;stop-color:#000000"
+         d="m 68.242985,153.773 16.198577,3.81001 v 10.47214 l -16.198577,3.81 z"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         id="rect67505-8-3-0"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:1.143;stroke-dasharray:none;stop-color:#000000"
+         d="m 102.1581,153.773 -16.198598,3.81001 v 10.47214 l 16.198598,3.81 z"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         id="use69167-4-1-6"
+         style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1.143;stroke-dasharray:none;stop-color:#000000"
+         d="m 83.513866,157.51966 h 3.244584 v 10.47216 h -3.244584 z"
+         sodipodi:nodetypes="ccccc"
+         inkscape:tile-x0="27.512444"
+         inkscape:tile-y0="-320.67129" />
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.85926;marker-end:url(#TriangleStart-7-5-6-1);stop-color:#000000"
+       d="m 112.85651,211.16654 h 1.01888"
+       id="path65933-9-1-2"
+       sodipodi:nodetypes="cc" />
+    <g
+       id="g7102-9-6"
+       transform="translate(83.393076,-230.47574)">
+      <rect
+         style="fill:#cccccc;stroke-width:0.264583;stroke-dasharray:0.529167, 0.529167;-inkscape-stroke:none;stop-color:#000000"
+         id="rect330-2-2-2-0-4-1"
+         width="15.49725"
+         height="16.300793"
+         x="40.667614"
+         y="453.5441"
+         ry="7.2534728" />
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:6.35px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;fill:#ff0000;stroke-width:0.264583"
+         x="44.599758"
+         y="463.78436"
+         id="text233-3-9-2-3-8-8"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi Bold';fill:#ff0000;stroke-width:0.264583"
+           x="44.599758"
+           y="463.78436"
+           id="tspan274-2-8-6-1-7">RL</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-weight:300;font-size:5.08px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;fill:#ff0000;stroke-width:0.211666"
+       x="71.674713"
+       y="192.30898"
+       id="text233-31-6-9"><tspan
+         sodipodi:role="line"
+         id="tspan231-4-8-2"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi Bold';fill:#ff0000;stroke-width:0.211666"
+         x="71.674713"
+         y="192.30898">auto-encoder</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 25.139349,237.87188 H 41.388534"
+       id="path2125"
+       sodipodi:nodetypes="cc" />
+  </g>
+</svg>
