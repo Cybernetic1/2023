@@ -7,7 +7,7 @@
    viewBox="0 0 210 297"
    version="1.1"
    id="svg1268"
-   inkscape:version="1.2.2 (1:1.2.2+202212051550+b0a8486541)"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
    sodipodi:docname="RL-with-world-model.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -25,14 +25,15 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="2"
-     inkscape:cx="211"
-     inkscape:cy="723.25"
-     inkscape:window-width="1080"
-     inkscape:window-height="1895"
+     inkscape:cx="403.75"
+     inkscape:cy="828"
+     inkscape:window-width="1920"
+     inkscape:window-height="1059"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="layer1"
+     inkscape:pageshadow="2" />
   <defs
      id="defs1265">
     <filter
@@ -307,63 +308,63 @@
        id="text4811"><tspan
          x="21.446598"
          y="64.498283"
-         id="tspan2214">RL 產生的 δx 是否应放进 自编码器？
+         id="tspan39377">RL 產生的 δx 是否应放进 自编码器？
 </tspan><tspan
          x="21.446598"
          y="72.435787"
-         id="tspan2216">自编码器 的 x 明显是属于 RL state 的一部分
+         id="tspan39379">自编码器 的 x 明显是属于 RL state 的一部分
 </tspan><tspan
          x="21.446598"
          y="80.373287"
-         id="tspan2218">似乎 二者的内容应该分享
+         id="tspan39381">似乎 二者的内容应该分享
 </tspan><tspan
          x="21.446598"
          y="88.310787"
-         id="tspan2220">但 二者是如何融合？
+         id="tspan39383">但 二者是如何融合？
 </tspan><tspan
          x="21.446598"
          y="96.248287"
-         id="tspan2222">RL 根据什么给出 δx？每个 x 有价值函数
+         id="tspan39385">RL 根据什么给出 δx？每个 x 有价值函数
 </tspan><tspan
          x="21.446598"
          y="104.18579"
-         id="tspan2224">AE 根据的是 reconstruction error
+         id="tspan39387">AE 根据的是 reconstruction error
 </tspan><tspan
          x="21.446598"
          y="112.12329"
-         id="tspan2226">但二者是否可以 同时运行而没有抵触？
+         id="tspan39389">但二者是否可以 同时运行而没有抵触？
 </tspan><tspan
          x="21.446598"
          y="120.06079"
-         id="tspan2228">每个 algorithm 更新的其实是 weights 而已
+         id="tspan39391">每个 algorithm 更新的其实是 weights 而已
 </tspan><tspan
          x="21.446598"
          y="127.99829"
-         id="tspan2230">但状态的改变会否影响算法的收敛？
+         id="tspan39393">但状态的改变会否影响算法的收敛？
 </tspan><tspan
          x="21.446598"
          y="135.93579"
-         id="tspan2232">在资料有限的情况下，
+         id="tspan39395">在资料有限的情况下，
 </tspan><tspan
          x="21.446598"
          y="143.87329"
-         id="tspan2234">算法收敛到能准确地解释资料的程度
+         id="tspan39397">算法收敛到能准确地解释资料的程度
 </tspan><tspan
          x="21.446598"
          y="151.81079"
-         id="tspan2236">
+         id="tspan39399">
 </tspan><tspan
          x="21.446598"
          y="159.74829"
-         id="tspan2238">但如果将这架构 应用到 井子棋上则好像不行？
+         id="tspan39401">但如果将这架构 应用到 井子棋上则好像不行？
 </tspan><tspan
          x="21.446598"
          y="167.68579"
-         id="tspan2240">问题是预测 TTT 的状态
+         id="tspan39403">问题是预测 TTT 的状态
 </tspan><tspan
          x="21.446598"
          y="175.62329"
-         id="tspan2242">然后状态 再推导出行动
+         id="tspan39405">然后状态 再推导出行动
 </tspan></text>
     <g
        id="g7102-9"
@@ -460,48 +461,135 @@
     <path
        id="rect390-3-5-70"
        style="fill:none;stroke:#000000;stroke-width:0.99219;stop-color:#000000"
-       d="m 94.136046,223.94728 c 0,-7.08482 5.70365,-12.78847 12.788454,-12.78847 l 12.30063,0.008 c 7.0848,0 12.78845,5.70365 12.78845,12.78846 v 15.875 c 0,7.0848 -5.70365,12.78845 -12.78845,12.78845 l -12.30063,-0.008 c -7.084804,0 -12.788454,-5.70364 -12.788454,-12.78844 z"
+       d="m 35.398542,232.41396 c 0,-7.08482 5.70365,-9.08431 12.788451,-9.08431 l 8.067291,0.008 c 7.084797,0 12.788441,1.99949 12.788441,9.0843 v 2.11666 c 0,7.0848 -5.703644,9.08429 -12.788441,9.08429 l -8.067291,-0.008 c -7.084801,0 -12.788451,-1.99948 -12.788451,-9.08428 z"
        sodipodi:nodetypes="ccccccccc"
        inkscape:export-filename="RL-with-autoencoder.png"
        inkscape:export-xdpi="192"
        inkscape:export-ydpi="192" />
-    <rect
-       style="fill:#ffffff;stroke-width:1.05833;stroke-linecap:round;stroke-dasharray:none;stop-color:#000000"
-       id="rect1432-9"
-       width="5.5612483"
-       height="6.0122695"
-       x="91.54837"
-       y="218.13028"
-       ry="0" />
+    <path
+       id="rect67505-5-6"
+       style="fill:#cccccc;fill-opacity:0.80000001;stroke:#000000;stroke-width:1.13944;stroke-dasharray:none;stop-color:#000000;opacity:1"
+       d="m 25.792205,248.0348 4.222346,-14.52582 h 11.60548 l 4.222335,14.52582 z"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       id="rect67505-8-3-0"
+       style="fill:#cccccc;fill-opacity:0.80000001;stroke:#000000;stroke-width:1.13944;stroke-dasharray:none;stop-color:#000000;opacity:1"
+       d="m 25.792205,217.62194 4.222346,14.52585 h 11.60548 l 4.222335,-14.52585 z"
+       sodipodi:nodetypes="ccccc" />
+    <text
+       xml:space="preserve"
+       style="font-weight:300;font-size:5.08px;line-height:1.05;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;fill:#ff0000;stroke-width:0.211666"
+       x="17.347649"
+       y="231.54825"
+       id="text233-31-6-9"><tspan
+         sodipodi:role="line"
+         id="tspan231-4-8-2"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi Bold';text-align:center;text-anchor:middle;fill:#ff0000;stroke-width:0.211666"
+         x="17.347649"
+         y="231.54825">auto-</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi Bold';text-align:center;text-anchor:middle;fill:#ff0000;stroke-width:0.211666"
+         x="17.347649"
+         y="236.88225"
+         id="tspan13381">encoder</tspan></text>
     <g
-       id="g1378-3"
-       transform="translate(9.2218663,71.067668)">
+       id="g10632"
+       transform="matrix(0.8,0,0,0.8,14.298527,68.167039)">
       <path
-         id="rect67505-5-6"
-         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:1.143;stroke-dasharray:none;stop-color:#000000"
-         d="m 68.242985,153.773 16.198577,3.81001 v 10.47214 l -16.198577,3.81 z"
-         sodipodi:nodetypes="ccccc" />
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 19.711798,232.35604 H 33.31515"
+         id="path2125"
+         sodipodi:nodetypes="cc" />
       <path
-         id="rect67505-8-3-0"
-         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:1.143;stroke-dasharray:none;stop-color:#000000"
-         d="m 102.1581,153.773 -16.198598,3.81001 v 10.47214 l 16.198598,3.81 z"
-         sodipodi:nodetypes="ccccc" />
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 19.711798,237.64771 H 33.31515"
+         id="path2125-3"
+         sodipodi:nodetypes="cc" />
       <path
-         id="use69167-4-1-6"
-         style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1.143;stroke-dasharray:none;stop-color:#000000"
-         d="m 83.513866,157.51966 h 3.244584 v 10.47216 h -3.244584 z"
-         sodipodi:nodetypes="ccccc"
-         inkscape:tile-x0="27.512444"
-         inkscape:tile-y0="-320.67129" />
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 24.66139,241.80354 V 228.20018"
+         id="path2125-3-6"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 28.894723,241.80354 V 228.20018"
+         id="path2125-3-6-7"
+         sodipodi:nodetypes="cc" />
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:4.93889px;line-height:1.05;font-family:'Alibaba Sans';-inkscape-font-specification:'Alibaba Sans, Light';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.264583"
+         x="20.933023"
+         y="231.27473"
+         id="text709"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:'Alibaba Sans';-inkscape-font-specification:'Alibaba Sans';text-align:start;text-anchor:start;stroke-width:0.264583"
+           x="20.933023"
+           y="231.27473"
+           id="tspan8113">x</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:'Alibaba Sans';-inkscape-font-specification:'Alibaba Sans';text-align:start;text-anchor:start;stroke-width:0.264583"
+           x="20.933023"
+           y="236.46057"
+           id="tspan8117">o o </tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:'Alibaba Sans';-inkscape-font-specification:'Alibaba Sans';text-align:start;text-anchor:start;stroke-width:0.264583"
+           x="20.933023"
+           y="241.64641"
+           id="tspan9299">x</tspan></text>
+    </g>
+    <g
+       id="g10632-5"
+       transform="matrix(0.8,0,0,0.8,14.298527,21.071206)">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 19.711798,232.35604 H 33.31515"
+         id="path2125-35"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 19.711798,237.64771 H 33.31515"
+         id="path2125-3-62"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 24.66139,241.80354 V 228.20018"
+         id="path2125-3-6-9"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 28.894723,241.80354 V 228.20018"
+         id="path2125-3-6-7-1"
+         sodipodi:nodetypes="cc" />
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:4.93889px;line-height:1.05;font-family:'Alibaba Sans';-inkscape-font-specification:'Alibaba Sans, Light';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.264583"
+         x="20.933023"
+         y="231.27473"
+         id="text709-2"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:'Alibaba Sans';-inkscape-font-specification:'Alibaba Sans';text-align:start;text-anchor:start;stroke-width:0.264583"
+           x="20.933023"
+           y="231.27473"
+           id="tspan8113-7">x</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:'Alibaba Sans';-inkscape-font-specification:'Alibaba Sans';text-align:start;text-anchor:start;stroke-width:0.264583"
+           x="20.933023"
+           y="236.46057"
+           id="tspan8117-0">o o x</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:'Alibaba Sans';-inkscape-font-specification:'Alibaba Sans';text-align:start;text-anchor:start;stroke-width:0.264583"
+           x="20.933023"
+           y="241.64641"
+           id="tspan9299-9">x</tspan></text>
     </g>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.85926;marker-end:url(#TriangleStart-7-5-6-1);stop-color:#000000"
-       d="m 112.85651,211.16654 h 1.01888"
+       d="m 52.002332,223.33739 h 1.01888"
        id="path65933-9-1-2"
        sodipodi:nodetypes="cc" />
     <g
        id="g7102-9-6"
-       transform="translate(83.393076,-230.47574)">
+       transform="translate(19.158518,-228.73874)">
       <rect
          style="fill:#cccccc;stroke-width:0.264583;stroke-dasharray:0.529167, 0.529167;-inkscape-stroke:none;stop-color:#000000"
          id="rect330-2-2-2-0-4-1"
@@ -522,21 +610,105 @@
            y="463.78436"
            id="tspan274-2-8-6-1-7">RL</tspan></text>
     </g>
+    <path
+       id="use69167-4-1-6"
+       style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1.13944;stroke-dasharray:none;stop-color:#000000"
+       d="m 29.944345,234.34088 v -2.90954 h 11.605502 v 2.90954 z"
+       sodipodi:nodetypes="ccccc"
+       inkscape:tile-x0="27.512444"
+       inkscape:tile-y0="-320.67129" />
     <text
        xml:space="preserve"
-       style="font-weight:300;font-size:5.08px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;fill:#ff0000;stroke-width:0.211666"
-       x="71.674713"
-       y="192.30898"
-       id="text233-31-6-9"><tspan
+       style="font-weight:300;font-size:4.93889px;line-height:1.25;font-family:'Alibaba Sans';-inkscape-font-specification:'Alibaba Sans, Light';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.264583"
+       x="55.37542"
+       y="210.4023"
+       id="text15563"><tspan
          sodipodi:role="line"
-         id="tspan231-4-8-2"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi Bold';fill:#ff0000;stroke-width:0.211666"
-         x="71.674713"
-         y="192.30898">auto-encoder</tspan></text>
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 25.139349,237.87188 H 41.388534"
-       id="path2125"
-       sodipodi:nodetypes="cc" />
+         id="tspan15561"
+         style="font-size:4.93889px;stroke-width:0.264583"
+         x="55.37542"
+         y="210.4023">next-state</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:300;font-size:6.35px;line-height:1.25;font-family:'Alibaba Sans';-inkscape-font-specification:'Alibaba Sans, Light';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;white-space:pre;inline-size:165.164;stroke-width:0.264583"
+       x="73.354286"
+       y="197.01485"
+       id="text17010"
+       transform="translate(11.1125,-6.3500003)"><tspan
+         x="73.354286"
+         y="197.01485"
+         id="tspan39423"><tspan
+           style="font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi Light'"
+           id="tspan39407">有个问题是</tspan><tspan
+           style="font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi Light'"
+           id="tspan39409">： </tspan><tspan
+           style="font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi Light'"
+           id="tspan39411">RL </tspan><tspan
+           style="font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi Light'"
+           id="tspan39413">输出给</tspan><tspan
+           style="font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi Light'"
+           id="tspan39415"> </tspan><tspan
+           style="font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi Light'"
+           id="tspan39417">AE </tspan><tspan
+           style="font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi Light'"
+           id="tspan39419">有什么意思？</tspan><tspan
+           style="font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi Light'"
+           id="tspan39421">
+</tspan></tspan><tspan
+         x="73.354286"
+         y="205.39685"
+         id="tspan39435"><tspan
+           style="font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi Light'"
+           id="tspan39425">因为</tspan><tspan
+           style="font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi Light'"
+           id="tspan39427"> </tspan><tspan
+           style="font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi Light'"
+           id="tspan39429">RL </tspan><tspan
+           style="font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi Light'"
+           id="tspan39431">其实直接输出下一步，</tspan><tspan
+           style="font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi Light'"
+           id="tspan39433">
+</tspan></tspan><tspan
+         x="73.354286"
+         y="213.77885"
+         id="tspan39447"><tspan
+           style="font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi Light'"
+           id="tspan39437">而不是什么隐状态。除非令</tspan><tspan
+           style="font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi Light'"
+           id="tspan39439"> </tspan><tspan
+           style="font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi Light'"
+           id="tspan39441">RL = </tspan><tspan
+           style="font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi Light'"
+           id="tspan39443">多步逻辑！</tspan><tspan
+           style="font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi Light'"
+           id="tspan39445">
+</tspan></tspan><tspan
+         x="73.354286"
+         y="222.16085"
+         id="tspan39453"><tspan
+           style="font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi Light'"
+           id="tspan39449">是可以的，但有些隐状态用来预测下一步</tspan><tspan
+           style="font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi Light'"
+           id="tspan39451">
+</tspan></tspan><tspan
+         x="73.354286"
+         y="230.54286"
+         id="tspan39465"><tspan
+           style="font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi Light'"
+           id="tspan39455">似乎不合适。或者说</tspan><tspan
+           style="font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi Light'"
+           id="tspan39457">：</tspan><tspan
+           style="font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi Light'"
+           id="tspan39459">RL </tspan><tspan
+           style="font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi Light'"
+           id="tspan39461">的隐状态用来</tspan><tspan
+           style="font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi Light'"
+           id="tspan39463">
+</tspan></tspan><tspan
+         x="73.354286"
+         y="238.92486"
+         id="tspan39469"><tspan
+           style="font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi Light'"
+           id="tspan39467">预测世界，总是合适的？</tspan></tspan></text>
   </g>
 </svg>
