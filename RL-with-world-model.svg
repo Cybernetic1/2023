@@ -26,14 +26,14 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="1.4142136"
-     inkscape:cx="396.6869"
-     inkscape:cy="1634.4773"
+     inkscape:cx="405.17219"
+     inkscape:cy="1336.7854"
      inkscape:window-width="1080"
      inkscape:window-height="1895"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer1"
      inkscape:pageshadow="2" /><defs
      id="defs1265"><filter
        style="color-interpolation-filters:sRGB"
@@ -1087,7 +1087,7 @@
        style="fill:none;stroke:#000000;stroke-width:0.99219;stop-color:#000000"
        d="m 40.679157,296.3414 c 0,-7.08482 5.703651,-12.78847 12.788451,-12.78847 l 12.300625,0.008 c 7.084804,0 12.788451,5.70365 12.788451,12.78846 v 14.81667 c 0,7.0848 -5.703647,12.78845 -12.788451,12.78845 l -12.300625,-0.008 c -7.0848,0 -12.788451,-5.70364 -12.788451,-12.78844 z"
        sodipodi:nodetypes="ccccccccc"
-       inkscape:export-filename="RL-with-autoencoder.png"
+       inkscape:export-filename="AE-architecture-2.png"
        inkscape:export-xdpi="192"
        inkscape:export-ydpi="192" /><g
        id="g1378-5"
@@ -1114,7 +1114,7 @@
        style="fill:none;stroke:#000000;stroke-width:0.99219;stop-color:#000000"
        d="m 21.449109,248.98097 c 0,-7.08482 5.703647,-12.78847 12.788441,-12.78847 l 33.46728,0.008 c 7.084807,0 12.788444,5.70365 12.788444,12.78846 v 1.05833 c 0,7.0848 -5.703637,12.78845 -12.788444,12.78845 l -33.46728,-0.008 c -7.084794,0 -12.788441,-5.70364 -12.788441,-12.78844 z"
        sodipodi:nodetypes="ccccccccc"
-       inkscape:export-filename="RL-with-autoencoder.png"
+       inkscape:export-filename="AE-architecture-1.png"
        inkscape:export-xdpi="192"
        inkscape:export-ydpi="192" /><g
        id="g1378-5-3"
@@ -1138,7 +1138,10 @@
        id="path65933-9-1-27-2"
        sodipodi:nodetypes="cc" /><g
        id="g4447"
-       transform="matrix(0.6,0,0,0.6,-24.55408,65.123723)"><g
+       transform="matrix(0.6,0,0,0.6,-24.55408,65.123723)"
+       inkscape:export-filename="autoencoder-symbol.png"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192"><g
          id="g1378-5-3-3"
          transform="translate(41.270294,83.772591)"><path
            id="rect67505-5-62-7-6"
@@ -1161,7 +1164,10 @@
        id="rect67505-5-62-7-6-9"
        style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.6858;stroke-dasharray:none;stop-color:#000000"
        d="m 53.066944,379.07425 4.427479,7.04852 v 5.22494 l -4.427479,7.04851 z"
-       sodipodi:nodetypes="ccccc" /><path
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="Transformer-is-super-compressive.png"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" /><path
        id="rect67505-5-62-7-6-9-5"
        style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.6858;stroke-dasharray:none;stop-color:#000000"
        d="m 149.38236,379.07425 -4.42748,7.04852 v 5.22494 l 4.42748,7.04851 z"
@@ -1440,26 +1446,26 @@
        transform="translate(0,4.2333336)"><tspan
          x="89.022324"
          y="233.51257"
-         id="tspan9874"><tspan
+         id="tspan14979"><tspan
    style="font-weight:500;-inkscape-font-specification:'Alibaba PuHuiTi Medium';fill:#ff0000"
-   id="tspan9870">架构</tspan><tspan
+   id="tspan14975">架构</tspan><tspan
    style="font-weight:500;-inkscape-font-specification:'Alibaba PuHuiTi Medium';fill:#ff0000"
-   id="tspan9872"> #1</tspan> 
+   id="tspan14977"> #1</tspan> 
 </tspan><tspan
          x="89.022324"
          y="241.45007"
-         id="tspan9876">认为 AE 模拟 人类思考的规则，</tspan><tspan
+         id="tspan14981">认为 AE 模拟 人类思考的规则，</tspan><tspan
          x="89.022324"
          y="249.38757"
-         id="tspan9878">thoughts = 自然语言句子，
+         id="tspan14983">thoughts = 自然语言句子，
 </tspan><tspan
          x="89.022324"
          y="257.32507"
-         id="tspan9880">RL 让思考组成闭环路，
+         id="tspan14985">RL 让思考组成闭环路，
 </tspan><tspan
          x="89.022324"
          y="265.26257"
-         id="tspan9882">thoughts 描述世界。</tspan></text><text
+         id="tspan14987">thoughts 描述世界。</tspan></text><text
        xml:space="preserve"
        style="font-weight:300;font-size:6.35px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;white-space:pre;inline-size:100.228;display:inline;stroke-width:0.264583"
        x="89.022324"
@@ -1468,27 +1474,27 @@
        transform="translate(1.0055901,55.823279)"><tspan
          x="89.022324"
          y="233.51257"
-         id="tspan9888"><tspan
+         id="tspan14993"><tspan
    style="font-weight:500;-inkscape-font-specification:'Alibaba PuHuiTi Medium';fill:#ff0000"
-   id="tspan9884">架构</tspan><tspan
+   id="tspan14989">架构</tspan><tspan
    style="font-weight:500;-inkscape-font-specification:'Alibaba PuHuiTi Medium';fill:#ff0000"
-   id="tspan9886"> #2</tspan> 
+   id="tspan14991"> #2</tspan> 
 </tspan><tspan
          x="89.022324"
          y="241.45007"
-         id="tspan9890">认为 AE = 压缩的世界模型，
+         id="tspan14995">认为 AE = 压缩的世界模型，
 </tspan><tspan
          x="89.022324"
          y="249.38757"
-         id="tspan9892">thoughts = 隐状态，
+         id="tspan14997">thoughts = 隐状态，
 </tspan><tspan
          x="89.022324"
          y="257.32507"
-         id="tspan9894">RL 帮助 AE 解释世界，
+         id="tspan14999">RL 帮助 AE 解释世界，
 </tspan><tspan
          x="89.022324"
          y="265.26257"
-         id="tspan9896">解释世界可以给 RL 奖励。</tspan></text><text
+         id="tspan15001">解释世界可以给 RL 奖励。</tspan></text><text
        xml:space="preserve"
        style="font-weight:300;font-size:6.35px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;white-space:pre;inline-size:152.798;display:inline;stroke-width:0.264583"
        x="29.544897"
@@ -1496,40 +1502,40 @@
        id="text6288"><tspan
          x="29.544897"
          y="348.30627"
-         id="tspan9916"><tspan
+         id="tspan15021"><tspan
            style="font-weight:500;-inkscape-font-specification:'Alibaba PuHuiTi Medium';fill:#ff0000"
-           id="tspan9898">为什么我认为</tspan><tspan
+           id="tspan15003">为什么我认为</tspan><tspan
            style="font-weight:500;-inkscape-font-specification:'Alibaba PuHuiTi Medium';fill:#ff0000"
-           id="tspan9900"> </tspan><tspan
+           id="tspan15005"> </tspan><tspan
            style="font-weight:500;-inkscape-font-specification:'Alibaba PuHuiTi Medium';fill:#ff0000"
-           id="tspan9902">强化学习</tspan><tspan
+           id="tspan15007">强化学习</tspan><tspan
            style="font-weight:500;-inkscape-font-specification:'Alibaba PuHuiTi Medium';fill:#ff0000"
-           id="tspan9904"> </tspan><tspan
+           id="tspan15009"> </tspan><tspan
            style="font-weight:500;-inkscape-font-specification:'Alibaba PuHuiTi Medium';fill:#ff0000"
-           id="tspan9906">能解决</tspan><tspan
+           id="tspan15011">能解决</tspan><tspan
            style="font-weight:500;-inkscape-font-specification:'Alibaba PuHuiTi Medium';fill:#ff0000"
-           id="tspan9908"> </tspan><tspan
+           id="tspan15013"> </tspan><tspan
            style="font-weight:500;-inkscape-font-specification:'Alibaba PuHuiTi Medium';fill:#ff0000"
-           id="tspan9910">hallucination </tspan><tspan
+           id="tspan15015">hallucination </tspan><tspan
            style="font-weight:500;-inkscape-font-specification:'Alibaba PuHuiTi Medium';fill:#ff0000"
-           id="tspan9912">问题？</tspan><tspan
+           id="tspan15017">问题？</tspan><tspan
            style="font-weight:500;-inkscape-font-specification:'Alibaba PuHuiTi Medium';fill:#ff0000"
-           id="tspan9914">
+           id="tspan15019">
 </tspan></tspan><tspan
          x="29.544897"
          y="356.24377"
-         id="tspan9918">
+         id="tspan15023">
 </tspan><tspan
          x="29.544897"
          y="364.18127"
-         id="tspan9922">Transformer 其实是一个超级「<tspan
+         id="tspan15027">Transformer 其实是一个超级「<tspan
    style="font-weight:normal;-inkscape-font-specification:'Alibaba PuHuiTi'"
-   id="tspan9920">压缩</tspan>」的算法，因为它</tspan><tspan
+   id="tspan15025">压缩</tspan>」的算法，因为它</tspan><tspan
          x="29.544897"
          y="372.11877"
-         id="tspan9926">每层的 <tspan
+         id="tspan15031">每层的 <tspan
    style="font-style:italic;font-weight:normal;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math'"
-   id="tspan9924">Q, K, V</tspan> 矩阵是重复使用的（虽然有很多层）：
+   id="tspan15029">Q, K, V</tspan> 矩阵是重复使用的（虽然有很多层）：
 </tspan></text><text
        xml:space="preserve"
        style="font-weight:300;font-size:6.35px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;white-space:pre;inline-size:152.798;display:inline;stroke-width:0.264583"
@@ -1539,32 +1545,32 @@
        transform="translate(-0.25642963,64.975447)"><tspan
          x="29.544897"
          y="348.30627"
-         id="tspan9928">一个学习机器的参数量是有限的，当它「被迫」预测并</tspan><tspan
+         id="tspan15033">一个学习机器的参数量是有限的，当它「被迫」预测并</tspan><tspan
          x="29.544897"
          y="356.24377"
-         id="tspan9930">重构文本时，它就能学习到文本里抽象的规律。
+         id="tspan15035">重构文本时，它就能学习到文本里抽象的规律。
 </tspan><tspan
          x="29.544897"
          y="364.18127"
-         id="tspan9934"><tspan
+         id="tspan15039"><tspan
    style="font-weight:normal;-inkscape-font-specification:'Alibaba PuHuiTi'"
-   id="tspan9932">Occam's razor</tspan> 的意思是：用最简约的规律描述现象，</tspan><tspan
+   id="tspan15037">Occam's razor</tspan> 的意思是：用最简约的规律描述现象，</tspan><tspan
          x="29.544897"
          y="372.11877"
-         id="tspan9936">得到的就是真确的知识。
+         id="tspan15041">得到的就是真确的知识。
 </tspan><tspan
          x="29.544897"
          y="380.05627"
-         id="tspan9940">强化学习的特点是：它将逻辑推理的过程放进一个 <tspan
+         id="tspan15045">强化学习的特点是：它将逻辑推理的过程放进一个 <tspan
    style="font-weight:normal;-inkscape-font-specification:'Alibaba PuHuiTi'"
-   id="tspan9938">闭环</tspan></tspan><tspan
+   id="tspan15043">闭环</tspan></tspan><tspan
          x="29.544897"
          y="387.99377"
-         id="tspan9946"><tspan
+         id="tspan15051"><tspan
    style="font-weight:normal;-inkscape-font-specification:'Alibaba PuHuiTi'"
-   id="tspan9942">路</tspan>，也就是强迫使用同一个<tspan
+   id="tspan15047">路</tspan>，也就是强迫使用同一个<tspan
    style="font-weight:normal;-inkscape-font-specification:'Alibaba PuHuiTi'"
-   id="tspan9944">转移函数</tspan>：</tspan></text><text
+   id="tspan15049">转移函数</tspan>：</tspan></text><text
        xml:space="preserve"
        style="font-weight:300;font-size:6.35px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;white-space:pre;inline-size:152.798;display:inline;stroke-width:0.264583"
        x="29.544897"
@@ -1573,49 +1579,70 @@
        transform="translate(0.02970567,150.25406)"><tspan
          x="29.544897"
          y="348.30627"
-         id="tspan9948">在这种强迫之下，机器学习会用一套简约的规则，解释</tspan><tspan
+         id="tspan15053">在这种强迫之下，机器学习会用一套简约的规则，解释</tspan><tspan
          x="29.544897"
          y="356.24377"
-         id="tspan9950">整个世界五花八门的现象，也就是获得智慧或知识，从</tspan><tspan
+         id="tspan15055">整个世界五花八门的现象，也就是获得智慧或知识，从</tspan><tspan
          x="29.544897"
          y="364.18127"
-         id="tspan9952">而分辨正确与谬误，解决 hallucination 的问题。
+         id="tspan15057">而分辨正确与谬误，解决 hallucination 的问题。
 </tspan><tspan
          x="29.544897"
          y="372.11877"
-         id="tspan9954">事实上 GPT / Transformer 已经在做这件事，虽然它没</tspan><tspan
+         id="tspan15059">事实上 GPT / Transformer 已经在做这件事，虽然它没</tspan><tspan
          x="29.544897"
          y="380.05627"
-         id="tspan9956">有 RL 闭环，但其实也是反复地试图解释世界 (文本)。
+         id="tspan15061">有 RL 闭环，但其实也是反复地试图解释世界 (文本)。
 </tspan><tspan
          x="29.544897"
          y="387.99377"
-         id="tspan9960">我的想法是希望 RL 的闭环 <tspan
+         id="tspan15065">我的想法是希望 RL 的闭环 <tspan
    style="font-weight:normal;-inkscape-font-specification:'Alibaba PuHuiTi'"
-   id="tspan9958">增加规则的重复使用</tspan>，提升</tspan><tspan
+   id="tspan15063">增加规则的重复使用</tspan>，提升</tspan><tspan
          x="29.544897"
          y="395.93127"
-         id="tspan9962">模型的「智慧」-- 根据 Occam's razor 的原理。</tspan></text><text
+         id="tspan15067">模型的「智慧」-- 根据 Occam's razor 的原理。</tspan></text><text
        xml:space="preserve"
-       style="font-weight:300;font-size:6.35px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
-       x="42.425209"
-       y="381.47183"
-       id="text6633"><tspan
+       style="font-weight:300;font-size:4.7625px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.198437"
+       x="24.916916"
+       y="396.82901"
+       id="text233-5"
+       inkscape:export-filename="LLM.png"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192"><tspan
          sodipodi:role="line"
-         id="tspan6631"
-         style="writing-mode:vertical-lr;stroke-width:0.264583"
-         x="42.425209"
-         y="381.47183">文本</tspan></text><text
+         id="tspan231-6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi';stroke-width:0.198437"
+         x="24.916916"
+         y="396.82901">text corpus</tspan></text><image
+       width="11.162108"
+       height="11.162108"
+       preserveAspectRatio="none"
+       xlink:href="data:image/png;base64,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 T/4GEGDlyaTZkrgAAAAASUVORK5CYII= "
+       id="image5547"
+       x="31.962025"
+       y="380.20551" /><text
        xml:space="preserve"
-       style="font-weight:300;font-size:6.35px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;display:inline;stroke-width:0.264583"
-       x="157.78354"
-       y="381.47183"
-       id="text6633-5"><tspan
+       style="font-weight:300;font-size:4.7625px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;display:inline;stroke-width:0.198437"
+       x="154.03362"
+       y="396.82901"
+       id="text233-5-1"
+       inkscape:export-filename="LLM.png"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192"><tspan
          sodipodi:role="line"
-         id="tspan6631-2"
-         style="writing-mode:vertical-lr;stroke-width:0.264583"
-         x="157.78354"
-         y="381.47183">文本</tspan></text></g><g
+         id="tspan231-6-4"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi';stroke-width:0.198437"
+         x="154.03362"
+         y="396.82901">text corpus</tspan></text><image
+       width="11.162108"
+       height="11.162108"
+       preserveAspectRatio="none"
+       xlink:href="data:image/png;base64,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 T/4GEGDlyaTZkrgAAAAASUVORK5CYII= "
+       id="image5547-9"
+       x="161.07874"
+       y="380.20551"
+       style="display:inline" /></g><g
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="English"
@@ -1652,25 +1679,25 @@
        transform="translate(-1.5875,7.4083338)"><tspan
          x="89.022324"
          y="233.51257"
-         id="tspan9966"><tspan
+         id="tspan15071"><tspan
    style="font-weight:500;-inkscape-font-specification:'Alibaba PuHuiTi Medium';fill:#ff0000"
-   id="tspan9964">Architecture #1</tspan>
+   id="tspan15069">Architecture #1</tspan>
 </tspan><tspan
          x="89.022324"
          y="239.68619"
-         id="tspan9968">AE emulates human thinking
+         id="tspan15073">AE emulates human thinking
 </tspan><tspan
          x="89.022324"
          y="245.85981"
-         id="tspan9970">Thoughts = natural-language sentences
+         id="tspan15075">Thoughts = natural-language sentences
 </tspan><tspan
          x="89.022324"
          y="252.03342"
-         id="tspan9972">RL puts thinking into a closed loop
+         id="tspan15077">RL puts thinking into a closed loop
 </tspan><tspan
          x="89.022324"
          y="258.20703"
-         id="tspan9974">Thoughts decribe the world</tspan></text><text
+         id="tspan15079">Thoughts decribe the world</tspan></text><text
        xml:space="preserve"
        style="font-weight:300;font-size:4.93889px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;white-space:pre;inline-size:100.228;display:inline;stroke-width:0.264583"
        x="89.022324"
@@ -1679,22 +1706,22 @@
        transform="translate(-1.1110766,58.998281)"><tspan
          x="89.022324"
          y="233.51257"
-         id="tspan9978"><tspan
+         id="tspan15083"><tspan
    style="font-weight:500;-inkscape-font-specification:'Alibaba PuHuiTi Medium';fill:#ff0000"
-   id="tspan9976">Architecture #2</tspan>
+   id="tspan15081">Architecture #2</tspan>
 </tspan><tspan
          x="89.022324"
          y="239.68619"
-         id="tspan9980">AE = compressed world model
+         id="tspan15085">AE = compressed world model
 </tspan><tspan
          x="89.022324"
          y="245.85981"
-         id="tspan9982">Thoughts = latent representation
+         id="tspan15087">Thoughts = latent representation
 </tspan><tspan
          x="89.022324"
          y="252.03342"
-         id="tspan9984">RL helps AE to &quot;explain&quot; the world
+         id="tspan15089">RL helps AE to &quot;explain&quot; the world
 </tspan><tspan
          x="89.022324"
          y="258.20703"
-         id="tspan9986">Successful explanation gives RL reward</tspan></text></g></svg>
+         id="tspan15091">Successful explanation gives RL reward</tspan></text></g></svg>
