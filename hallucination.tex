@@ -192,9 +192,17 @@ In other words, the number of maps representable by a big neural network is the 
 	\item \cc{
 	有 loop 和没有 loop 的 \textbf{训练时间} 是差不多的，但其 \textbf{智能} 会提升。 
 	}{
-	If iterated, training time may be roughly the same, but intelligence would increase. }
+	\textbf{Training time} may be roughly the same for looping or non-looping, but we hypothesize that looping may increase intelligence. }
 
-	\item 中间状态的 语义是 \textbf{浮动} 的，只有通过训练才能确定。 因此，GPT 训练出来的权重 不能在这里 \textbf{再用}，需要重新训练。
+	\item \cc{
+	中间状态的 语义是 \textbf{浮动} 的，只有通过训练才能确定。 因此，GPT 训练出来的权重 不能在这里 \textbf{再用}，需要重新训练。}{
+	The semantics of the intermediate state is ``\textbf{floating}'' and can only be obtained through learning.  So the trained weights of a GPT cannot be re-used here.
+	}
+
+	\item \cc{
+	作为实验，可以将 井子棋 的 神经网络 不断减少，直至它不能收敛到最高分数，然后再容许 looping，那就可以证明 looping 有用。}{
+	As an experiment, we can \textbf{shrink} a neural network for Tic-Tac-Toe until it fails to play perfectly, and then allow looping.  This may prove that looping is useful.
+	}
 
 \end{itemize}
 
