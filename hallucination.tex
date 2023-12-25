@@ -166,7 +166,7 @@ we can see that human thinking, as appears in text corpuses, can sometimes be wr
 \begin{minipage}{\textwidth}
 \setlength{\parskip}{0.4\baselineskip}
 
-\section{Iteration helps compression}
+\section{Looping helps compression}
 
 Consider the following simplified scenario:
 \begin{equation}
@@ -174,13 +174,15 @@ Consider the following simplified scenario:
 \end{equation}
 If $f \in \mathcal{F} = 8^8$ then all possible mappings are learnable.  In general the family of $f$ may be a subset of all possible maps, as long as some solution(s) exist in $\mathcal{F}$.
 
+In machine learning, the number of maps can be measured by a machine's \textbf{VC-dimension}, an idea developed by Vapnik and Chervonenkis from 1960s.
+
 What if $f$ is iterated?
 \begin{equation}
 \vcenter{\hbox{\includegraphics[scale=0.8]{iteration-more-mappings-2.png}}}
 \end{equation}
-Then the number of maps $f \circ f$ is $|f| \cdot |f|$ quotiented by redundancy.
+Then the number of maps $f \circ f$ is $|\mathcal{F}| \cdot |\mathcal{F}|$ quotiented by redundancy.
 
-In neural networks, $f \circ f$ is two neural networks \textbf{stacked} together.  It has \textbf{twice} the number of layers (and weights).  In general, the number of mappings of a neural network grows as the \textbf{exponent} of the number of layers\footnote{For an intuitive explanation, think of $f$ as a polynomial of degree $d$, then $f_1 \circ f_2$ has degree $d_1 \cdot d_2$.  The number of ``zero-crossings'' of a polynomial is same as its degree.  Thus in general a polynomial can ``cut'' the ambient space into $d$ pieces.}, which is consistent with $|f|\cdot|f|$.
+In neural networks, $f \circ f$ is two neural networks \textbf{stacked} together.  It has \textbf{twice} the number of layers (and weights).  In general, the number of mappings of a neural network grows as the \textbf{exponent} of the number of layers\footnote{For an intuitive explanation, think of $f$ as a polynomial of degree $d$, then $f_1 \circ f_2$ has degree $d_1 \cdot d_2$.  The number of ``zero-crossings'' of a polynomial is same as its degree.  Thus in general a polynomial can ``cut'' the ambient space into $d$ pieces.}, which is consistent with $|\mathcal{F}|\cdot|\mathcal{F}|$.
 
 In other words, the number of maps representable by a big neural network is the same as if the network is broken into smaller pieces, as long as the layers add up to the same number.  However, if the weights of each piece are \textbf{shared}, then it obviously results in more compact \textbf{information compression}, while training time $\propto$ number of weights which remains the same (shared weights counted with multiplicity).
 
