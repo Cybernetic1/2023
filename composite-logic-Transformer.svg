@@ -25,10 +25,10 @@
      inkscape:document-units="px"
      showgrid="false"
      inkscape:zoom="1"
-     inkscape:cx="1621"
-     inkscape:cy="1847.5"
-     inkscape:window-width="1080"
-     inkscape:window-height="1895"
+     inkscape:cx="1572"
+     inkscape:cy="1374.5"
+     inkscape:window-width="1920"
+     inkscape:window-height="1055"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -3230,7 +3230,7 @@
        inkscape:connector-curvature="0"
        id="path7003-9-9-3-2"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:300px;line-height:125%;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.0647436"
-       d="m 196.68337,331.10047 c 0.44916,0.74598 1.34885,1.22981 3.43476,1.41011 l 4.57089,0.3951 c 2.56117,0.22138 3.27622,0.98585 3.83106,1.81744 0.52843,-0.80713 1.26953,-1.63062 3.59328,-1.81744 l 4.91435,-0.3951 c 2.0861,-0.16771 2.90634,-0.63967 3.46118,-1.41011 -0.0264,0.74598 -0.21137,0.71775 -0.68695,0.99902 -0.60769,0.34242 -1.61262,0.76699 -3.22339,0.8965 l -4.91434,0.39509 c -1.90126,0.15286 -2.6157,1.39318 -3.14413,2.1147 -0.52842,-0.75821 -1.11116,-1.92669 -3.22338,-2.1147 l -4.43877,-0.39509 c -1.82182,-0.16216 -2.8535,-0.54185 -3.46118,-0.85981 -0.50201,-0.26903 -0.68695,-0.24082 -0.71338,-1.03571" />
+       d="m 222.03321,321.9727 c 0.44916,0.74598 1.34885,1.22981 3.43476,1.41011 l 4.57089,0.3951 c 2.56117,0.22138 3.27622,0.98585 3.83106,1.81744 0.52843,-0.80713 1.26953,-1.63062 3.59328,-1.81744 l 4.91435,-0.3951 c 2.0861,-0.16771 2.90634,-0.63967 3.46118,-1.41011 -0.0264,0.74598 -0.21137,0.71775 -0.68695,0.99902 -0.60769,0.34242 -1.61262,0.76699 -3.22339,0.8965 l -4.91434,0.39509 c -1.90126,0.15286 -2.6157,1.39318 -3.14413,2.1147 -0.52842,-0.75821 -1.11116,-1.92669 -3.22338,-2.1147 l -4.43877,-0.39509 c -1.82182,-0.16216 -2.8535,-0.54185 -3.46118,-0.85981 -0.50201,-0.26903 -0.68695,-0.24082 -0.71338,-1.03571" />
     <path
        style="font-variation-settings:normal;display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.396875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow1Mend-7-9-6-2-9-87-1-8-9-2-1);stop-color:#000000"
        d="m 233.60608,255.40398 v -20.7863"
@@ -3504,7 +3504,7 @@
     </g>
     <path
        style="font-variation-settings:normal;display:inline;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
-       d="m 231.87575,337.76889 c -5.67104,0.11795 -23.91224,7.52714 -23.55696,-2.68691"
+       d="m 257.22559,328.64112 c -5.67104,0.11795 -23.91224,7.52714 -23.55696,-2.68691"
        id="path37558-9-5-5"
        sodipodi:nodetypes="cc" />
     <path
@@ -3591,13 +3591,13 @@
     <text
        xml:space="preserve"
        style="font-size:6.35px;line-height:0.95;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#ff0000;stroke-width:0.264583"
-       x="246.90791"
-       y="325.1929"
+       x="272.25775"
+       y="316.06512"
        id="text9343-5-4-2-9-9-7-5-2-9-8-9-1-0-5"><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93889px;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi Bold';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
-         x="246.90791"
-         y="325.1929"
+         x="272.25775"
+         y="316.06512"
          id="tspan6036-8-9-7-6-7"><tspan
            id="tspan37606-7-4-5-4"
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.35px;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi Bold';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583">RL</tspan></tspan></text>
@@ -3670,19 +3670,19 @@
        transform="translate(-327.69218,-68.66037)"><tspan
          x="463.85352"
          y="173.70686"
-         id="tspan16917"><tspan
+         id="tspan2228"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan16915">tokens (logic conclusions) </tspan></tspan><tspan
+           id="tspan2226">tokens (logic conclusions) </tspan></tspan><tspan
          x="463.85352"
          y="180.76242"
-         id="tspan16921"><tspan
+         id="tspan2232"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan16919">derived from the same </tspan></tspan><tspan
+           id="tspan2230">derived from the same </tspan></tspan><tspan
          x="463.85352"
          y="187.81798"
-         id="tspan16925"><tspan
+         id="tspan2236"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan16923">new word</tspan></tspan></text>
+           id="tspan2234">new word</tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;white-space:pre;inline-size:53.787;display:inline;stroke-width:0.264583"
@@ -3692,24 +3692,24 @@
        transform="translate(-337.34587,-43.22263)"><tspan
          x="463.85352"
          y="173.70686"
-         id="tspan16929"><tspan
+         id="tspan2240"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan16927">each time add one </tspan></tspan><tspan
+           id="tspan2238">each time add one </tspan></tspan><tspan
          x="463.85352"
          y="180.76242"
-         id="tspan16933"><tspan
+         id="tspan2244"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan16931">new token, this is the </tspan></tspan><tspan
+           id="tspan2242">new token, this is the </tspan></tspan><tspan
          x="463.85352"
          y="187.81798"
-         id="tspan16937"><tspan
+         id="tspan2248"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan16935">observed world </tspan></tspan><tspan
+           id="tspan2246">observed world </tspan></tspan><tspan
          x="463.85352"
          y="194.87354"
-         id="tspan16941"><tspan
+         id="tspan2252"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan16939">change &quot;delta&quot;</tspan></tspan></text>
+           id="tspan2250">change &quot;delta&quot;</tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;white-space:pre;inline-size:53.787;display:inline;stroke-width:0.264583"
@@ -3719,24 +3719,24 @@
        transform="translate(-347.40498,117.12445)"><tspan
          x="463.85352"
          y="173.70686"
-         id="tspan16945"><tspan
+         id="tspan2256"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan16943">each time add one </tspan></tspan><tspan
+           id="tspan2254">each time add one </tspan></tspan><tspan
          x="463.85352"
          y="180.76242"
-         id="tspan16949"><tspan
+         id="tspan2260"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan16947">new token, this is the </tspan></tspan><tspan
+           id="tspan2258">new token, this is the </tspan></tspan><tspan
          x="463.85352"
          y="187.81798"
-         id="tspan16953"><tspan
+         id="tspan2264"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan16951">observed world </tspan></tspan><tspan
+           id="tspan2262">observed world </tspan></tspan><tspan
          x="463.85352"
          y="194.87354"
-         id="tspan16957"><tspan
+         id="tspan2268"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan16955">change &quot;delta&quot;</tspan></tspan></text>
+           id="tspan2266">change &quot;delta&quot;</tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-size:6.35px;line-height:0.95;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#ff0000;stroke-width:0.264583"
@@ -3751,13 +3751,13 @@
     <text
        xml:space="preserve"
        style="font-size:6.35px;line-height:0.95;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#ff0000;stroke-width:0.264583"
-       x="267.38196"
-       y="324.74115"
+       x="292.73181"
+       y="315.61337"
        id="text9343-5-4-2-9-9-7-5-2-9-8-2-11-1-2-3"><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93889px;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi Bold';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
-         x="267.38196"
-         y="324.74115"
+         x="292.73181"
+         y="315.61337"
          id="tspan6036-8-0-1-2-1-3">(multi-layer)</tspan></text>
     <text
        xml:space="preserve"
@@ -3768,35 +3768,35 @@
        transform="translate(-296.99939,17.569295)"><tspan
          x="463.85352"
          y="173.70686"
-         id="tspan16961"><tspan
+         id="tspan2272"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan16959">send together
+           id="tspan2270">send together
 </tspan></tspan><tspan
          x="463.85352"
          y="180.76242"
-         id="tspan16965"><tspan
+         id="tspan2276"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan16963">after cycles complete</tspan></tspan></text>
+           id="tspan2274">after cycles complete</tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;white-space:pre;inline-size:64.8931;display:inline;stroke-width:0.264583"
        x="463.85352"
        y="173.70686"
        id="text3822-2-2-7-8-2-3"
-       transform="translate(-232.15921,160.02204)"><tspan
+       transform="translate(-206.80937,150.89427)"><tspan
          x="463.85352"
          y="173.70686"
-         id="tspan16969"><tspan
+         id="tspan2280"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan16967">tokens (logic conclusions)
+           id="tspan2278">tokens (logic conclusions)
 </tspan></tspan><tspan
          x="463.85352"
          y="180.76242"
-         id="tspan16975"><tspan
+         id="tspan2286"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan16971">derived from the same </tspan><tspan
+           id="tspan2282">derived from the same </tspan><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan16973">Δ</tspan></tspan></text>
+           id="tspan2284">Δ</tspan></tspan></text>
     <path
        style="font-variation-settings:normal;display:inline;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.346557;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
        d="m 198.02486,202.0789 c -8.95391,3.46351 -8.37985,-0.84485 -17.88701,2.52336"
@@ -6046,7 +6046,7 @@
        transform="translate(-322.28478,482.8487)"><tspan
          x="463.85352"
          y="173.70686"
-         id="tspan16977">last token = attention axis</tspan></text>
+         id="tspan2288">last token = attention axis</tspan></text>
     <text
        xml:space="preserve"
        style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;white-space:pre;inline-size:65.7318;display:inline;fill:#ff0000;stroke-width:0.264583"
@@ -6056,7 +6056,7 @@
        transform="translate(-325.48239,320.44323)"><tspan
          x="463.85352"
          y="173.70686"
-         id="tspan16979">last token = attention axis</tspan></text>
+         id="tspan2290">last token = attention axis</tspan></text>
     <path
        style="font-variation-settings:normal;display:inline;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.346557;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
        d="m 143.17411,502.47909 c -8.95391,3.46351 -8.37985,-0.84485 -17.88701,2.52336"
@@ -6409,13 +6409,13 @@
        transform="translate(-17.645872,558.37858)"><tspan
          x="463.85352"
          y="173.70686"
-         id="tspan16981">每次只增加一个 </tspan><tspan
+         id="tspan2292">每次只增加一个 </tspan><tspan
          x="463.85352"
          y="180.76242"
-         id="tspan16983">token，这是观察到的</tspan><tspan
+         id="tspan2294">token，这是观察到的</tspan><tspan
          x="463.85352"
          y="187.81798"
-         id="tspan16985">世界改变“delta”</tspan></text>
+         id="tspan2296">世界改变“delta”</tspan></text>
     <text
        xml:space="preserve"
        style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;white-space:pre;inline-size:53.787;display:inline;stroke-width:0.264583"
@@ -6425,13 +6425,13 @@
        transform="translate(-20.852841,389.28667)"><tspan
          x="463.85352"
          y="173.70686"
-         id="tspan16987">每次只增加一个 </tspan><tspan
+         id="tspan2298">每次只增加一个 </tspan><tspan
          x="463.85352"
          y="180.76242"
-         id="tspan16989">token，这是观察到的</tspan><tspan
+         id="tspan2300">token，这是观察到的</tspan><tspan
          x="463.85352"
          y="187.81798"
-         id="tspan16991">世界改变“delta”</tspan></text>
+         id="tspan2302">世界改变“delta”</tspan></text>
     <text
        xml:space="preserve"
        style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;white-space:pre;inline-size:68.2565;display:inline;stroke-width:0.264583"
@@ -6441,15 +6441,15 @@
        transform="translate(-53.434392,516.67694)"><tspan
          x="496.36264"
          y="173.70686"
-         id="tspan16993">强化学习 loop：
+         id="tspan2304">强化学习 loop：
 </tspan><tspan
          x="496.36264"
          y="180.76242"
-         id="tspan16995">黑箱每次产生一个 token，
+         id="tspan2306">黑箱每次产生一个 token，
 </tspan><tspan
          x="496.36264"
          y="187.81798"
-         id="tspan16997">新 token 会回馈到输入</tspan></text>
+         id="tspan2308">新 token 会回馈到输入</tspan></text>
     <text
        xml:space="preserve"
        style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;white-space:pre;inline-size:68.2565;display:inline;stroke-width:0.264583"
@@ -6459,7 +6459,7 @@
        transform="translate(-39.540215,484.44626)"><tspan
          x="496.36264"
          y="173.70686"
-         id="tspan16999">k 个原子组成一个命题</tspan></text>
+         id="tspan2310">k 个原子组成一个命题</tspan></text>
     <text
        xml:space="preserve"
        style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;white-space:pre;inline-size:53.787;display:inline;stroke-width:0.264583"
@@ -6469,10 +6469,10 @@
        transform="translate(-4.02219,363.42808)"><tspan
          x="463.85352"
          y="173.70686"
-         id="tspan17001">由同一个新词愆生的</tspan><tspan
+         id="tspan2312">由同一个新词愆生的</tspan><tspan
          x="463.85352"
          y="180.76242"
-         id="tspan17003">逻辑结论 tokens</tspan></text>
+         id="tspan2314">逻辑结论 tokens</tspan></text>
     <text
        xml:space="preserve"
        style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;white-space:pre;inline-size:75.0018;display:inline;stroke-width:0.264583"
@@ -6482,10 +6482,10 @@
        transform="translate(-126.24678,435.35625)"><tspan
          x="496.36264"
          y="173.70686"
-         id="tspan17005">LLM 上半部的宽度需要扩充，</tspan><tspan
+         id="tspan2316">LLM 上半部的宽度需要扩充，</tspan><tspan
          x="496.36264"
          y="180.76242"
-         id="tspan17007">因为 WM 的宽度比原来更长</tspan></text>
+         id="tspan2318">因为 WM 的宽度比原来更长</tspan></text>
     <text
        xml:space="preserve"
        style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;white-space:pre;inline-size:56.4848;display:inline;stroke-width:0.264583"
@@ -6495,9 +6495,9 @@
        transform="translate(2.15954,320.33318)"><tspan
          x="463.85352"
          y="173.70686"
-         id="tspan17011"><tspan
+         id="tspan2322"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan17009">循环完毕后才同时输出</tspan></tspan></text>
+           id="tspan2320">循环完毕后才同时输出</tspan></tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -6513,9 +6513,9 @@
        transform="translate(-24.54448,515.96114)"><tspan
          x="463.85352"
          y="173.70686"
-         id="tspan17015"><tspan
+         id="tspan2326"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan17013">reinforcement-learning loop</tspan></tspan></text>
+           id="tspan2324">reinforcement-learning loop</tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;white-space:pre;inline-size:65.7318;display:inline;stroke-width:0.264583"
@@ -6525,9 +6525,9 @@
        transform="translate(-10.845245,484.13771)"><tspan
          x="463.85352"
          y="173.70686"
-         id="tspan17019"><tspan
+         id="tspan2330"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan17017">k atoms = 1 proposition</tspan></tspan></text>
+           id="tspan2328">k atoms = 1 proposition</tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;white-space:pre;inline-size:53.787;display:inline;stroke-width:0.264583"
@@ -6537,24 +6537,24 @@
        transform="translate(-21.57458,529.45272)"><tspan
          x="463.85352"
          y="173.70686"
-         id="tspan17023"><tspan
+         id="tspan2334"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan17021">each time add one </tspan></tspan><tspan
+           id="tspan2332">each time add one </tspan></tspan><tspan
          x="463.85352"
          y="180.76242"
-         id="tspan17027"><tspan
+         id="tspan2338"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan17025">new token, this is the </tspan></tspan><tspan
+           id="tspan2336">new token, this is the </tspan></tspan><tspan
          x="463.85352"
          y="187.81798"
-         id="tspan17031"><tspan
+         id="tspan2342"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan17029">observed world </tspan></tspan><tspan
+           id="tspan2340">observed world </tspan></tspan><tspan
          x="463.85352"
          y="194.87354"
-         id="tspan17035"><tspan
+         id="tspan2346"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan17033">change &quot;delta&quot;</tspan></tspan></text>
+           id="tspan2344">change &quot;delta&quot;</tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;white-space:pre;inline-size:65.7318;display:inline;stroke-width:0.264583"
@@ -6564,15 +6564,15 @@
        transform="translate(-12.23134,320.06343)"><tspan
          x="463.85352"
          y="173.70686"
-         id="tspan17039"><tspan
+         id="tspan2350"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan17037">send together
+           id="tspan2348">send together
 </tspan></tspan><tspan
          x="463.85352"
          y="180.76242"
-         id="tspan17043"><tspan
+         id="tspan2354"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan17041">after cycles complete</tspan></tspan></text>
+           id="tspan2352">after cycles complete</tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;white-space:pre;inline-size:53.787;display:inline;stroke-width:0.264583"
@@ -6582,24 +6582,24 @@
        transform="translate(-20.66028,382.08796)"><tspan
          x="463.85352"
          y="173.70686"
-         id="tspan17047"><tspan
+         id="tspan2358"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan17045">each time add one </tspan></tspan><tspan
+           id="tspan2356">each time add one </tspan></tspan><tspan
          x="463.85352"
          y="180.76242"
-         id="tspan17051"><tspan
+         id="tspan2362"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan17049">new token, this is the </tspan></tspan><tspan
+           id="tspan2360">new token, this is the </tspan></tspan><tspan
          x="463.85352"
          y="187.81798"
-         id="tspan17055"><tspan
+         id="tspan2366"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan17053">observed world </tspan></tspan><tspan
+           id="tspan2364">observed world </tspan></tspan><tspan
          x="463.85352"
          y="194.87354"
-         id="tspan17059"><tspan
+         id="tspan2370"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan17057">change &quot;delta&quot;</tspan></tspan></text>
+           id="tspan2368">change &quot;delta&quot;</tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-weight:300;font-size:5.64444px;line-height:1.25;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Light';letter-spacing:0px;word-spacing:0px;white-space:pre;inline-size:64.8931;display:inline;stroke-width:0.264583"
@@ -6609,16 +6609,16 @@
        transform="translate(-6.1878899,359.38001)"><tspan
          x="463.85352"
          y="173.70686"
-         id="tspan17063"><tspan
+         id="tspan2374"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan17061">tokens (logic conclusions)
+           id="tspan2372">tokens (logic conclusions)
 </tspan></tspan><tspan
          x="463.85352"
          y="180.76242"
-         id="tspan17069"><tspan
+         id="tspan2380"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan17065">derived from the same </tspan><tspan
+           id="tspan2376">derived from the same </tspan><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan17067">Δ</tspan></tspan></text>
+           id="tspan2378">Δ</tspan></tspan></text>
   </g>
 </svg>
